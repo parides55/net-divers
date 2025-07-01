@@ -1,1 +1,1 @@
-web: gunicorn net-divers.wsgi
+web: gunicorn net_divers.wsgi
