@@ -1,9 +1,11 @@
-#hero {
-    background: url(../images/hero_home_page.jpg) no-repeat center center/cover;
+/* --------------------------- NavBar --------------------------- */
+#navbarNav {
+    justify-content: flex-end;
 }
 
-#secondary {
-    background: url(../images/hero_secondary.jpg) no-repeat center center/cover;
+/* --------------------------- Home Page --------------------------- */
+#hero {
+    background: url(../images/hero_home_page.jpg) no-repeat center center/cover;
 }
 
 #home_page {
@@ -11,4 +13,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* --------------------------- Secondary Page --------------------------- */
+#secondary {
+    background: url(../images/hero_secondary.jpg) no-repeat center center/cover;
 }
