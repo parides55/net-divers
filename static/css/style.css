@@ -2,6 +2,10 @@
     background: url(../images/hero_home_page.jpg) no-repeat center center/cover;
 }
 
+#secondary {
+    background: url(../images/hero_secondary.jpg) no-repeat center center/cover;
+}
+
 #home_page {
     height: 100vh;
     display: flex;

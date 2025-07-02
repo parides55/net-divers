@@ -2,6 +2,8 @@
 
 {% load static %}
 
+{% url 'secondary' as secondary_url %}
+
 {% block content %}
 <section id="hero" class="text-center">
     <div id="home_page" class="container-fluid">
@@ -11,7 +13,7 @@
                 <br>
                 <h4 class="text-secondary fst-italic">From First Breaths to Epic Dives – Explore the Sea with Net Divers!</h4>
                 <br>
-                <a class="btn btn-info cta-btn" href="#">START DIVING</a>
+                <a class="btn btn-info cta-btn" href="{% url 'secondary' %}">START DIVING</a>
             </div>
         </div>
     </div>
