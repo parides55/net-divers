@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 
-def index(request):
+def home(request):
     """
     Render the home page of the NET DIVERS application.
     """
