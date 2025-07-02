@@ -1,8 +1,10 @@
-body {
-    background-color: aqua;
+#hero {
+    background: url(../images/hero_home_page.jpg) no-repeat center center/cover;
 }
 
-h1 {
-    color: darkblue;
-    text-align: center;
+#home_page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
