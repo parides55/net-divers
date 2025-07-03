@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% url 'secondary' as secondary_url %}
+
+{% block content %}
+
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h1 class="text-light">Explore<br>Cyprus<br>Underwater</h1>
+                <a href="#"><h3>Diving Sites</h3></a>
+            </div>
+            <div class="col">
+                <p class="bg-light text-dark p-3">
+                    Cyprus is a scuba diver’s paradise,
+                    offering crystal-clear waters, diverse
+                    marine life, and some of the best diving
+                    conditions in the Mediterranean. With
+                    its warm climate and impressive
+                    underwater visibility, the island is ideal
+                    for both beginners and advanced
+                    divers. From vibrant reefs and
+                    fascinating sea caves to historic
+                    shipwrecks like the world-famous
+                    Zenobia, Cyprus provides unforgettable
+                    diving experiences year-round.
+                    Whether you're seeking adventure,
+                    exploration, or tranquility beneath the
+                    waves, Cyprus is the perfect
+                    destination to dive in and discover.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
