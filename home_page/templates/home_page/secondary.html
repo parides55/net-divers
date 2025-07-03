@@ -3,6 +3,7 @@
 {% load static %}
 
 {% url 'explore_cy' as explore_cy_url %}
+{% url 'courses_services' as courses_services_url %}
 
 {% block content %}
 
@@ -11,7 +12,7 @@
         <div class="row">
             <div class="col">
                 <h1 class="text-light">Discover the depths with confidene</h1>
-                <a class="btn btn-outline-dark" href="#">OUR COURSES AND SERVICES</a>
+                <a class="btn btn-outline-dark" href="{% url 'courses_services' %}">OUR COURSES AND SERVICES</a>
                 <a class="btn btn-outline-dark" href="{% url 'explore_cy' %}">EXPLORE CYPRUS</a>
             </div>
         </div>
