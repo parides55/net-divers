@@ -1,3 +1,8 @@
+/* --------------------------- General styles --------------------------- */
+.fullscreen_height {
+    height: 100vh;
+}
+
 /* --------------------------- NavBar --------------------------- */
 #navbarNav {
     justify-content: flex-end;
@@ -9,7 +14,6 @@
 }
 
 #home_page {
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,6 +26,19 @@
 
 #explore_cy_page {
     background: url(../images/diving-sites-18.jpg) no-repeat center center/cover;
+}
+
+/* --------------------------- Explore_cy Page --------------------------- */
+#explore_title {
+    font-size: 60px;
+}
+#description_cy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 20px;
+    margin: 10px 20px;
 }
 
 /* --------------------------- Footer --------------------------- */
