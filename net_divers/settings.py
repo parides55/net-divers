@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'home_page',
     'explore_cy',
+    'courses_services',
 ]
 
 MIDDLEWARE = [
