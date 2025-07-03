@@ -20,6 +20,10 @@
     background: url(../images/hero_secondary.jpg) no-repeat center center/cover;
 }
 
+#explore_cy_page {
+    background: url(../images/diving-sites-18.jpg) no-repeat center center/cover;
+}
+
 /* --------------------------- Footer --------------------------- */
 iframe {
     margin-top: 20px;
