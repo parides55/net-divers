@@ -106,6 +106,15 @@
 }
 
 /* --------------------------- Footer --------------------------- */
+.footer-links {
+    text-decoration: none;
+}
+
+.footer-links:hover {
+    text-decoration: underline;
+    font-size: larger;
+}
+
 iframe {
     margin-top: 20px;
 }
@@ -123,11 +132,22 @@ iframe {
 
 @media (max-width: 768px) {
     iframe {
-        width: 450px;
+        width: 250px;
     }
 }
 
 @media (max-width: 576px) {
+    .footer-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-cols {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     iframe {
         width: 300px;
     }
