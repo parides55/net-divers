@@ -24,5 +24,6 @@ function displayCourse(course) {
         </ul>
         </div>
     </div>
+    <a href="/courses_and_services.html" class="btn btn-primary mt-5" >Back to courses</a>
     `;
 }
