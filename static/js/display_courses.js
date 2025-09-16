@@ -16,17 +16,19 @@ function printData(data) {
         col.classList.add("col");
 
         col.innerHTML = `
-            <div class="card" style="width: 18rem;">
+            <div class="card mb-4">
                 <img src="${course.image}" class="card-img-top" alt="${course.title}">
                 <div class="card-body">
                     <h5 class="card-title">${course.title}</h5>
-                    <p class="card-text">${course.description}</p>
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">Category: ${course.category}</li>
-                    <li class="list-group-item">Certification: ${course.certification}</li>
+                    <li class="list-group-item">License Required: ${course.license_required}</li>
                     <li class="list-group-item">Minimum Age: ${course.min_age}</li>
                 </ul>
+                <div class="card-body">
+                    <a href="/course_info.html?id=${course.title}" class="btn btn-outline-dark">More Information</a>
+                </div>
             </div>
         `;
         row.appendChild(col);
