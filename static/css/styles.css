@@ -118,4 +118,10 @@ iframe {
         height: 150px;
         width: auto;
     }
+
+@media (max-width: 400px) {
+        .card {
+            width: 16rem;
+        }
+    }
 }
