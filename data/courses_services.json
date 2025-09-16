@@ -106,7 +106,7 @@
     "min_hours": "1 hour",
     "min_dives": "The diver shall undertake the open water diving portion of the NAUI Open Water Scuba Diver course (four dives)",
     "max_depth": " 18m (60 ft.)",
-    "certification": "No certification required to enter this cours",
+    "certification": "No certification required to enter this course",
     "image" : "static/images/netdivers-services-6.jpg",
     "popular" : "no"
   },
@@ -120,7 +120,7 @@
     "min_hours": "17 hours including at least 10 water hours.",
     "min_dives": "The minimum number of open water dives is four.",
     "max_depth": "18m (60 ft.)",
-    "certification": " There is no certification required to enter this cours",
+    "certification": " There is no certification required to enter this course",
     "image" : "static/images/netdivers-services-9.jpg",
     "popular" : "yes"
   },
