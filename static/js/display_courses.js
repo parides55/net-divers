@@ -16,7 +16,7 @@ function printData(data) {
         col.classList.add("col");
 
         col.innerHTML = `
-            <div class="card mb-4">
+            <div class="card mb-5">
                 <img src="${course.image}" class="card-img-top" alt="${course.title}">
                 <div class="card-body">
                     <h5 class="card-title">${course.title}</h5>
