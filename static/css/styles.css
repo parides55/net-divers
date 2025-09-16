@@ -41,16 +41,22 @@
 
 .card {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    width: 20rem;
 }
 
 .courses-cards {
     height: 550px;
+    width: 20rem;
 }
 
-.card:hover {
+.courses-cards:hover,
+.sites-cards:hover {
     transform: scale(1.01);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.9);
+}
+
+.course-info-image {
+    height: 500px;
+    width: auto;
 }
 
 /* --------------------------- Explore_cy Page --------------------------- */
@@ -73,6 +79,7 @@
 
 .sites-cards {
     height: 230px;
+    width: 20rem;
 }
 
 .sites-cards img {
@@ -157,9 +164,17 @@ iframe {
         width: auto;
     }
 
+    .course-info-image {
+        height: 300px;
+    }
+
 @media (max-width: 400px) {
         .card {
             width: 16rem;
+        }
+
+        .course-info-image {
+            height: 260px;
         }
     }
 }

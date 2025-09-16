@@ -12,18 +12,28 @@ fetch('/data/courses_services.json')
 function displayCourse(course) {
     const container = document.getElementById("course-details");
     container.innerHTML = `
-    <div class="card">
-        <img src="${course.image}" class="card-img-top" alt="${course.title}">
+    <div class="card text-center">
         <div class="card-body">
-        <h3 class="card-title">${course.title}</h3>
-        <p class="card-text">${course.description}</p>
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item">Category: ${course.category}</li>
-            <li class="list-group-item">Certification: ${course.certification}</li>
-            <li class="list-group-item">Minimum Age: ${course.min_age}</li>
-        </ul>
+            <h5 class="card-title">${course.title}</h5>
+            <p class="card-text mt-3">${course.description}</p>
+            <p class="card-text">
+                <ul class="text-start">
+                    <li><strong>Category:</strong> ${course.category}</li>
+                    <li><strong>Minimum age:</strong> ${course.min_age}</li>
+                    <li><strong>Minimum hours:</strong> ${course.min_hours}</li>
+                    <li><strong>Minimum dives:</strong> ${course.min_dives}</li>
+                    <li><strong>Maximum depth:</strong> ${course.max_depth}</li>
+                    <li><strong>License required:</strong> ${course.license_required}</li>
+                    <li><strong>Certification required:</strong> ${course.certification}</li>
+                </ul>
+            </p>
+        </div>
+        <div class="card-header">
+            <img src="${course.image}" class="card-img-top py-5 course-info-image" alt="${course.title}">
+        </div>
+        <div class="card-footer text-body-secondary">
+            <a href="/courses_and_services.html" class="btn btn-primary" >Back to courses</a>
         </div>
     </div>
-    <a href="/courses_and_services.html" class="btn btn-primary mt-5" >Back to courses</a>
     `;
 }
