@@ -13,10 +13,10 @@ function displayDivingSites(data) {
     data.forEach(site => {
         const col = document.createElement("div");
         col.classList.add("col");
-        col.classList.add("my-4");
+        col.classList.add("mb-5");
 
         col.innerHTML = `
-            <div class="card text-bg-dark">
+            <div class="card sites-cards text-bg-dark">
                 <img src="${site.image}" class="card-img" alt="Image of ${site.name}">
                 <div class="card-img-overlay">
                     <h5 class="card-title">${site.name}</h5>

@@ -66,6 +66,21 @@
     margin: 10px 20px;
 }
 
+/* --------------------------- Diving Sites Page --------------------------- */
+.sites-row {
+    margin: 0 2rem;
+}
+
+.sites-cards {
+    height: 230px;
+}
+
+.sites-cards img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 /* --------------------------- About Us Page --------------------------- */
 .image-rows {
     margin: 50px 0;
