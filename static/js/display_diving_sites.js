@@ -16,14 +16,16 @@ function displayDivingSites(data) {
         col.classList.add("mb-5");
 
         col.innerHTML = `
-            <div class="card sites-cards text-bg-dark">
-                <img src="${site.image}" class="card-img" alt="Image of ${site.name}">
-                <div class="card-img-overlay">
-                    <h5 class="card-title">${site.name}</h5>
-                    <p class="card-text">Location: ${site.location}</p>
-                    <p class="card-text"><small>Depth: ${site.depth}</small></p>
+            <a href="/diving_site_info.html?id=${site.name}" class="text-decoration-none">
+                <div class="card sites-cards text-bg-dark">
+                    <img src="${site.image}" class="card-img" alt="Image of ${site.name}">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">${site.name}</h5>
+                        <p class="card-text">Location: ${site.location}</p>
+                        <p class="card-text"><small>Depth: ${site.depth}</small></p>
+                    </div>
                 </div>
-            </div>
+            </a>
         `;
         row.appendChild(col);
     });
