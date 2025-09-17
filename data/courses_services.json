@@ -203,9 +203,79 @@
     "min_age": "Minimum age of 18 years prior to enrollment and start of training.",
     "min_hours": "7 hours",
     "min_dives": "The minimum number of open water dives is two",
-    "max_depth": " 40m (130 ft.)",
+    "max_depth": "40m (130 ft.)",
     "certification": "Certified as a NAUI Open Water Scuba Diver or the equivalent. – Certification as a NAUI Rescue Scuba Diver or the equivalent. – Certified as a NAUI Nitrox Diver or equivalent. – Certified as a NAUI Master Scuba diver or equivalent. – Current certification in Diving First Aid for Professional Divers (DFA Pro) or equivalent",
     "image" : "static/images/netdivers-services-9.jpg",
     "popular" : "no"
+  },
+  
+  {
+    "title": "Divemaster/Divemaster Crossover Course",
+    "category": "Leadership",
+    "license_required": "Yes",
+    "description": "The NAUI Divemaster rating is the highest NAUI leadership level certification except for instructor. The program is designed to train experienced and knowledgeable divers to organize and conduct enjoyable open water dives for certified divers. If all other prerequisites are met, a current NAUI Divemaster is qualified to enter a NAUI Instructor Training Course (ITC).",
+    "min_age": " Minimum age of 18 years prior to enrollment and start of training",
+    "min_hours": "20 hoyrs",
+    "min_dives": "The minimum number of open water Divemaster activities is 20, conducted over no less than 10 dives. ",
+    "max_depth": "40m (130 ft.)",
+    "certification": "Certified as a NAUI Open Water Scuba Diver or the equivalent. – Certification as a NAUI Rescue Scuba Diver or the equivalent. – Certified as a NAUI Nitrox Diver or equivalent. – Certified as a NAUI Master Scuba diver or equivalent. – Current certification in Diving First Aid for Professional Divers (DFA Pro) or equivalent",
+    "image" : "static/images/netdivers-services-9.jpg",
+    "popular" : "no"
+  },
+  
+  {
+    "title": "Skin Diving Instructor",
+    "category": "Leadership",
+    "license_required": "Yes",
+    "description": "This is a leadership level certification course designed to train and qualify persons and issue certifications in skin (breath-hold) diving. The course will make available to individuals; schools, camps, or similar groups NAUI leaders who can effectively teach people to enjoy skin diving with minimal risk.",
+    "min_age": "Minimum age of 18 years prior to enrollment and start of training",
+    "min_hours": "7 hours",
+    "min_dives": "The minimum number of open water dives is one",
+    "max_depth": "",
+    "certification": "Certified as a NAUI Open Water Scuba Diver or the equivalent. – Certification as a NAUI Rescue Scuba Diver or the equivalent. – Certified as a NAUI Nitrox Diver or equivalent. – Certified as a NAUI Master Scuba diver or equivalent. – Current certification in Diving First Aid for Professional Divers (DFA Pro) or equivalent",
+    "image" : "static/images/netdivers-services-9.jpg",
+    "popular" : ""
+  },
+  
+  {
+    "title": "Deep Diver",
+    "category": "",
+    "license_required": "",
+    "description": "This specialty course provides the diver with the knowledge and skills to plan and conduct dives while minimizing risks. Deep dives are between 18 and 40 m ( 60 and 130 ft.) and do not require any decompression stops. Graduates are considered competent to engage in open water diving activities without supervision, provided the diving environment, activities, areas dived, and equipment approximate those of training.",
+    "min_age": "",
+    "min_hours": "",
+    "min_dives": "",
+    "max_depth": "",
+    "certification": "",
+    "image" : "static/images/netdivers-services-9.jpg",
+    "popular" : ""
+  },
+  
+  {
+    "title": "",
+    "category": "",
+    "license_required": "",
+    "description": "",
+    "min_age": "",
+    "min_hours": "",
+    "min_dives": "",
+    "max_depth": "",
+    "certification": "",
+    "image" : "static/images/netdivers-services-9.jpg",
+    "popular" : ""
+  },
+  
+  {
+    "title": "",
+    "category": "",
+    "license_required": "",
+    "description": "",
+    "min_age": "",
+    "min_hours": "",
+    "min_dives": "",
+    "max_depth": "",
+    "certification": "",
+    "image" : "static/images/netdivers-services-9.jpg",
+    "popular" : ""
   }
 ]
