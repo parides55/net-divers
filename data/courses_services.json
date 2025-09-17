@@ -239,16 +239,86 @@
   
   {
     "title": "Deep Diver",
-    "category": "",
-    "license_required": "",
+    "category": "Specialty",
+    "license_required": "Yes",
     "description": "This specialty course provides the diver with the knowledge and skills to plan and conduct dives while minimizing risks. Deep dives are between 18 and 40 m ( 60 and 130 ft.) and do not require any decompression stops. Graduates are considered competent to engage in open water diving activities without supervision, provided the diving environment, activities, areas dived, and equipment approximate those of training.",
-    "min_age": "",
-    "min_hours": "",
-    "min_dives": "",
-    "max_depth": "",
-    "certification": "",
+    "min_age": " Minimum is 15 years by the water phase of the course",
+    "min_hours": "2 hours",
+    "min_dives": "The minimum number of open water dives is two",
+    "max_depth": "40m (130ft)",
+    "certification": " Certification as a NAUI Advanced Open Water Scuba Diver or the equivalent is required",
     "image" : "static/images/netdivers-services-9.jpg",
-    "popular" : ""
+    "popular" : "yes"
+  },
+  
+  {
+    "title": "Night & Limited Visibility Diver",
+    "category": "Specialty",
+    "license_required": "Yes",
+    "description": "This specialty course for open water scuba certified divers or skin diver certified divers. It provides the diver with the skills and knowledge needed to minimize the risks of diving at night. Upon successful completion of this course, graduates are considered competent to engage in open water diving activities without supervision, provided the diving environment, activities, areas dived, and equipment approximate those of training.",
+    "min_age": " Minimum is 15 years by the water phase of the course",
+    "min_hours": "2 hours",
+    "min_dives": "The minimum number of open water dives is two.",
+    "max_depth": "40m (130ft)",
+    "certification": "As a scuba diver course, certification as a NAUI Scuba Diver or the equivalent is required",
+    "image" : "static/images/netdivers-services-9.jpg",
+    "popular" : "yes"
+  },
+  
+  {
+    "title": "Search & Recovery Diver",
+    "category": "Specialty",
+    "license_required": "Yes",
+    "description": "This specialty course is to provide divers with the skills and knowledge to do those underwater tasks commonly needed by the experienced recreational diver and to minimize the risks of such tasks while searching for and recovering items that have been lost in the aquatic environment. Graduates are considered competent to engage in open water diving activities without supervision, provided the diving environment, activities, areas dived, and equipment approximate those of training.",
+    "min_age": " Minimum is 15 years by the water phase of the course",
+    "min_hours": "2 hours",
+    "min_dives": "The minimum number of open water dives is two",
+    "max_depth": "40m (130ft)",
+    "certification": " Certification as a NAUI Scuba Diver or the equivalent is required.",
+    "image" : "static/images/netdivers-services-9.jpg",
+    "popular" : "yes"
+  },
+  
+  {
+    "title": "Underwater Digital Imaging Diver",
+    "category": "Specialty",
+    "license_required": "Yes",
+    "description": "This specialty course is to provide the certified diver with the skills and knowledge to enjoy underwater digital imagery while minimizing the risks of such activities. This is a course in underwater imaging, utilizing underwater photographic and/or videographic equipment and techniques. Graduates are considered competent to engage in open water diving activities without supervision, provided the diving environment, activities, areas dived, and equipment approximate those of training.",
+    "min_age": " Minimum is 15 years by the water phase of the course",
+    "min_hours": "4 hours",
+    "min_dives": "The minimum number of open water dives is three",
+    "max_depth": "40m (130ft)",
+    "certification": " NAUI Scuba Diver certification or equivalent",
+    "image" : "static/images/netdivers-services-9.jpg",
+    "popular" : "no"
+  },
+  
+  {
+    "title": "Wreck Diver (External Survey)",
+    "category": "Specialty",
+    "license_required": "Yes",
+    "description": "This specialty course is to provide the diver with the skills and knowledge needed to gain experience and minimize risks in wreck diving. Wreck diving (external survey) is defined as diving around a sunken vessel, aircraft or debris field. Upon successful completion of this course, graduates are considered competent to engage in open water diving activities without supervision, provided the diving environment, activities, areas dived, and equipment approximate those of training",
+    "min_age": " Minimum is 15 years by the water phase of the course",
+    "min_hours": "2 hours",
+    "min_dives": "The minimum number of open water dives is two",
+    "max_depth": "40m (130ft)",
+    "certification": " Certification as a NAUI Advanced Open Water Scuba Diver or the equivalent is required",
+    "image" : "static/images/netdivers-services-9.jpg",
+    "popular" : "yes"
+  },
+  
+  {
+    "title": "Introduction to Scuba ",
+    "category": "Supervised Diver",
+    "license_required": "No",
+    "description": "This supervised diver, non-certification course is an introductory, resort style course suitable to introduce non-divers to scuba diving. Participants scuba dive in closely controlled conditions. Students may participate in an optional open water dive to a maximum depth of 12m (40ft) if an Instructor conducts all confined water work. Upon course completion a digital participation certificate will be available in the NAUI App. At any point, the program may be converted to the NAUI Scuba Diver or NAUI Open Water Scuba Diver course.",
+    "min_age": "Minimum is eight (8) years for confined water and minimum is ten (10) years for open water",
+    "min_hours": "1 hour",
+    "min_dives": "One confined water dive",
+    "max_depth": "The maximum depth for ideal conditions for any open water dive is 12m (40ft)",
+    "certification": "No certification required to enter this course.",
+    "image" : "static/images/netdivers-services-9.jpg",
+    "popular" : "no"
   },
   
   {
@@ -266,16 +336,16 @@
   },
   
   {
-    "title": "",
-    "category": "",
-    "license_required": "",
-    "description": "",
-    "min_age": "",
-    "min_hours": "",
-    "min_dives": "",
-    "max_depth": "",
-    "certification": "",
-    "image" : "static/images/netdivers-services-9.jpg",
-    "popular" : ""
-  }
+  "title": "",
+  "category": "",
+  "license_required": "",
+  "description": "",
+  "min_age": "",
+  "min_hours": "",
+  "min_dives": "",
+  "max_depth": "",
+  "certification": "",
+  "image": "static/images/netdivers-services-9.jpg",
+  "popular": ""
+}
 ]
