@@ -23,7 +23,7 @@ function printData(data) {
                 </div>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">Category: ${course.category}</li>
-                    <li class="list-group-item">License Required: ${course.license_required}</li>
+                    <li class="list-group-item">Max Depth: ${course.max_depth}</li
                     <li class="list-group-item">Minimum Age: ${course.min_age}</li>
                 </ul>
                 <div class="card-body">
