@@ -70,7 +70,7 @@
     "description": "This continuing education course is a non-certification course which offers supervised refresher experience at the Scuba Diver level for divers who need to re-establish proficiency owing to diving inactivity in light of intended dive trips or other factors. Divers who have completed the Refresher Scuba course may use the documentation to assist dive guides, Divemasters, resort owners, and others in evaluating the diver’s training level and readiness to participate in specific diving activities.",
     "min_age": " Minimum is 10 years by the water phase of the course",
     "min_hours": "1 hour",
-    "min_dives": "",
+    "min_dives": "NA",
     "max_depth": " Depth is limited by the participant’s capabilities, experience, and previous certification.",
     "certification": " Certification as a NAUI Scuba Diver or the equivalent is required",
     "image" : "static/images/netdivers-services-9.jpg",
