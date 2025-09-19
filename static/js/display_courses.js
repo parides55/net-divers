@@ -1,4 +1,4 @@
-fetch('/data/courses_services.json')
+fetch('data/courses_services.json')
     .then(response => response.json())
     .then(data => {
         printData(data);
