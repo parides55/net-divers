@@ -16,7 +16,7 @@ function displayDivingSites(data) {
         col.classList.add("mb-5");
 
         col.innerHTML = `
-            <a href="/diving_site_info.html?id=${site.name}" class="text-decoration-none">
+            <a href="diving_site_info.html?id=${site.name}" class="text-decoration-none">
                 <div class="card sites-cards text-bg-dark">
                     <img src="${site.image}" class="card-img" alt="Image of ${site.name}">
                     <div class="card-img-overlay">

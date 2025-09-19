@@ -2,7 +2,7 @@
   {
     "name": "Cyclopes Cave",
     "location": "Protaras",
-    "image": "/static/images/diving-sites-18.jpg",
+    "image": "static/images/diving-sites-18.jpg",
     "description": "Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum",
     "depth" : "10-40 meters",
     "certification" : "No certification required",
@@ -12,7 +12,7 @@
   {
     "name": "Green Bay",
     "location": "Protaras",
-    "image": "/static/images/netdivers-services-6.jpg",
+    "image": "static/images/netdivers-services-6.jpg",
     "description": "Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum",
     "depth" : "10-40 meters",
     "certification" : "No certification required",
@@ -22,7 +22,7 @@
   {
     "name": "Zinovia Shipwreck",
     "location": "Larnaca",
-    "image": "/static/images/netdivers-services-7.jpg",
+    "image": "static/images/netdivers-services-7.jpg",
     "description": "Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum",
     "depth" : "10-40 meters",
     "certification" : "Certification as a NAUI Open Water Scuba Diver or the equivalent is required",
@@ -32,7 +32,7 @@
   {
     "name": "Sea Caves",
     "location": "Cape Greco, Protaras",
-    "image": "/static/images/netdivers-services-7.jpg",
+    "image": "static/images/netdivers-services-7.jpg",
     "description": "Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum",
     "depth" : "10-40 meters",
     "certification" : "Certification as a NAUI Open Water Scuba Diver or the equivalent is required",
