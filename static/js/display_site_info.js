@@ -28,7 +28,7 @@ function displaySiteInfo(site) {
                 <img src="${site.image}" class="card-img-top py-5 course-info-image" alt="${site.title}">
             </div>
             <div class="card-footer text-body-secondary">
-                <a href="/diving_sites.html" class="btn btn-outline-dark" >Back to diving sites</a>
+                <a href="diving_sites.html" class="btn btn-outline-dark" >Back to diving sites</a>
             </div>
         </div>
     `;

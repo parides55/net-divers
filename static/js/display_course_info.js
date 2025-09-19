@@ -32,7 +32,7 @@ function displayCourse(course) {
             <img src="${course.image}" class="card-img-top py-5 course-info-image" alt="${course.title}">
         </div>
         <div class="card-footer text-body-secondary">
-            <a href="/courses_and_services.html" class="btn btn-outline-dark" >Back to courses</a>
+            <a href="courses_and_services.html" class="btn btn-outline-dark" >Back to courses</a>
         </div>
     </div>
     `;

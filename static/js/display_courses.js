@@ -27,7 +27,7 @@ function printData(data) {
                     <li class="list-group-item">Minimum Age: ${course.min_age}</li>
                 </ul>
                 <div class="card-body">
-                    <a href="/course_info.html?id=${course.title}" class="btn btn-outline-dark">More Information</a>
+                    <a href="course_info.html?id=${course.title}" class="btn btn-outline-dark">More Information</a>
                 </div>
             </div>
         `;
