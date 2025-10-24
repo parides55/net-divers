@@ -41,6 +41,29 @@
     background: url(../images/hero_secondary.jpg) no-repeat center center/cover;
 }
 
+#secondary_hero_text {
+    font-size: 4rem;
+}
+
+#secondary-cta-div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.cta-btn-secondary {
+    width: 12rem;
+    height: 6rem;
+    margin-bottom: 20px;
+}
+
+#courses-cta {
+    font-size: 1.5rem;
+}
+
+#explore-cta {
+    font-size: 1.8rem;
+}
 /* --------------------------- Explore CY Page --------------------------- */
 #explore_cy_page {
     background: url(../images/diving-sites-18.jpg) no-repeat center center/cover;
@@ -156,6 +179,12 @@ iframe {
 }
 
 @media (max-width: 576px) {
+    #secondary-cta-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
     .footer-row {
         display: flex;
         flex-direction: column;
