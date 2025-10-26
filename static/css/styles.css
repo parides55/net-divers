@@ -193,6 +193,9 @@
 
 iframe {
     margin-top: 20px;
+    width: 500px;
+    height: 350px;
+    border:0;
 }
 
 /* --------------------------- Media queries --------------------------- */
