@@ -69,6 +69,18 @@
     background: url(../images/diving-sites-18.jpg) no-repeat center center/cover;
 }
 /* --------------------------- Courses and Services Page --------------------------- */
+.accordion-collapse {
+    display: flex;
+    justify-content: space-between;
+    overflow: scroll;
+}
+
+.accordion-collapse {
+    display: flex;
+    justify-content: space-between;
+    overflow: scroll;
+}
+
 .course-image {
     height: 300px;
     object-fit: cover;
