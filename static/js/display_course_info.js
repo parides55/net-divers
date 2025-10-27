@@ -31,8 +31,9 @@ function displayCourse(course) {
         <div class="card-header">
             <img src="${course.image}" class="card-img-top py-5 course-info-image" alt="${course.title}">
         </div>
-        <div class="card-footer text-body-secondary">
+        <div class="card-footer text-body-secondary d-flex justify-content-evenly">
             <a href="courses_and_services.html" class="btn btn-outline-dark" >Back to courses</a>
+            <a href="mailto:christos@net-divers.com.cy?subject=Course Inquiry:%20${course.title}?" target="_blank" class="btn btn-success">Request Booking</a>
         </div>
     </div>
     `;
