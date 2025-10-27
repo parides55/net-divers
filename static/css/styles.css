@@ -100,7 +100,7 @@
 .accordion-collapse {
     display: flex;
     justify-content: space-evenly;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .course-image {
