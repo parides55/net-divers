@@ -119,9 +119,19 @@
 /* --------------------------- Courses and Services Page --------------------------- */
 .accordion-collapse {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     overflow: auto;
 }
+
+.accordion-button:not(.collapsed) {
+    background-color: black;
+    color: white;
+}
+
+.accordion {
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #000;
+}
+
 
 .course-image {
     width: 50%;
