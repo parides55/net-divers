@@ -204,6 +204,24 @@
     font-size: large;
 }
 
+#cta-div-about-us {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin-bottom: 3rem;
+}
+
+.cta-about-us {
+    font-size: 1.7rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 0.5rem 1.7rem;
+    width: 11em;
+}
+
+.cta-about-us:hover {
+    transform: scale(1.05);
+}
+
 /* --------------------------- Footer --------------------------- */
 .footer-links {
     text-decoration: none;
@@ -235,6 +253,12 @@ iframe {
 
     .about_us_paragraphs {
         padding: 0 5px;
+    }
+
+    #cta-div-about-us {
+        gap: 2rem;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
