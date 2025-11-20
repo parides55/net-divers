@@ -59,12 +59,12 @@
 }
 
 #moto_text {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .cta-btn {
     font-size: 1.5rem;
-    box-shadow: 5px 5px 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .carousel-div {
