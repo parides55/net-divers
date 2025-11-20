@@ -19,7 +19,7 @@
 
 </head>
 <body>
-    <section id="hero" class="text-center">
+    <section id="home-section" class="text-center fullscreen_height">
         <!-- NavBar -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -41,34 +41,43 @@
                         <li class="nav-item">
                             <a class="nav-link nav-item-white" href="#footer-section">Contact Us</a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <ul class="navbar-nav">
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Language
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='en') }}">English</a></li>
-                                        <li><a class="dropdown-item" href="{{ url_for('set_language', lang_code='el') }}">Ελληνικά</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li> -->
                     </ul>
                 </div>
             </div>
         </nav>
-<!-- Main Content -->
-        <div id="home_page" class="container-fluid fullscreen_height">
+        <!-- Text and CTA div -->
+        <div id="home-text-div" class="container-fluid fullscreen_height">
             <div class="row h-100">
                 <div class="col">
                     <h1 id="hero_text" class="text-light animate__animated animate__fadeInDown animate__slower">Learn. Dive.<br> Explore.</h1>
                     <br>
                     <h4 id="moto_text" class="text-secondary fst-italic animate__animated animate__fadeInLeft animate__delay-1s animate__slower">From First Breaths to Epic Dives – Explore the Sea with Net Divers!</h4>
                     <br>
-                    <a class="btn btn-outline-dark cta-btn animate__animated animate__fadeInUp animate__slower" href="secondary.html">START DIVING</a>
+                    <a class="btn btn-dark cta-btn animate__animated animate__fadeInUp animate__slower" href="secondary.html">START DIVING</a>
                 </div>
             </div>
+        </div>
+        <!-- Carousel -->
+        <div id="carouselExampleAutoplaying" class="carousel slide carousel-div" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="static/images/hero_home_page.jpg" class="d-block carousel-images" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="static/images/hero_secondary.jpg" class="d-block carousel-images" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="static/images/diving-sites-18.jpg" class="d-block carousel-images" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </section> 
 <!-- Footer -->
