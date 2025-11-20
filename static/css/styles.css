@@ -8,6 +8,10 @@
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+.hide {
+    display: none;
+}
+
 /* --------------------------- NavBar --------------------------- */
 #navbarNav {
     justify-content: flex-end;
@@ -120,8 +124,7 @@
 }
 
 .course-image {
-    height: 300px;
-    object-fit: cover;
+    width: 50%;
 }
 
 .accordion-item {
@@ -219,6 +222,12 @@ iframe {
 }
 
 /* --------------------------- Media queries --------------------------- */
+@media (max-width: 1024px) {
+    .course-image {
+        width: 100%;
+    }
+}
+
 @media (max-width: 992px) {
     iframe {
         width: 500px;
@@ -262,18 +271,10 @@ iframe {
         height: 150px;
         width: auto;
     }
-
-    .course-info-image {
-        height: 300px;
-    }
+}
 
 @media (max-width: 400px) {
         .card {
             width: 16rem;
         }
-
-        .course-info-image {
-            height: 260px;
-        }
     }
-}

@@ -10,31 +10,30 @@ fetch('data/courses_services.json')
     .catch(error => console.error("Error fetching JSON:", error));
 
 function displayCourse(course) {
-    const container = document.getElementById("course-details");
+    const container = document.getElementById("course-details-div");
+    
     container.innerHTML = `
-    <div class="card text-center">
-        <div class="card-body">
-            <h5 class="card-title">${course.title}</h5>
-            <p class="card-text mt-3">${course.description}</p>
-            <p class="card-text">
-                <ul class="text-start">
-                    <li><strong>Category:</strong> ${course.category}</li>
-                    <li><strong>Minimum age:</strong> ${course.min_age}</li>
-                    <li><strong>Minimum hours:</strong> ${course.min_hours}</li>
-                    <li><strong>Minimum dives:</strong> ${course.min_dives}</li>
-                    <li><strong>Maximum depth:</strong> ${course.max_depth}</li>
-                    <li><strong>License required:</strong> ${course.license_required}</li>
-                    <li><strong>Certification required:</strong> ${course.certification}</li>
-                </ul>
-            </p>
-        </div>
-        <div class="card-header">
-            <img src="${course.image}" class="card-img-top py-5 course-info-image" alt="${course.title}">
-        </div>
-        <div class="card-footer text-body-secondary d-flex justify-content-evenly">
+    <h4 class="text-center mb-4 fst-italic">${course.title}</h4>
+    <p>${course.description}</p>
+    <p>
+        <ul>
+            <li><strong>Category:</strong> ${course.category}</li>
+            <li><strong>Minimum age:</strong> ${course.min_age}</li>
+            <li><strong>Minimum hours:</strong> ${course.min_hours}</li>
+            <li><strong>Minimum dives:</strong> ${course.min_dives}</li>
+            <li><strong>Maximum depth:</strong> ${course.max_depth}</li>
+            <li><strong>License required:</strong> ${course.license_required}</li>
+            <li><strong>Certification required:</strong> ${course.certification}</li>
+        </ul>
+    </p>
+        <div class="text-body-secondary d-flex justify-content-evenly">
             <a href="courses_and_services.html" class="btn btn-outline-dark" >Back to courses</a>
             <a href="mailto:christos@net-divers.com.cy?subject=Course Inquiry:%20${course.title}?" target="_blank" class="btn btn-success">Request Booking</a>
         </div>
     </div>
     `;
+
+    document.getElementById("course-image-div").src = course.image;
+    document.getElementById("course-image-div").classList.remove("hide");
+    document.getElementById("course-image-div").classList.add("animate__animated", "animate__fadeInRight", "animate__slower");
 }
