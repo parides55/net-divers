@@ -1,30 +1,30 @@
 [
   {
     "title": "Skin Diver",
-    "category" : "Apnea",
-    "description" : "This Apnea certification course is a snorkeling and breath-holding diving course. Upon completion, graduates are considered competent to engage in open water breath-holding diving activities without supervision. It is designed to: develop skin diving skills for swimmers and scuba divers, afford non-scuba divers the opportunity for diving related training and to provide preparatory training for scuba diving.",
-    "min_age" : "12 years old",
-    "min_hours" : "Four hours including at least three water hours.",
-    "min_dives" : "The minimum number of open water dives is two.",
-    "max_depth" : " 10m (33 ft.)",
-    "certification" : "No certification required",
-    "image" : "static/images/diving-sites-18.jpg",
-    "popular" : "no"
+    "category": "Apnea",
+    "description": "This Apnea certification course is a snorkeling and breath-holding diving course. Upon completion, graduates are considered competent to engage in open water breath-holding diving activities without supervision. It is designed to: develop skin diving skills for swimmers and scuba divers, afford non-scuba divers the opportunity for diving related training and to provide preparatory training for scuba diving.",
+    "min_age": "12 years old",
+    "min_hours": "Four hours including at least three water hours.",
+    "min_dives": "The minimum number of open water dives is two.",
+    "max_depth": " 10m (33 ft.)",
+    "certification": "No certification required",
+    "image": "static/images/diving-sites-18.jpg",
+    "popular": "no",
+    "home_page": "no"
   },
-  
   {
     "title": "Advanced Open Water Scuba Diver",
-    "category" : "Continuing Education",
-    "description" : "This continuing education course for certified divers is a program designed to introduce and aid divers in gaining experience in a variety of open-water diving activities. Participants will complete six dives; three must be in night/limited visibility, navigation, and deep (beyond 18msw/60fsw within recreational limits). Graduates of this course are considered competent to engage in open water diving activities without supervision, provided the diving environment, activities, areas dived, and equipment approximate those of training.",
-    "min_age" : "15 years by the water phase of the course",
-    "min_hours" : "6 hours",
-    "min_dives" : "The minimum number of open water dives is six",
-    "max_depth" : "40m (130 ft.)",
-    "certification" : " Certification as a NAUI Open Water Scuba Diver or the equivalent is required",
-    "image" : "static/images/diving-sites-18.jpg",
-    "popular" : "yes"
+    "category": "Continuing Education",
+    "description": "This continuing education course for certified divers is a program designed to introduce and aid divers in gaining experience in a variety of open-water diving activities. Participants will complete six dives; three must be in night/limited visibility, navigation, and deep (beyond 18msw/60fsw within recreational limits). Graduates of this course are considered competent to engage in open water diving activities without supervision, provided the diving environment, activities, areas dived, and equipment approximate those of training.",
+    "min_age": "15 years by the water phase of the course",
+    "min_hours": "6 hours",
+    "min_dives": "The minimum number of open water dives is six",
+    "max_depth": "40m (130 ft.)",
+    "certification": " Certification as a NAUI Open Water Scuba Diver or the equivalent is required",
+    "image": "static/images/diving-sites-18.jpg",
+    "popular": "yes",
+    "home_page": "yes"
   },
-  
   {
     "title": "Drysuit Diver",
     "category": "Continuing Education",
@@ -34,10 +34,10 @@
     "min_dives": "The minimum number of open water dives is four.",
     "max_depth": "40m (130 ft.)",
     "certification": "Current enrollment in a NAUI Instructor conducted course or certification as a NAUI Open Water Scuba Diver or the equivalent is required.",
-    "image" : "static/images/diving-sites-18.jpg",
-    "popular" : "no"
+    "image": "static/images/diving-sites-18.jpg",
+    "popular": "no",
+    "home_page": "no"
   },
-  
   {
     "title": "Master Scuba Diver",
     "category": "Continuing Education",
@@ -47,10 +47,10 @@
     "min_dives": "The minimum number of open water dives is four",
     "max_depth": " 40m (130 ft.)",
     "certification": "Certification as a NAUI Open Water Scuba Diver or the equivalent is required",
-    "image" : "static/images/netdivers-services-6.jpg",
-    "popular" : "yes"
+    "image": "static/images/netdivers-services-6.jpg",
+    "popular": "yes",
+    "home_page": "yes"
   },
-  
   {
     "title": "Nitrox Diver",
     "category": "Continuing Education",
@@ -60,10 +60,10 @@
     "min_dives": "Two open water dives are encouraged but not required",
     "max_depth": " 40m (130 ft.)",
     "certification": "certification as a NAUI Open Water Scuba Diver or the equivalent is required",
-    "image" : "static/images/netdivers-services-7.jpg",
-    "popular" : "no"
+    "image": "static/images/netdivers-services-7.jpg",
+    "popular": "no",
+    "home_page": "no"
   },
-  
   {
     "title": "Refresher Scuba",
     "category": "Continuing Education",
@@ -73,10 +73,10 @@
     "min_dives": "NA",
     "max_depth": " Depth is limited by the participant’s capabilities, experience, and previous certification.",
     "certification": " Certification as a NAUI Scuba Diver or the equivalent is required",
-    "image" : "static/images/netdivers-services-9.jpg",
-    "popular" : "yes"
+    "image": "static/images/netdivers-services-9.jpg",
+    "popular": "yes",
+    "home_page": "no"
   },
-  
   {
     "title": "Rescue Scuba Diver",
     "category": "Continuing Education",
@@ -86,10 +86,10 @@
     "min_dives": "The minimum number of open water dives is two",
     "max_depth": " 18m (60 ft).",
     "certification": " Certification as a NAUI Open Water Scuba Diver or the equivalent is required",
-    "image" : "static/images/netdivers-services-13.jpg",
-    "popular" : "yes"
+    "image": "static/images/netdivers-services-13.jpg",
+    "popular": "yes",
+    "home_page": "yes"
   },
-  
   {
     "title": "Experienced Scuba Diver",
     "category": "Entry-Level",
@@ -99,10 +99,10 @@
     "min_dives": "The diver shall undertake the open water diving portion of the NAUI Open Water Scuba Diver course (four dives)",
     "max_depth": " 18m (60 ft.)",
     "certification": "No certification required to enter this course",
-    "image" : "static/images/netdivers-services-6.jpg",
-    "popular" : "no"
+    "image": "static/images/netdivers-services-6.jpg",
+    "popular": "no",
+    "home_page": "no"
   },
-  
   {
     "title": "Open Water Scuba Diver",
     "category": "Entry-Level",
@@ -112,10 +112,10 @@
     "min_dives": "The minimum number of open water dives is four.",
     "max_depth": "18m (60 ft.)",
     "certification": " There is no certification required to enter this course",
-    "image" : "static/images/netdivers-services-9.jpg",
-    "popular" : "yes"
+    "image": "static/images/netdivers-services-9.jpg",
+    "popular": "yes",
+    "home_page": "no"
   },
-  
   {
     "title": "Recreational Hookah Diver",
     "category": "Entry-Level",
@@ -125,10 +125,10 @@
     "min_dives": "The minimum number of open water dives is four",
     "max_depth": " 18m (60 ft.)",
     "certification": " There is no certification required to enter this course",
-    "image" : "static/images/netdivers-services-13.jpg",
-    "popular" : "no"
+    "image": "static/images/netdivers-services-13.jpg",
+    "popular": "no",
+    "home_page": "no"
   },
-  
   {
     "title": "Supplied Air Snorkeling",
     "category": "Entry-Level",
@@ -138,10 +138,10 @@
     "min_dives": "The minimum number of water sessions is one.",
     "max_depth": "Not Applicable",
     "certification": " There is no certification required to enter this course",
-    "image" : "static/images/netdivers-services-7.jpg",
-    "popular" : "no"
+    "image": "static/images/netdivers-services-7.jpg",
+    "popular": "no",
+    "home_page": "no"
   },
-  
   {
     "title": "Basic Life Support: CPR and First Aid",
     "category": "First Aid",
@@ -151,10 +151,10 @@
     "min_dives": "NA",
     "max_depth": "NA",
     "certification": "Diving certification is not required to participate in these courses",
-    "image" : "static/images/diving-sites-18.jpg",
-    "popular" : "no"
+    "image": "static/images/diving-sites-18.jpg",
+    "popular": "no",
+    "home_page": "no"
   },
-  
   {
     "title": "Diving First Aid",
     "category": "First Aid",
@@ -164,10 +164,10 @@
     "min_dives": "NA",
     "max_depth": "NA",
     "certification": "Diving certification is not required to participate in these courses",
-    "image" : "static/images/diving-sites-18.jpg",
-    "popular" : "yes"
+    "image": "static/images/diving-sites-18.jpg",
+    "popular": "yes",
+    "home_page": "no"
   },
-  
   {
     "title": "Emergency Oxygen for Scuba Diving Injuries",
     "category": "First Aid",
@@ -177,10 +177,10 @@
     "min_dives": "NA",
     "max_depth": "NA",
     "certification": "Diving certification is not required to participate in these courses",
-    "image" : "static/images/diving-sites-18.jpg",
-    "popular" : "no"
+    "image": "static/images/diving-sites-18.jpg",
+    "popular": "no",
+    "home_page": "no"
   },
-  
   {
     "title": "Assistant Instructor",
     "category": "Leadership",
@@ -190,10 +190,10 @@
     "min_dives": "The minimum number of open water dives is two",
     "max_depth": "40m (130 ft.)",
     "certification": "Certified as a NAUI Open Water Scuba Diver or the equivalent. – Certification as a NAUI Rescue Scuba Diver or the equivalent. – Certified as a NAUI Nitrox Diver or equivalent. – Certified as a NAUI Master Scuba diver or equivalent. – Current certification in Diving First Aid for Professional Divers (DFA Pro) or equivalent",
-    "image" : "static/images/netdivers-services-9.jpg",
-    "popular" : "no"
+    "image": "static/images/netdivers-services-9.jpg",
+    "popular": "no",
+    "home_page": "no"
   },
-  
   {
     "title": "Divemaster/Divemaster Crossover Course",
     "category": "Leadership",
@@ -203,10 +203,10 @@
     "min_dives": "The minimum number of open water Divemaster activities is 20, conducted over no less than 10 dives. ",
     "max_depth": "40m (130 ft.)",
     "certification": "Certified as a NAUI Open Water Scuba Diver or the equivalent. – Certification as a NAUI Rescue Scuba Diver or the equivalent. – Certified as a NAUI Nitrox Diver or equivalent. – Certified as a NAUI Master Scuba diver or equivalent. – Current certification in Diving First Aid for Professional Divers (DFA Pro) or equivalent",
-    "image" : "static/images/netdivers-services-9.jpg",
-    "popular" : "no"
+    "image": "static/images/netdivers-services-9.jpg",
+    "popular": "no",
+    "home_page": "no"
   },
-  
   {
     "title": "Skin Diving Instructor",
     "category": "Leadership",
@@ -216,10 +216,10 @@
     "min_dives": "The minimum number of open water dives is one",
     "max_depth": "",
     "certification": "Certified as a NAUI Open Water Scuba Diver or the equivalent. – Certification as a NAUI Rescue Scuba Diver or the equivalent. – Certified as a NAUI Nitrox Diver or equivalent. – Certified as a NAUI Master Scuba diver or equivalent. – Current certification in Diving First Aid for Professional Divers (DFA Pro) or equivalent",
-    "image" : "static/images/netdivers-services-9.jpg",
-    "popular" : "no"
+    "image": "static/images/netdivers-services-9.jpg",
+    "popular": "no",
+    "home_page": "no"
   },
-  
   {
     "title": "Deep Diver",
     "category": "Specialty",
@@ -229,10 +229,10 @@
     "min_dives": "The minimum number of open water dives is two",
     "max_depth": "40m (130ft)",
     "certification": " Certification as a NAUI Advanced Open Water Scuba Diver or the equivalent is required",
-    "image" : "static/images/netdivers-services-9.jpg",
-    "popular" : "yes"
+    "image": "static/images/netdivers-services-9.jpg",
+    "popular": "yes",
+    "home_page": "no"
   },
-  
   {
     "title": "Night & Limited Visibility Diver",
     "category": "Specialty",
@@ -242,10 +242,10 @@
     "min_dives": "The minimum number of open water dives is two.",
     "max_depth": "40m (130ft)",
     "certification": "As a scuba diver course, certification as a NAUI Scuba Diver or the equivalent is required",
-    "image" : "static/images/netdivers-services-9.jpg",
-    "popular" : "yes"
+    "image": "static/images/netdivers-services-9.jpg",
+    "popular": "yes",
+    "home_page": "no"
   },
-  
   {
     "title": "Search & Recovery Diver",
     "category": "Specialty",
@@ -255,10 +255,10 @@
     "min_dives": "The minimum number of open water dives is two",
     "max_depth": "40m (130ft)",
     "certification": " Certification as a NAUI Scuba Diver or the equivalent is required.",
-    "image" : "static/images/netdivers-services-9.jpg",
-    "popular" : "yes"
+    "image": "static/images/netdivers-services-9.jpg",
+    "popular": "yes",
+    "home_page": "no"
   },
-  
   {
     "title": "Underwater Digital Imaging Diver",
     "category": "Specialty",
@@ -268,10 +268,10 @@
     "min_dives": "The minimum number of open water dives is three",
     "max_depth": "40m (130ft)",
     "certification": " NAUI Scuba Diver certification or equivalent",
-    "image" : "static/images/netdivers-services-9.jpg",
-    "popular" : "no"
+    "image": "static/images/netdivers-services-9.jpg",
+    "popular": "no",
+    "home_page": "no"
   },
-  
   {
     "title": "Wreck Diver (External Survey)",
     "category": "Specialty",
@@ -281,10 +281,10 @@
     "min_dives": "The minimum number of open water dives is two",
     "max_depth": "40m (130ft)",
     "certification": " Certification as a NAUI Advanced Open Water Scuba Diver or the equivalent is required",
-    "image" : "static/images/netdivers-services-9.jpg",
-    "popular" : "yes"
+    "image": "static/images/netdivers-services-9.jpg",
+    "popular": "yes",
+    "home_page": "no"
   },
-  
   {
     "title": "Introduction to Scuba ",
     "category": "Supervised Diver",
@@ -294,10 +294,10 @@
     "min_dives": "One confined water dive",
     "max_depth": "The maximum depth for ideal conditions for any open water dive is 12m (40ft)",
     "certification": "No certification required to enter this course.",
-    "image" : "static/images/netdivers-services-9.jpg",
-    "popular" : "no"
+    "image": "static/images/netdivers-services-9.jpg",
+    "popular": "no",
+    "home_page": "no"
   },
-  
   {
     "title": "Scuba Diver (Supervised Diver-ISO Level 1)",
     "category": "Supervised Diver",
@@ -307,20 +307,21 @@
     "min_dives": "The minimum number of open water dives is two",
     "max_depth": "12m (40ft)",
     "certification": "No certificationrequired. Participants should be able to comfortably demonstrate novice swimming ability.",
-    "image" : "static/images/netdivers-services-9.jpg",
-    "popular" : "no"
+    "image": "static/images/netdivers-services-9.jpg",
+    "popular": "no",
+    "home_page": "no"
   },
-  
   {
-  "title": "Tandem Scuba Diver",
-  "category": "Supervised Diver",
-  "description": "This is a non-certification course that allows non-divers to experience scuba diving. Participants may scuba dive in open water under closely controlled conditions. It is also an appropriate program to be conducted where there is no confined water available for the introduction of scuba skills prior to open water.",
-  "min_age": "Minimum is 10 years",
-  "min_hours": "No minimum hours",
-  "min_dives": "The minimum number of open water dives is one",
-  "max_depth": "The maximum depth for any open water dive during this course is 12m (40 ft.)",
-  "certification": "",
-  "image": "static/images/netdivers-services-9.jpg",
-  "popular": "no"
+    "title": "Tandem Scuba Diver",
+    "category": "Supervised Diver",
+    "description": "This is a non-certification course that allows non-divers to experience scuba diving. Participants may scuba dive in open water under closely controlled conditions. It is also an appropriate program to be conducted where there is no confined water available for the introduction of scuba skills prior to open water.",
+    "min_age": "Minimum is 10 years",
+    "min_hours": "No minimum hours",
+    "min_dives": "The minimum number of open water dives is one",
+    "max_depth": "The maximum depth for any open water dive during this course is 12m (40 ft.)",
+    "certification": "",
+    "image": "static/images/netdivers-services-9.jpg",
+    "popular": "no",
+    "home_page": "no"
   }
 ]
