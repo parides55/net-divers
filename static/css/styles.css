@@ -1,5 +1,9 @@
 /* --------------------------- General styles --------------------------- */
 .fullscreen_height {
+    height: 100vh;
+}
+
+.screen-height-85 {
     height: 85vh;
 }
 
