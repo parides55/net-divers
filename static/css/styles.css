@@ -1,6 +1,6 @@
 /* --------------------------- General styles --------------------------- */
 .fullscreen_height {
-    height: 100vh;
+    height: 85vh;
 }
 
 .page-titles {
@@ -85,7 +85,7 @@
 }
 
 .carousel-images {
-    height: 100vh;
+    height: 85vh;
     width: 100%;
     object-fit: cover;
 }
@@ -110,6 +110,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.statement-col {
+    border-left: 1px solid grey;
+    padding: 1rem 2rem;
 }
 
 /* --------------------------- Secondary Page --------------------------- */
@@ -295,13 +300,17 @@ iframe {
     }
 
     .about_us_paragraphs {
-        padding: 0 5px;
+        padding: 0 30px;
     }
 
     #cta-div-about-us {
         gap: 2rem;
         flex-direction: column;
         align-items: center;
+    }
+
+    .statement-col {
+        border: none;
     }
 }
 
