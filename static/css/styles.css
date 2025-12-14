@@ -271,6 +271,33 @@
 }
 
 /* --------------------------- Footer --------------------------- */
+.footer-images {
+    height: 170px;
+}
+.footer-image-1 {
+    background: url(../images/diving-sites-18.jpg) no-repeat center center/cover;
+}
+
+.footer-image-2 {
+    background: url(../images/hero_secondary.jpg) no-repeat center center/cover;
+}
+
+.footer-image-3 {
+    background: url(../images/netdivers-services-13.jpg) no-repeat center center/cover;
+}
+
+.footer-image-4 {
+    background: url(../images/netdivers-services-6.jpg) no-repeat center center/cover;
+}
+
+.footer-image-5 {
+    background: url(../images/netdivers-services-7.jpg) no-repeat center center/cover;
+}
+
+.footer-image-6 {
+    background: url(../images/netdivers-services-9.jpg) no-repeat center center/cover;
+}
+
 .footer-links {
     text-decoration: none;
 }
