@@ -22,16 +22,9 @@ function printData(data) {
             col.innerHTML = `
                 <div class="card courses-cards mb-5">
                     <img src="${course.image}" class="card-img-top" alt="${course.title}">
-                    <div class="card-body">
-                        <h4 class="card-title">${course.title}</h4>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><strong>Category:</strong> ${course.category}</li>
-                        <li class="list-group-item"><strong>Max Depth:</strong> ${course.max_depth}</li>
-                        <li class="list-group-item"><strong>Minimum Age:</strong> ${course.min_age}</li>
-                    </ul>
-                    <div class="card-body">
-                        <a href="course_info.html?id=${course.title}" class="btn btn-outline-dark">More Information</a>
+                    <div class="card-body popular-card-body">
+                        <h4 class="card-title fw-bold">${course.title}</h4>
+                        <a href="course_info.html?id=${course.title}" class="btn btn-outline-primary">View this course</a>
                     </div>
                 </div>
             `;
@@ -43,16 +36,9 @@ function printData(data) {
             col.innerHTML = `
                 <div class="card courses-cards mb-5">
                     <img src="${course.image}" class="card-img-top" alt="${course.title}">
-                    <div class="card-body">
-                        <h4 class="card-title">${course.title}</h4>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><strong>Category:</strong> ${course.category}</li>
-                        <li class="list-group-item"><strong>Max Depth:</strong> ${course.max_depth}</li>
-                        <li class="list-group-item"><strong>Minimum Age:</strong> ${course.min_age}</li>
-                    </ul>
-                    <div class="card-body">
-                        <a href="course_info.html?id=${course.title}" class="btn btn-outline-dark">More Information</a>
+                    <div class="card-body popular-card-body">
+                        <h4 class="card-title fw-bold">${course.title}</h4>
+                        <a href="course_info.html?id=${course.title}" class="btn btn-outline-primary">View this course</a>
                     </div>
                 </div>
             `;
@@ -64,16 +50,9 @@ function printData(data) {
             col.innerHTML = `
                 <div class="card courses-cards mb-5">
                     <img src="${course.image}" class="card-img-top" alt="${course.title}">
-                    <div class="card-body">
-                        <h4 class="card-title">${course.title}</h4>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><strong>Category:</strong> ${course.category}</li>
-                        <li class="list-group-item"><strong>Max Depth:</strong> ${course.max_depth}</li>
-                        <li class="list-group-item"><strong>Minimum Age:</strong> ${course.min_age}</li>
-                    </ul>
-                    <div class="card-body">
-                        <a href="course_info.html?id=${course.title}" class="btn btn-outline-dark">More Information</a>
+                    <div class="card-body popular-card-body">
+                        <h4 class="card-title fw-bold">${course.title}</h4>
+                        <a href="course_info.html?id=${course.title}" class="btn btn-outline-primary">View this course</a>
                     </div>
                 </div>
             `;
@@ -85,16 +64,9 @@ function printData(data) {
             col.innerHTML = `
                 <div class="card courses-cards mb-5">
                     <img src="${course.image}" class="card-img-top" alt="${course.title}">
-                    <div class="card-body">
-                        <h4 class="card-title">${course.title}</h4>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><strong>Category:</strong> ${course.category}</li>
-                        <li class="list-group-item"><strong>Max Depth:</strong> ${course.max_depth}</li>
-                        <li class="list-group-item"><strong>Minimum Age:</strong> ${course.min_age}</li>
-                    </ul>
-                    <div class="card-body">
-                        <a href="course_info.html?id=${course.title}" class="btn btn-outline-dark">More Information</a>
+                    <div class="card-body popular-card-body">
+                        <h4 class="card-title fw-bold">${course.title}</h4>
+                        <a href="course_info.html?id=${course.title}" class="btn btn-outline-primary">View this course</a>
                     </div>
                 </div>
             `;

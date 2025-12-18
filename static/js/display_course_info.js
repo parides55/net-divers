@@ -17,7 +17,6 @@ function displayCourse(course) {
     <p>${course.description}</p>
     <p>
         <ul>
-            <li><strong>Category:</strong> ${course.category}</li>
             <li><strong>Minimum age:</strong> ${course.min_age}</li>
             <li><strong>Minimum hours:</strong> ${course.min_hours}</li>
             <li><strong>Minimum dives:</strong> ${course.min_dives}</li>
