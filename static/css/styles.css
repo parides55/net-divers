@@ -3,8 +3,8 @@
     height: 100vh;
 }
 
-.screen-height-85 {
-    height: 85vh;
+.screen-height-83 {
+    height: 83vh;
 }
 
 .page-titles {
@@ -19,6 +19,7 @@
 /* --------------------------- NavBar --------------------------- */
 #navbarNav {
     justify-content: flex-end;
+    padding-right: 2rem;
 }
 
 #logo-image {
@@ -89,7 +90,7 @@
 }
 
 .carousel-images {
-    height: 85vh;
+    height: 83vh;
     width: 100%;
     object-fit: cover;
 }
