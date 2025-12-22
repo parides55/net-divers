@@ -104,6 +104,12 @@
     width: 50%;
 }
 
+#explore-cyprus-video {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
 .popular-cards {
     height: 28rem;
     border: none;
