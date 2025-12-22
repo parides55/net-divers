@@ -263,7 +263,8 @@
 
 .gallery-img{
     height: 300px;
-    width: auto;
+    width: 500px;
+    object-fit: cover;
 }
 
 .about_us_paragraphs {
@@ -421,7 +422,7 @@ iframe {
 
     .gallery-img{
         height: 150px;
-        width: auto;
+        width: 250px;
     }
 }
 
