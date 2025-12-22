@@ -49,7 +49,7 @@
     "certification": "Certification as a NAUI Open Water Scuba Diver or the equivalent is required",
     "image": "static/images/netdivers-services-6.jpg",
     "popular": "yes",
-    "home_page": "yes"
+    "home_page": "no"
   },
   {
     "title": "Nitrox Diver",
@@ -114,7 +114,7 @@
     "certification": " There is no certification required to enter this course",
     "image": "static/images/netdivers-services-9.jpg",
     "popular": "yes",
-    "home_page": "no"
+    "home_page": "yes"
   },
   {
     "title": "Recreational Hookah Diver",
