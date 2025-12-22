@@ -193,7 +193,8 @@
     --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #000;
 }
 
-.course-image {
+.course-image,
+.diving-site-image {
     width: 50%;
 }
 
@@ -339,7 +340,8 @@ iframe {
 
 /* --------------------------- Media queries --------------------------- */
 @media (max-width: 1024px) {
-    .course-image {
+    .course-image,
+    .diving-site-image {
         width: 100%;
     }
 

@@ -12,24 +12,22 @@ fetch('data/diving_sites.json')
 function displaySiteInfo(site) {
     const container = document.querySelector(".diving-site-col");
     container.innerHTML = `
-        <div class="card text-center">
-            <div class="card-body">
-                <h5 class="card-title">${site.name}</h5>
-                <p class="card-text mt-3">${site.description}</p>
-                <p class="card-text">
-                    <ul class="text-start">
-                        <li><strong>Location:</strong> ${site.location}</li>
-                        <li><strong>Maximum depth:</strong> ${site.depth}</li>
-                        <li><strong>Certification required:</strong> ${site.certification}</li>
-                    </ul>
-                </p>
-            </div>
-            <div class="card-header">
-                <img src="${site.image}" class="card-img-top py-5 course-info-image" alt="${site.title}">
-            </div>
-            <div class="card-footer text-body-secondary">
-                <a href="diving_sites.html" class="btn btn-outline-dark" >Back to diving sites</a>
-            </div>
+        <h4 class="text-center mb-4 fst-italic">${site.name}</h4>
+    <p>${site.description}</p>
+    <p>
+        <ul>
+            <li><strong>Location:</strong> ${site.location}</li>
+            <li><strong>Maximum depth:</strong> ${site.max_depth}</li>
+            <li><strong>Certification required:</strong> ${site.certification}</li>
+        </ul>
+    </p>
+        <div class="text-body-secondary d-flex justify-content-evenly">
+            <a href="diving_sites.html" class="btn btn-outline-dark" >Back to Diving Sites</a>
         </div>
+    </div>
     `;
+
+    document.getElementById("diving-site-image-div").src = site.image;
+    document.getElementById("diving-site-image-div").classList.remove("hide");
+    document.getElementById("diving-site-image-div").classList.add("animate__animated", "animate__fadeInRight", "animate__slower");
 };
