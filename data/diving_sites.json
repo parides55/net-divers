@@ -1,41 +1,80 @@
 [
   {
-    "name": "Cyclopes Cave",
-    "location": "Protaras",
-    "image": "static/images/diving-sites-18.jpg",
-    "description": "Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum",
-    "depth" : "10-40 meters",
-    "certification" : "No certification required",
-    "popular" : "yes"
+    "name": "Zinovia (Zenobia) Shipwreck",
+    "excerpt": "Swedish ferry wreck, also known as the “Titanic of the Mediterranean” due to its size and popularity among divers.",
+    "city": "Larnaca",
+    "location": "Larnaka Bay, off the coast near Mackenzie Beach — about 1.4 km (≈0.8 nm) from shore.",
+    "depth" : "Typical diving depth range: Approximately 17 – 43 m (56 – 141 ft).",
+    "marine_life": "This wreck is now a thriving artificial reef with abundant life. Groupers, barracuda, kingfish, jacks, moray eels, stingrays, turtles, octopus. Various schooling fish and reef species (wrasses, sparids). Corals, sponges, crustaceans — plus the occasional dolphin sighting.",
+    "description": "he Zinovia was a Swedish Ro-Ro ferry (≈172 m long) that sank on June 7, 1980 during its maiden voyage due to ballast pump failures. Today it lies on its port side on a sandy seabed, with much of its structure and cargo (including trucks and vehicles) still intact, making it one of the world’s most famous recreational wreck dives. Divers can explore both the exterior and some accessible interior areas, with deeper or penetration dives recommended only for experienced divers with appropriate certifications. ",
+    "dive_type": "Primary dive type: Wreck dive (with options for reef exploration).",
+    "certification" : "Suitable for Advanced Open Water and higher levels, especially for deeper or interior exploration.",
+    "access": "Boat only from Larnaca harbour / dive boats. No shore entry — operators typically run regular trips to the site.",
+    "tips": "Visibility is generally excellent (20-30 m+). Water temperature varies seasonally and supports year-round diving.",
+    "popular" : "yes",
+    "image": "static/images/diving-sites-18.jpg"
   },
 
   {
-    "name": "Green Bay",
-    "location": "Protaras",
-    "image": "static/images/netdivers-services-6.jpg",
-    "description": "Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum",
-    "depth" : "10-40 meters",
-    "certification" : "No certification required",
-    "popular" : "yes"
+    "name": "Cyclops Cave (often just called “Cyclops”)",
+    "excerpt":"A scenic dive site named after a coastal cave associated with the mythical one-eyed Cyclops.",
+    "city": "Ayia Napa / Protaras area (Ammochostos District)",
+    "location": "The site is near Konnos Bay and Cape Greco on the southeast coast of Cyprus.",
+    "depth" : "Maximum Depth: up to approximately 40 – 45 m depending on dive profile.",
+    "marine_life": "The underwater terrain around Cyclops is lively and diverse. You can expect to see Groupers, bream, and cardinalfish, Wrasse and parrotfish, Octopus, lionfish, moray eels, Tuna and larger pelagics on occasion. Posidonia seagrass meadows with smaller reef fish and invertebrates",
+    "description": "Cyclops isn’t a single cavern but rather a varied underwater landscape featuring rocky slopes, boulders, sandy patches, seagrass fields and a semi-submerged grotto/cave area. It’s known for its stunning topography — perfect for exploring, skill practice, and photography. Divers often start around shallow depths and follow the wall deeper, experiencing gentle slopes and dramatic drop-offs. The site is popular with both recreational and technical divers thanks to its range of depths and features.",
+    "dive_type": "Wall / circular dive with rock formations and drop-offs. Entry from roughly 2 m, with deeper slopes and drop-offs accessible for advanced divers. Suitable for shore diving, and also possible via boat dives.",
+    "certification" : "Open Water, Advanced, navigation, night, and deep dive training",
+    "access": "Shore entry — usually from rocky areas in Cape Greco / Konnos Bay; it can be a bit rugged, so some divers prefer a boat entry if available.",
+    "tips": "Depth versatility: shallow start for beginners with deeper sections for experienced divers. Underwater scenery: dramatic boulders, sandy patches and Posidonia seagrass meadows. Good visibility, often 20 m+ in clear conditions. widely used for skill development (navigation, night dives, buoyancy control",
+    "popular" : "yes",
+    "image": "static/images/preparations.jpg"
   },
 
   {
-    "name": "Zinovia Shipwreck",
-    "location": "Larnaca",
-    "image": "static/images/netdivers-services-7.jpg",
-    "description": "Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum",
-    "depth" : "10-40 meters",
-    "certification" : "Certification as a NAUI Open Water Scuba Diver or the equivalent is required",
-    "popular" : "yes"
+    "name": "Chapel (Cape Greco) Dive Site",
+    "excerpt": "commonly referenced around Protaras / Cape Greco and named after the small chapel on the cliff above the entry point.",
+    "city": "Protaras / Cape Greco, Ammochostos (Famagusta) District",
+    "location": "southeast Cyprus",
+    "depth" : "Typical Maximum Depth: up to about 40 m (with average depths around 10-25 m depending on route).",
+    "marine_life": "You can expect a rich Mediterranean array, including Groupers, bream, wrasse, Lionfish, moray eels, octopus, nudibranchs (sea slugs), Sea urchins, small reef fish, Occasionally turtles and larger fish in open water. The mixed rocky terrain with ledges, overhangs, and sand patches provides excellent hiding spots and habitat diversity.",
+    "description": "The Chapel dive is named for the little church (ekklisaki) overlooking the sea, with steps down to a rocky entry into the water. Underneath, the underwater landscape features rocky formations, overhangs, fossilized features, and fields of Posidonia seagrass. Divers often explore both shallower scenic contours and deeper walls. The terrain is varied and great for exploration or photography, making it attractive for a wide range of skill levels.",
+    "dive_type": "Shore dive with rocky bottom, ledges, overhangs, and walls. ",
+    "certification" : "Suitable for Recreational diving — from Open Water to Advanced, depending on how deep you go or what features you explore.",
+    "access": "Shore entry — walk down from the road/cape to the water via a trail or steps near the chapel. Entry is rocky and may require careful footing, but once in the water, the site opens up into diverse terrain.",
+    "tips": "Varied topography: cliffs, ledges, and sandy pockets make the dive interesting at all levels. Marine biodiversity: typical Mediterranean life, good for photography and marine observation. Good visibility: often excellent water clarity, common in Cyprus dives. Training potential: useful for navigation, buoyancy practice, and night dives.",
+    "popular" : "yes",
+    "image": "static/images/lionfish.jpg"
   },
 
   {
-    "name": "Sea Caves",
-    "location": "Cape Greco, Protaras",
-    "image": "static/images/netdivers-services-7.jpg",
-    "description": "Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum Lorem ispum",
-    "depth" : "10-40 meters",
-    "certification" : "Certification as a NAUI Open Water Scuba Diver or the equivalent is required",
-    "popular" : "no"
+    "name": "Green Bay Dive Site",
+    "excerpt": "a popular, easy shore dive in Cyprus known for calm waters, abundant marine life, and underwater attractions.",
+    "city": "Protaras (Paralimni), Ammochostos District",
+    "location": "southeast Cyprus.",
+    "depth" : "Maximum Depth: ~10–12 m (≈33–39 ft) — shallow and gentle, perfect for training or scenic dives.",
+    "marine_life": "Green Bay offers a rich variety of Mediterranean marine species, including Seabream, parrotfish, ornate & rainbow wrasse, pipefish, Cuttlefish, starfish, octopus. Occasional turtle sightings. Large schools of fish near the famous ‘Fish Rock’ feeding area, plus fragments of ancient amphorae and artificial statues that attract curious marine life.",
+    "description": "Green Bay is one of Cyprus’s most welcoming and scenic dive sites — ideal for beginners, training dives, and relaxed underwater exploration. It’s a shore dive with a sand and pebble entry, and the seabed slopes gently to its maximum depth. Unique highlights include submerged statues (replicas of ancient Greek monuments) around 10 m depth, which create an atmospheric underwater gallery, and the ‘Fish Rock’ where schools of fish gather. Sightings of green sea turtles add to its charm.",
+    "dive_type": "Shore dive (easy beach entry)",
+    "certification" : "Recreational diving. Excellent training site approved by major dive associations for confined water and entry-level snorkeling/diving.",
+    "access": "Shore entry — walk-in from a shallow, calm bay. Easy entry/exit makes it perfect for new divers, snorkelers, or anyone preferring simple dive logistics.",
+    "tips": "Beginner-friendly: gentle slope, shallow depths, calm conditions. Marine encounters: frequent turtles, abundant fish, and macro life. Underwater art & history: statues and amphora fragments add a cultural layer to the dive. Great for training: often used for Open Water certification dives.",
+    "popular" : "yes",
+    "image": "static/images/lionfish.jpg"
   }
+
+  // {
+  //   "name": "",
+  //   "city": "",
+  //   "location": "",
+  //   "depth" : "",
+  //   "marine_life": "",
+  //   "description": "",
+  //   "dive_type": "",
+  //   "certification" : "",
+  //   "access": "",
+  //   "tips": "",
+  //   "popular" : "",
+  //   "image": ""
+  // }
 ]
