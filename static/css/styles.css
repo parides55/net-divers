@@ -146,7 +146,17 @@
 
 /* --------------------------- Secondary Page --------------------------- */
 #secondary {
-    background: url(../images/hero_secondary.jpg) no-repeat center center/cover;
+    position: relative;
+}
+
+#secondary-page-video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 #secondary_hero_text {
