@@ -22,7 +22,7 @@ function displaySiteInfo(site) {
         </ul>
     </p>
         <div class="text-body-secondary d-flex justify-content-evenly">
-            <a href="diving_sites.html" class="btn btn-outline-dark" >Back to Diving Sites</a>
+            <a href="explore_cy.html#diving-sites-section" class="btn btn-outline-dark" >Back to Diving Sites</a>
         </div>
     </div>
     `;
