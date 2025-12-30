@@ -26,7 +26,7 @@ function displayCourse(course) {
         </ul>
     </p>
         <div class="text-body-secondary d-flex justify-content-evenly">
-            <a href="courses_and_services.html" class="btn btn-outline-dark" >Back to courses</a>
+            <a href="courses_and_services.html#courses-table" class="btn btn-outline-dark" >Back to courses</a>
             <a href="mailto:christos@net-divers.com.cy?subject=Course Inquiry:%20${course.title}?" target="_blank" class="btn btn-success">Request Booking</a>
         </div>
     </div>
