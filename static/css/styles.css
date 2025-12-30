@@ -16,6 +16,13 @@
     display: none;
 }
 
+.cta-buttons-div {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin-bottom: 3rem;
+}
+
 /* --------------------------- NavBar --------------------------- */
 #navbarNav {
     justify-content: flex-end;
@@ -183,7 +190,7 @@
     font-size: 1.8rem;
 }
 /* --------------------------- Explore CY Page --------------------------- */
-#explore_cy_page {
+#explore_cy_hero_section {
     background: url(../images/diving-sites-18.jpg) no-repeat center center/cover;
 }
 
@@ -284,13 +291,6 @@
     letter-spacing: 2px;
     text-align: justify;
     font-size: large;
-}
-
-#cta-div-about-us {
-    display: flex;
-    justify-content: center;
-    gap: 10rem;
-    margin-bottom: 3rem;
 }
 
 .cta-about-us {
