@@ -28,7 +28,7 @@
     "access": "Shore entry — usually from rocky areas in Cape Greco / Konnos Bay; it can be a bit rugged, so some divers prefer a boat entry if available.",
     "tips": "Depth versatility: shallow start for beginners with deeper sections for experienced divers. Underwater scenery: dramatic boulders, sandy patches and Posidonia seagrass meadows. Good visibility, often 20 m+ in clear conditions. widely used for skill development (navigation, night dives, buoyancy control",
     "popular" : "yes",
-    "image": "static/images/preparations.jpg"
+    "image": "static/images/sea_grass.JPG"
   },
 
   {
@@ -62,19 +62,4 @@
     "popular" : "yes",
     "image": "static/images/lionfish.jpg"
   }
-
-  // {
-  //   "name": "",
-  //   "city": "",
-  //   "location": "",
-  //   "depth" : "",
-  //   "marine_life": "",
-  //   "description": "",
-  //   "dive_type": "",
-  //   "certification" : "",
-  //   "access": "",
-  //   "tips": "",
-  //   "popular" : "",
-  //   "image": ""
-  // }
 ]
