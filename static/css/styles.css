@@ -12,6 +12,11 @@
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+.secondary-titles {
+    font-size: 3rem;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
 .hide {
     display: none;
 }
