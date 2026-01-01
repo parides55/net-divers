@@ -203,6 +203,20 @@
     background: url(../images/diving-sites-18.jpg) no-repeat center center/cover;
 }
 
+#explore-title {
+    font-size: 60px;
+    padding-left: 2rem;
+}
+
+#description_cy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 20px;
+    margin: 10px 20px;
+}
+
 /* --------------------------- Courses and Services Page --------------------------- */
 .accordion-collapse {
     display: flex;
@@ -242,19 +256,6 @@
 .course-info-image {
     height: 500px;
     width: auto;
-}
-
-/* --------------------------- Explore_cy Page --------------------------- */
-#explore_title {
-    font-size: 60px;
-}
-#description_cy {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    padding: 0 20px;
-    margin: 10px 20px;
 }
 
 /* --------------------------- Diving Sites Page --------------------------- */
@@ -446,6 +447,10 @@ iframe {
 @media (max-width: 400px) {
         #explore-cyprus-div {
             left: 17%;
+        }
+
+        #explore-title {
+            padding-left: 0;
         }
 
         .card {
