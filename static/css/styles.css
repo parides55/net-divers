@@ -23,6 +23,10 @@
     margin-bottom: 3rem;
 }
 
+.card {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
 /* --------------------------- NavBar --------------------------- */
 #navbarNav {
     justify-content: flex-end;
@@ -217,10 +221,6 @@
 
 .accordion-item {
     border: none;
-}
-
-.card {
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 .courses-cards {
