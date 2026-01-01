@@ -73,4 +73,4 @@ function printData(data) {
             collapseFour.appendChild(col);
         }
     });
-}
+};
