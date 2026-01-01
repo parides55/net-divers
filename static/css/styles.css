@@ -198,6 +198,19 @@
 #explore-cta {
     font-size: 1.8rem;
 }
+
+#volume-controls-row {
+    position: absolute;
+    bottom: 3rem;
+    right: 4rem;
+    width: 10%;
+}
+
+.volume-controls:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    font-size: larger;
+}
 /* --------------------------- Explore CY Page --------------------------- */
 #explore_cy_hero_section {
     background: url(../images/diving-sites-18.jpg) no-repeat center center/cover;
@@ -398,6 +411,10 @@ iframe {
     iframe {
         width: 250px;
     }
+
+    #volume-controls-row {
+    bottom: 3rem;
+    }
 }
 
 @media (max-width: 576px) {
@@ -419,6 +436,10 @@ iframe {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    }
+
+    #volume-controls-row {
+    bottom: 1rem;
     }
 
     .footer-row {
@@ -459,5 +480,9 @@ iframe {
 
         .card-cols {
             padding: 0;
+        }
+
+        #secondary_hero_text {
+            font-size: 3rem;
         }
     }
