@@ -12,7 +12,7 @@ function displayDivingSites(data) {
 
     data.forEach(site => {
         const col = document.createElement("div");
-        col.classList.add("col");
+        col.classList.add("col", "d-flex", "justify-content-center");
         col.classList.add("mb-5");
 
         col.innerHTML = `
