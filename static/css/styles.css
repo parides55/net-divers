@@ -485,7 +485,16 @@ iframe {
     }
 
     #explore-title {
+        font-size: 40px;
         padding-left: 0;
+    }
+
+    #explore-paragraph {
+        font-size: 13px;
+    }
+
+    .page-titles {
+        font-size: 4rem;
     }
 
     .card {
@@ -498,5 +507,9 @@ iframe {
 
     #secondary_hero_text {
         font-size: 3rem;
+    }
+
+    .secondary-titles {
+        font-size: 2.5rem;
     }
 }
