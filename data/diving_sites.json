@@ -8,10 +8,10 @@
     "marine_life": "This wreck is now a thriving artificial reef with abundant life. Groupers, barracuda, kingfish, jacks, moray eels, stingrays, turtles, octopus. Various schooling fish and reef species (wrasses, sparids). Corals, sponges, crustaceans — plus the occasional dolphin sighting.",
     "description": "The Zinovia was a Swedish Ro-Ro ferry (≈172 m long) that sank on June 7, 1980 during its maiden voyage due to ballast pump failures. Today it lies on its port side on a sandy seabed, with much of its structure and cargo (including trucks and vehicles) still intact, making it one of the world’s most famous recreational wreck dives. Divers can explore both the exterior and some accessible interior areas, with deeper or penetration dives recommended only for experienced divers with appropriate certifications. ",
     "dive_type": "Primary dive type: Wreck dive (with options for reef exploration).",
-    "certification" : "Suitable for Advanced Open Water and higher levels, especially for deeper or interior exploration.",
+    "certification": "Suitable for Advanced Open Water and higher levels, especially for deeper or interior exploration.",
     "access": "Boat only from Larnaca harbour / dive boats. No shore entry — operators typically run regular trips to the site.",
     "tips": "Visibility is generally excellent (20-30 m+). Water temperature varies seasonally and supports year-round diving.",
-    "popular" : "yes",
+    "popular": "yes",
     "image": "static/images/zinovia.jpg"
   },
 
@@ -24,10 +24,10 @@
     "marine_life": "The underwater terrain around Cyclops is lively and diverse. You can expect to see Groupers, bream, and cardinalfish, Wrasse and parrotfish, Octopus, lionfish, moray eels, Tuna and larger pelagics on occasion. Posidonia seagrass meadows with smaller reef fish and invertebrates",
     "description": "Cyclops isn’t a single cavern but rather a varied underwater landscape featuring rocky slopes, boulders, sandy patches, seagrass fields and a semi-submerged grotto/cave area. It’s known for its stunning topography — perfect for exploring, skill practice, and photography. Divers often start around shallow depths and follow the wall deeper, experiencing gentle slopes and dramatic drop-offs. The site is popular with both recreational and technical divers thanks to its range of depths and features.",
     "dive_type": "Wall / circular dive with rock formations and drop-offs. Entry from roughly 2 m, with deeper slopes and drop-offs accessible for advanced divers. Suitable for shore diving, and also possible via boat dives.",
-    "certification" : "Open Water, Advanced, navigation, night, and deep dive training",
+    "certification": "Open Water, Advanced, navigation, night, and deep dive training",
     "access": "Shore entry — usually from rocky areas in Cape Greco / Konnos Bay; it can be a bit rugged, so some divers prefer a boat entry if available.",
     "tips": "Depth versatility: shallow start for beginners with deeper sections for experienced divers. Underwater scenery: dramatic boulders, sandy patches and Posidonia seagrass meadows. Good visibility, often 20 m+ in clear conditions. widely used for skill development (navigation, night dives, buoyancy control",
-    "popular" : "yes",
+    "popular": "yes",
     "image": "static/images/cyclops_cave.jpg"
   },
 
@@ -40,10 +40,10 @@
     "marine_life": "You can expect a rich Mediterranean array, including Groupers, bream, wrasse, Lionfish, moray eels, octopus, nudibranchs (sea slugs), Sea urchins, small reef fish, Occasionally turtles and larger fish in open water. The mixed rocky terrain with ledges, overhangs, and sand patches provides excellent hiding spots and habitat diversity.",
     "description": "The Chapel dive is named for the little church (ekklisaki) overlooking the sea, with steps down to a rocky entry into the water. Underneath, the underwater landscape features rocky formations, overhangs, fossilized features, and fields of Posidonia seagrass. Divers often explore both shallower scenic contours and deeper walls. The terrain is varied and great for exploration or photography, making it attractive for a wide range of skill levels.",
     "dive_type": "Shore dive with rocky bottom, ledges, overhangs, and walls. ",
-    "certification" : "Suitable for Recreational diving — from Open Water to Advanced, depending on how deep you go or what features you explore.",
+    "certification": "Suitable for Recreational diving — from Open Water to Advanced, depending on how deep you go or what features you explore.",
     "access": "Shore entry — walk down from the road/cape to the water via a trail or steps near the chapel. Entry is rocky and may require careful footing, but once in the water, the site opens up into diverse terrain.",
     "tips": "Varied topography: cliffs, ledges, and sandy pockets make the dive interesting at all levels. Marine biodiversity: typical Mediterranean life, good for photography and marine observation. Good visibility: often excellent water clarity, common in Cyprus dives. Training potential: useful for navigation, buoyancy practice, and night dives.",
-    "popular" : "yes",
+    "popular": "yes",
     "image": "static/images/lionfish.jpg"
   },
 
@@ -56,10 +56,10 @@
     "marine_life": "Green Bay offers a rich variety of Mediterranean marine species, including Seabream, parrotfish, ornate & rainbow wrasse, pipefish, Cuttlefish, starfish, octopus. Occasional turtle sightings. Large schools of fish near the famous ‘Fish Rock’ feeding area, plus fragments of ancient amphorae and artificial statues that attract curious marine life.",
     "description": "Green Bay is one of Cyprus’s most welcoming and scenic dive sites — ideal for beginners, training dives, and relaxed underwater exploration. It’s a shore dive with a sand and pebble entry, and the seabed slopes gently to its maximum depth. Unique highlights include submerged statues (replicas of ancient Greek monuments) around 10 m depth, which create an atmospheric underwater gallery, and the ‘Fish Rock’ where schools of fish gather. Sightings of green sea turtles add to its charm.",
     "dive_type": "Shore dive (easy beach entry)",
-    "certification" : "Recreational diving. Excellent training site approved by major dive associations for confined water and entry-level snorkeling/diving.",
+    "certification": "Recreational diving. Excellent training site approved by major dive associations for confined water and entry-level snorkeling/diving.",
     "access": "Shore entry — walk-in from a shallow, calm bay. Easy entry/exit makes it perfect for new divers, snorkelers, or anyone preferring simple dive logistics.",
     "tips": "Beginner-friendly: gentle slope, shallow depths, calm conditions. Marine encounters: frequent turtles, abundant fish, and macro life. Underwater art & history: statues and amphora fragments add a cultural layer to the dive. Great for training: often used for Open Water certification dives.",
-    "popular" : "yes",
+    "popular": "yes",
     "image": "static/images/green_bay.jpg"
   },
 
@@ -72,10 +72,10 @@
     "marine_life": "This wreck has become an artificial reef hosting a variety of Mediterranean marine life. Groupers and schooling reef fish, Moray eels and lionfish, Octopus, nudibranchs, starfish, and other invertebrates. Smaller fish species shelter in and around the wreck structure",
     "description": "The HMS Cricket was a British river gunboat that sank in 1947 off Cyprus, now resting upside down on a sandy seabed. Its structure creates interesting swim-throughs and terrain for divers. There’s a sandy trench beneath the hull allowing divers to swim underneath and even explore interior areas through larger openings — great for underwater photography and exploration.",
     "dive_type": "Wreck dive — ideal for divers interested in historic shipwrecks and marine life.",
-    "certification" : "Recommended for Advanced Open Water or divers with wreck experience.",
+    "certification": "Recommended for Advanced Open Water or divers with wreck experience.",
     "access": "Boat only from Larnaca harbour or dive boats.",
     "tips": "A rare World War era vessel now providing habitat and dive interest. Swim-throughs under the hull and open areas make it engaging for advanced dive profiles. Often 20 m+ visibility, depending on conditions.",
-    "popular" : "no",
+    "popular": "no",
     "image": "static/images/cricket.jpg"
   },
 
@@ -91,7 +91,7 @@
     "certification" : "Good for recreational wreck exploration and training like Advanced Open Water specialties.",
     "access": "Boat only — typically from Protaras/Ayia Napa dive boats",
     "tips": "A submerged cross and statue add a unique visual element close to the site. Visibility is often 20 m+ under good conditions. ",
-    "popular" : "no",
+    "popular": "no",
     "image": "static/images/liberty.jpg"
   },
 
@@ -107,7 +107,7 @@
     "certification" : "Suitable primarily for Advanced Open Water certified divers and boat divers; it’s also often used for Advanced navigation and wreck specialty training.",
     "access": "Boat only — typically from Protaras/Ayia Napa dive boats.",
     "tips": "A smaller, manageable wreck perfect for wreck exploration training. Interior areas of the vessel offer interesting routes and photo opportunities",
-    "popular" : "no",
+    "popular": "no",
     "image": "static/images/nemesis.jpg"
   },
 
@@ -120,10 +120,10 @@
     "marine_life": "Inside and around the caves you’ll encounter a good variety of Mediterranean sea life, such as bream, damselfish, ornate wrasse, squirrelfish, blue-spotted cornetfish,groupers, lionfish, moray eels, octopus and occasionally turtles. Crevices and rock formations also attract small invertebrates and crustaceans.",
     "description": "The Cape Greco sea caves are a series of natural sea-carved caverns, tunnels, and archways formed over millennia by the Mediterranean’s waves and wind. The underwater landscape is characterized by swim-throughs filled with light, rocky overhangs, and narrow passages that provide both dramatic scenery and great opportunities for exploration and underwater photography. Divers usually enter from a shore entry — a short walk along a rocky path leads to a giant stride entry into the water. From there, you can explore connected tunnels and caverns, some illuminated by patches of daylight filtering through openings above. This site is especially popular in summer months (March–November) when water clarity and conditions are best, though conditions can vary with weather and swell.",
     "dive_type": "Shore dive with caves and tunnels (swim-through style)",
-    "certification" : "Open Water certified divers and above — it’s accessible to many divers but includes narrow swim-throughs where good buoyancy control is useful",
+    "certification": "Open Water certified divers and above — it’s accessible to many divers but includes narrow swim-throughs where good buoyancy control is useful",
     "access": "Shore entry — short walk down rocky ground to the sea",
     "tips": "Natural archways and tunnels make for exciting exploration without deep depths, dramatic white limestone cliffs and sea arches are famous photo spots. Great visibility. Typically excellent Mediterranean visibility, often 20 m+ in good conditions",
-    "popular" : "no",
+    "popular": "no",
     "image": "static/images/sea_caves.jpg"
   },
 
@@ -136,10 +136,10 @@
     "marine_life": "Cliff/hard-bottom wall terrain supports a Mediterranean ecosystem, including damselfish, groupers, wrasse, moray eels, octopus, stingrays and occasional larger species in deeper zones. Fish tend to congregate along ledges and drop-offs",
     "description": "Unlike the sea caves themselves (which are mainly swim-through-style shallow formations), the cliff dive areas at Cape Greco offer vertical walls, canyons, and rugged underwater rock formations. These dives typically begin from shore near the cliff base or require a short boat run then a swim under the cliffline. The terrain includes drop-offs, overhangs and channels where divers can explore along varied contours — often with dramatic light and shadow effects. The Cape Greco cliffs above water are also a well-known cliff-jumping / cliff-diving attraction, but authorities strongly discourage and even prohibit jumping due to safety risks and unstable rock conditions.",
     "dive_type": "Shore dive with cliff/reef wall terrain or boat-assisted shore dive",
-    "certification" : "More suited to advanced or experienced divers because of variable entry/exit and deeper profiles.",
+    "certification": "More suited to advanced or experienced divers because of variable entry/exit and deeper profiles.",
     "access": "From shore entry under cliffs (often requiring a careful walk to rocky ledges) and sometimes boat support to reach deeper cliff edges",
     "tips": "underwater terrain with drop-offs and varied contours. Divers can feel a “free-fall sensation” down steeper walls.",
-    "popular" : "no",
+    "popular": "no",
     "image": "static/images/cliffs.jpg"
   },
 
@@ -152,10 +152,10 @@
     "marine_life": "These dive sites support typical Mediterranean marine ecosystems, including sea slugs and nudibranchs, starfish and small reef fish, moray eels and wrasse, occasional bream and schooling fish. These reefs often have rocky terrain with small cavities and channels where smaller creatures gather.",
     "description": "This section of coastline features rocky reefs, small canyons and ledges that make for engaging shore dives with plenty to explore close to the surface and down to modest depths. The Bullet Point site is noted for its rocky topography with small canyons suitable for recreational divers, while Nail offers rock-lined caverns and similar features just a bit deeper. Both are good for navigation practice, photography and observing assorted reef life. They’re also usually quite accessible, with conditions favourable for divers with basic Open Water certification.",
     "dive_type": "Shore dive over rocky reef terrain and small canyons",
-    "certification" : "Best suited for recreational diving with Open Water certification (and above).",
+    "certification": "Best suited for recreational diving with Open Water certification (and above).",
     "access": "Shore entry — usually walking down from roadside points to a rocky shoreline and entering by giant stride or careful steps",
     "tips": "Beginner-friendly shore diving, gentler depths and easy entry. Good visibility, often excellent conditions with clear Mediterranean water.",
-    "popular" : "no",
+    "popular": "no",
     "image": "static/images/ormidia.jpg"
   }
 ]
