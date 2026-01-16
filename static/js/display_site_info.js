@@ -16,9 +16,14 @@ function displaySiteInfo(site) {
     <p>${site.description}</p>
     <p>
         <ul>
+            <li><strong>City:</strong> ${site.city}</li>
             <li><strong>Location:</strong> ${site.location}</li>
-            <li><strong>Maximum depth:</strong> ${site.max_depth}</li>
+            <li><strong>Maximum depth:</strong> ${site.depth}</li>
             <li><strong>Certification required:</strong> ${site.certification}</li>
+            <li><strong>Marine life:</strong> ${site.marine_life}</li>
+            <li><strong>Dive type:</strong> ${site.dive_type}</li>
+            <li><strong>Access:</strong> ${site.access}</li>
+            <li><strong>Tips:</strong> ${site.tips}</li>
         </ul>
     </p>
         <div class="text-body-secondary d-flex justify-content-evenly">
