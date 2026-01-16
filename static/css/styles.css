@@ -282,6 +282,10 @@
 }
 
 /* --------------------------- Diving Sites Page --------------------------- */
+#check-dive-sites-cta {
+    padding-left: 10rem;
+}
+
 .sites-row {
     margin: 0 2rem;
 }
@@ -387,6 +391,10 @@ iframe {
     #explore-cyprus-div {
         left: 66%;
     }
+
+    #check-dive-sites-cta {
+        padding-left: 6rem;
+    }
 }
 
 @media (max-width: 992px) {
@@ -415,6 +423,10 @@ iframe {
     #explore-cyprus-div {
         left: 58%;
     }
+
+    #check-dive-sites-cta {
+        padding-left: 3rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -424,6 +436,10 @@ iframe {
 
     #volume-controls-row {
     bottom: 3rem;
+    }
+
+    #check-dive-sites-cta {
+        padding-left: 1rem;
     }
 }
 
@@ -465,6 +481,10 @@ iframe {
         padding-bottom: 1rem;
     }
 
+    #check-dive-sites-cta {
+        padding-left: 1.7rem;
+    }
+
     iframe {
         width: 300px;
     }
@@ -491,6 +511,10 @@ iframe {
 
     #explore-paragraph {
         font-size: 13px;
+    }
+
+    #check-dive-sites-cta {
+        padding-left: 0rem;
     }
 
     .page-titles {
