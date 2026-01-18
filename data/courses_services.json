@@ -1,18 +1,5 @@
 [
   {
-    "title": "Skin Diver",
-    "category": "Apnea",
-    "description": "This Apnea certification course is a snorkeling and breath-holding diving course. Upon completion, graduates are considered competent to engage in open water breath-holding diving activities without supervision. It is designed to: develop skin diving skills for swimmers and scuba divers, afford non-scuba divers the opportunity for diving related training and to provide preparatory training for scuba diving.",
-    "min_age": "12 years old",
-    "min_hours": "Four hours including at least three water hours.",
-    "min_dives": "The minimum number of open water dives is two.",
-    "max_depth": " 10m (33 ft.)",
-    "certification": "No certification required",
-    "image": "static/images/diving-sites-18.jpg",
-    "popular": "no",
-    "home_page": "no"
-  },
-  {
     "title": "Advanced Open Water Scuba Diver",
     "category": "Continuing Education",
     "description": "This continuing education course for certified divers is a program designed to introduce and aid divers in gaining experience in a variety of open-water diving activities. Participants will complete six dives; three must be in night/limited visibility, navigation, and deep (beyond 18msw/60fsw within recreational limits). Graduates of this course are considered competent to engage in open water diving activities without supervision, provided the diving environment, activities, areas dived, and equipment approximate those of training.",
@@ -61,7 +48,7 @@
     "max_depth": " 40m (130 ft.)",
     "certification": "certification as a NAUI Open Water Scuba Diver or the equivalent is required",
     "image": "static/images/netdivers-services-7.jpg",
-    "popular": "no",
+    "popular": "yes",
     "home_page": "no"
   },
   {
@@ -74,7 +61,7 @@
     "max_depth": " Depth is limited by the participant’s capabilities, experience, and previous certification.",
     "certification": " Certification as a NAUI Scuba Diver or the equivalent is required",
     "image": "static/images/netdivers-services-9.jpg",
-    "popular": "yes",
+    "popular": "no",
     "home_page": "no"
   },
   {
@@ -243,7 +230,7 @@
     "max_depth": "40m (130ft)",
     "certification": "As a scuba diver course, certification as a NAUI Scuba Diver or the equivalent is required",
     "image": "static/images/netdivers-services-9.jpg",
-    "popular": "yes",
+    "popular": "no",
     "home_page": "no"
   },
   {
@@ -295,7 +282,7 @@
     "max_depth": "The maximum depth for ideal conditions for any open water dive is 12m (40ft)",
     "certification": "No certification required to enter this course.",
     "image": "static/images/netdivers-services-9.jpg",
-    "popular": "no",
+    "popular": "yes",
     "home_page": "no"
   },
   {
