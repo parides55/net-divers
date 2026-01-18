@@ -21,7 +21,6 @@ function displayCourse(course) {
             <li><strong>Minimum hours:</strong> ${course.min_hours}</li>
             <li><strong>Minimum dives:</strong> ${course.min_dives}</li>
             <li><strong>Maximum depth:</strong> ${course.max_depth}</li>
-            <li><strong>License required:</strong> ${course.license_required}</li>
             <li><strong>Certification required:</strong> ${course.certification}</li>
         </ul>
     </p>
