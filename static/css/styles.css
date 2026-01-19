@@ -75,8 +75,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    top: 20%;
 }
 
 .aboutUs-row-homepage {
@@ -522,7 +520,7 @@ iframe {
     }
 
     .card {
-        width: 16rem;
+        width: 100%;
     }
 
     .card-cols {
@@ -535,5 +533,23 @@ iframe {
 
     .secondary-titles {
         font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 415px) and (max-height: 750px) {
+    #hero_text {
+        font-size: 2rem;
+    }
+
+    .nav-item-white {
+        font-size: 1rem;
+    }
+
+    #moto_text {
+        font-size: 1rem;
+    }
+
+    .cta-btn {
+        font-size: 0.75rem;
     }
 }
