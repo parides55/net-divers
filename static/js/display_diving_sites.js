@@ -1,4 +1,19 @@
-fetch('data/diving_sites_en.json')
+const currentPath = window.location.pathname;
+const currentFile = currentPath.split('/').pop(); // Get just the filename
+
+if (currentFile === 'explore_cy_gr.html') {
+    // Greek version
+    fetch('data/diving_sites_gr.json')
+        .then(response => response.json())
+        .then(data => {
+            displayDivingSites(data);
+        })
+        .catch(error => {
+            console.error('Error fetching JSON:', error);
+        });
+} else {
+    // English version
+    fetch('data/diving_sites_en.json')
     .then(response => response.json())
     .then(data => {
         displayDivingSites(data);
@@ -6,6 +21,7 @@ fetch('data/diving_sites_en.json')
     .catch(error => {
         console.error('Error fetching JSON:', error);
     });
+}
 
 function displayDivingSites(data) {
     const row = document.querySelector(".sites-row"); // container row
