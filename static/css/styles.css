@@ -551,7 +551,7 @@ iframe {
     }
 }
 
-@media (max-width: 415px) and (max-height: 750px) {
+@media (max-width: 415px) and (max-height: 740px) {
     #home-text-div {
         margin-top: 1rem;
     }
@@ -561,7 +561,7 @@ iframe {
     }
 
     #hero_text {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .nav-item-white {
@@ -569,10 +569,10 @@ iframe {
     }
 
     #moto_text {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .cta-btn {
-        font-size: 0.75rem;
+        font-size: 1rem;
     }
 }
