@@ -1,7 +1,7 @@
 const params = new URLSearchParams(window.location.search);
 const siteId = params.get("id");
 
-fetch('data/diving_sites.json')
+fetch('data/diving_sites_en.json')
     .then(response => response.json())
     .then(data => {
         const site = data.find(item => item.name === siteId); // pick the right one

@@ -1,7 +1,7 @@
 const params = new URLSearchParams(window.location.search);
 const courseId = params.get("id");
 
-fetch('data/courses_services.json')
+fetch('data/courses_services_en.json')
     .then(response => response.json())
     .then(data => {
         const course = data.find(item => item.title === courseId); // pick the right one

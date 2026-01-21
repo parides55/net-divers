@@ -1,4 +1,4 @@
-fetch('data/diving_sites.json')
+fetch('data/diving_sites_en.json')
     .then(response => response.json())
     .then(data => {
         displayDivingSites(data);
