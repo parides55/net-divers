@@ -1,12 +1,28 @@
-fetch('data/courses_services_en.json')
-    .then(response => response.json())
-    .then(data => {
-        printData(data);
-    })
-    .catch(error => {
-        console.error('Error fetching JSON:', error);
-    });
+const currentPath = window.location.pathname;
+const currentFile = currentPath.split('/').pop(); // Get just the filename
 
+
+if (currentFile === 'courses_and_services_gr.html') {
+    // Greek version
+    fetch('data/courses_services_gr.json')
+        .then(response => response.json())
+        .then(data => {
+            printData(data);
+        })
+        .catch(error => {
+            console.error('Error fetching JSON:', error);
+        });
+} else {
+    // English version
+    fetch('data/courses_services_en.json')
+        .then(response => response.json())
+        .then(data => {
+            printData(data);
+        })
+        .catch(error => {
+            console.error('Error fetching JSON:', error);
+        });
+}
 
 function printData(data) {
     const collapseOne = document.getElementById("collapseOne");
@@ -18,24 +34,50 @@ function printData(data) {
 
     data.forEach(course => {
         if (course.popular === "yes") {
-            collapseOne.appendChild(createCourseCard(course));
-        } 
+            collapseOne.appendChild(createCourseCardEN(course));
+        } else if (course.popular === "ναι") {
+            collapseOne.appendChild(createCourseCardGR(course));
+        }
 
         if (course.category === "Entry-Level") {
-            collapseTwo.appendChild(createCourseCard(course));
-        } else if (course.category === "Continuing Education") {
-            collapseThree.appendChild(createCourseCard(course));
-        } else if (course.category === "First Aid") {
-            collapseFour.appendChild(createCourseCard(course));
-        } else if (course.category === "Specialty") {
-            collapseFive.appendChild(createCourseCard(course));
-        } else if (course.category === "Leadership") {
-            collapseSix.appendChild(createCourseCard(course));
+            collapseTwo.appendChild(createCourseCardEN(course));
+        } else if (course.category === "Συνεχιζόμενη Εκπαίδευση") {
+            collapseTwo.appendChild(createCourseCardGR(course));
+        };
+
+        if (course.category === "Entry-Level") {
+            collapseTwo.appendChild(createCourseCardEN(course));
+        } else if (course.category === "Συνεχιζόμενη Εκπαίδευση") {
+            collapseTwo.appendChild(createCourseCardGR(course));
+        };
+
+        if (course.category === "Continuing Education") {
+            collapseThree.appendChild(createCourseCardEN(course));
+        } else if (course.category === "Εισαγωγικό Επίπεδο") {
+            collapseThree.appendChild(createCourseCardGR(course));
+        }
+
+        if (course.category === "First Aid") {
+            collapseFour.appendChild(createCourseCardEN(course));
+        } else if (course.category === "Πρώτες Βοήθειες") {
+            collapseFour.appendChild(createCourseCardGR(course));
+        }
+
+        if (course.category === "Specialty") {
+            collapseFive.appendChild(createCourseCardEN(course));
+        } else if (course.category === "Ειδικότητα") {
+            collapseFive.appendChild(createCourseCardGR(course));
+        }
+
+        if (course.category === "Leadership") {
+            collapseSix.appendChild(createCourseCardEN(course));
+        } else if (course.category === "Ηγεσία") {
+            collapseSix.appendChild(createCourseCardGR(course));
         }
     });
 };
 
-function createCourseCard(course) {
+function createCourseCardEN(course) {
     const col = document.createElement("div");
     col.classList.add("accordion-body");
 
@@ -44,9 +86,29 @@ function createCourseCard(course) {
             <img src="${course.image}" class="card-img-top" alt="${course.title}">
             <div class="card-body popular-card-body">
                 <h4 class="card-title fw-bold">${course.title}</h4>
-                <a href="course_info.html?id=${encodeURIComponent(course.title)}"
+                <a href="course_info_en.html?id=${encodeURIComponent(course.title)}"
                     class="btn btn-outline-primary">
                     View this course
+                </a>
+            </div>
+        </div>
+    `;
+
+    return col;
+}
+
+function createCourseCardGR(course) {
+    const col = document.createElement("div");
+    col.classList.add("accordion-body");
+
+    col.innerHTML = `
+        <div class="card courses-cards mb-5">
+            <img src="${course.image}" class="card-img-top" alt="${course.title}">
+            <div class="card-body popular-card-body">
+                <h4 class="card-title fw-bold">${course.title}</h4>
+                <a href="course_info_gr.html?id=${encodeURIComponent(course.title)}"
+                    class="btn btn-outline-primary">
+                    Δείτε το μάθημα
                 </a>
             </div>
         </div>
