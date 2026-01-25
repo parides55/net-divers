@@ -266,7 +266,7 @@
 }
 
 .courses-cards {
-    height: 400px;
+    height: 450px;
     width: 20rem;
 }
 
@@ -531,11 +531,7 @@ iframe {
     }
 
     .page-titles {
-        font-size: 4rem;
-    }
-
-    .card {
-        width: 100%;
+        font-size: 3.2rem;
     }
 
     .card-cols {
