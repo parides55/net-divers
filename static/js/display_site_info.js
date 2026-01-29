@@ -8,8 +8,15 @@ if (currentPath.includes('diving_site_info_gr.html')) {
     fetch('data/diving_sites_gr.json')
         .then(response => response.json())
         .then(data => {
-            const site = data.find(item => item.name === siteId); // pick the right one
+            const site = data.find(item => item.slug === siteId); // pick the right one
             displaySiteInfoGR(site);
+        })
+        .catch(error => console.error("Error fetching JSON:", error));
+    fetch('data/diving_sites_en.json')
+        .then(response => response.json())
+        .then(data => {
+            const site = data.find(item => item.slug === siteId); // pick the right one
+            setTranslationLinkEN(site);
         })
         .catch(error => console.error("Error fetching JSON:", error));
 } else {
@@ -17,8 +24,15 @@ if (currentPath.includes('diving_site_info_gr.html')) {
     fetch('data/diving_sites_en.json')
         .then(response => response.json())
         .then(data => {
-            const site = data.find(item => item.name === siteId); // pick the right one
+            const site = data.find(item => item.slug === siteId); // pick the right one
             displaySiteInfoEN(site);
+        })
+        .catch(error => console.error("Error fetching JSON:", error));
+    fetch('data/diving_sites_gr.json')
+        .then(response => response.json())
+        .then(data => {
+            const site = data.find(item => item.slug === siteId); // pick the right one
+            setTranslationLinkGR(site);
         })
         .catch(error => console.error("Error fetching JSON:", error));
 }
@@ -79,3 +93,14 @@ function displaySiteInfoGR(site) {
     document.getElementById("diving-site-image-div").classList.remove("hide");
     document.getElementById("diving-site-image-div").classList.add("animate__animated", "animate__fadeInRight", "animate__slower");
 };
+
+// Update translation link based on current page
+function setTranslationLinkEN() {
+    const siteTitle = document.getElementById("translation-link");
+    siteTitle.href = `diving_site_info_en.html?id=${siteId}`;
+}
+
+function setTranslationLinkGR() {
+    const siteTitle = document.getElementById("translation-link");
+    siteTitle.href = `diving_site_info_gr.html?id=${siteId}`;
+}
