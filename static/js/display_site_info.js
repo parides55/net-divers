@@ -8,15 +8,15 @@ if (currentPath.includes('diving_site_info_gr.html')) {
     fetch('data/diving_sites_gr.json')
         .then(response => response.json())
         .then(data => {
-            const site = data.find(item => item.slug === siteId); // pick the right one
+            const site = data.find(item => item.slug === siteId); // pick the right one;
             displaySiteInfoGR(site);
         })
         .catch(error => console.error("Error fetching JSON:", error));
     fetch('data/diving_sites_en.json')
         .then(response => response.json())
         .then(data => {
-            const site = data.find(item => item.slug === siteId); // pick the right one
-            setTranslationLinkEN(site);
+            const translateSite = data.find(item => item.slug === siteId); // pick the right one
+            setTranslationLinkEN(translateSite);
         })
         .catch(error => console.error("Error fetching JSON:", error));
 } else {
@@ -31,8 +31,8 @@ if (currentPath.includes('diving_site_info_gr.html')) {
     fetch('data/diving_sites_gr.json')
         .then(response => response.json())
         .then(data => {
-            const site = data.find(item => item.slug === siteId); // pick the right one
-            setTranslationLinkGR(site);
+            const translateSite = data.find(item => item.slug === siteId); // pick the right one
+            setTranslationLinkGR(translateSite);
         })
         .catch(error => console.error("Error fetching JSON:", error));
 }
