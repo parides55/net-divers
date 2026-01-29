@@ -32,7 +32,7 @@ function displayDivingSitesEN(data) {
         col.classList.add("mb-5");
 
         col.innerHTML = `
-            <a href="diving_site_info_en.html?id=${site.name}" class="text-decoration-none">
+            <a href="diving_site_info_en.html?id=${site.slug}" class="text-decoration-none">
                 <div class="card sites-cards">
                     <img src="${site.image}" class="card-img" alt="Image of ${site.name}">
                     <div class="card-img-overlay d-flex align-items-end">
@@ -54,7 +54,7 @@ function displayDivingSitesGR(data) {
         col.classList.add("mb-5");
 
         col.innerHTML = `
-            <a href="diving_site_info_gr.html?id=${site.name}" class="text-decoration-none">
+            <a href="diving_site_info_gr.html?id=${site.slug}" class="text-decoration-none">
                 <div class="card sites-cards">
                     <img src="${site.image}" class="card-img" alt="Image of ${site.name}">
                     <div class="card-img-overlay d-flex align-items-end">
