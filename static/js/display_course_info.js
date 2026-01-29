@@ -8,20 +8,38 @@ if (currentPath.includes('course_info_gr.html')) {
     fetch('data/courses_services_gr.json')
         .then(response => response.json())
         .then(data => {
-            const course = data.find(item => item.title === courseId); // pick the right one
+            const course = data.find(item => item.slug === courseId); // pick the right one
+            console.log('courseId in Greek:', courseId);
             displayCourseGR(course);
+        })
+        .catch(error => console.error("Error fetching JSON:", error));
+    fetch('data/courses_services_en.json')
+        .then(response => response.json())
+        .then(data => {
+            const courseTitle = data.find(item => item.slug === courseId); // pick the right one
+            console.log('courseId Translation:', courseId);
+            setTranslationLinkEN(courseTitle);
         })
         .catch(error => console.error("Error fetching JSON:", error));
 } else {
     // English version
-}   fetch('data/courses_services_en.json')
+    fetch('data/courses_services_en.json')
         .then(response => response.json())
         .then(data => {
-            const course = data.find(item => item.title === courseId); // pick the right one
+            const course = data.find(item => item.slug === courseId); // pick the right one
+            console.log('courseId:', courseId);
             displayCourseEN(course);
         })
         .catch(error => console.error("Error fetching JSON:", error));
-
+    fetch('data/courses_services_gr.json')
+        .then(response => response.json())
+        .then(data => {
+            const courseTitle = data.find(item => item.slug === courseId); // pick the right one
+            console.log('courseId Translation:', courseId);
+            setTranslationLinkGR(courseTitle);
+        })
+        .catch(error => console.error("Error fetching JSON:", error));
+};
 
 function displayCourseEN(course) {
     const container = document.getElementById("course-details-div");
@@ -76,3 +94,13 @@ function displayCourseGR(course) {
     document.getElementById("course-image-div").classList.remove("hide");
     document.getElementById("course-image-div").classList.add("animate__animated", "animate__fadeInRight", "animate__slower");
 };
+
+function setTranslationLinkEN(course) {
+    const translationLink = document.getElementById("translation-link");
+    translationLink.href = `course_info_en.html?id=${course.slug}`;
+}
+
+function setTranslationLinkGR(course) {
+    const translationLink = document.getElementById("translation-link");
+    translationLink.href = `course_info_gr.html?id=${course.slug}`;
+}
