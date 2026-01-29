@@ -86,7 +86,7 @@ function createCourseCardEN(course) {
             <img src="${course.image}" class="card-img-top" alt="${course.title}">
             <div class="card-body popular-card-body">
                 <h4 class="card-title fw-bold">${course.title}</h4>
-                <a href="course_info_en.html?id=${encodeURIComponent(course.title)}"
+                <a href="course_info_en.html?id=${encodeURIComponent(course.slug)}"
                     class="btn btn-outline-primary">
                     View this course
                 </a>
@@ -106,7 +106,7 @@ function createCourseCardGR(course) {
             <img src="${course.image}" class="card-img-top" alt="${course.title}">
             <div class="card-body popular-card-body">
                 <h4 class="card-title fw-bold">${course.title}</h4>
-                <a href="course_info_gr.html?id=${encodeURIComponent(course.title)}"
+                <a href="course_info_gr.html?id=${encodeURIComponent(course.slug)}"
                     class="btn btn-outline-primary">
                     Δείτε το μάθημα
                 </a>
