@@ -13,7 +13,7 @@
     "access": "Boat only from Larnaca harbour / dive boats. No shore entry — operators typically run regular trips to the site.",
     "tips": "Visibility is generally excellent (20-30 m+). Water temperature varies seasonally and supports year-round diving.",
     "popular": "yes",
-    "image": "static/images/zinovia.jpg"
+    "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1773501732/zinovia_vndia0.jpg"
   },
   {
     "slug": "cyclops-cave-often-just-called-cyclops",
@@ -29,7 +29,7 @@
     "access": "Shore entry — usually from rocky areas in Cape Greco / Konnos Bay; it can be a bit rugged, so some divers prefer a boat entry if available.",
     "tips": "Depth versatility: shallow start for beginners with deeper sections for experienced divers. Underwater scenery: dramatic boulders, sandy patches and Posidonia seagrass meadows. Good visibility, often 20 m+ in clear conditions. widely used for skill development (navigation, night dives, buoyancy control",
     "popular": "yes",
-    "image": "static/images/cyclops_cave.jpg"
+    "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1773501743/cyclops_cave_oxkmpu.jpg"
   },
   {
     "slug": "chapel-cape-greco-dive-site",
@@ -45,7 +45,7 @@
     "access": "Shore entry — walk down from the road/cape to the water via a trail or steps near the chapel. Entry is rocky and may require careful footing, but once in the water, the site opens up into diverse terrain.",
     "tips": "Varied topography: cliffs, ledges, and sandy pockets make the dive interesting at all levels. Marine biodiversity: typical Mediterranean life, good for photography and marine observation. Good visibility: often excellent water clarity, common in Cyprus dives. Training potential: useful for navigation, buoyancy practice, and night dives.",
     "popular": "yes",
-    "image": "static/images/lionfish.jpg"
+    "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774355850/ekklisaki_mytq7m.jpg"
   },
   {
     "slug": "green-bay-dive-site",
@@ -61,7 +61,7 @@
     "access": "Shore entry — walk-in from a shallow, calm bay. Easy entry/exit makes it perfect for new divers, snorkelers, or anyone preferring simple dive logistics.",
     "tips": "Beginner-friendly: gentle slope, shallow depths, calm conditions. Marine encounters: frequent turtles, abundant fish, and macro life. Underwater art & history: statues and amphora fragments add a cultural layer to the dive. Great for training: often used for Open Water certification dives.",
     "popular": "yes",
-    "image": "static/images/green_bay.jpg"
+    "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774355850/green_bay_y7m5nh.jpg"
   },
   {
     "slug": "hms-cricket-wreck",
@@ -77,7 +77,7 @@
     "access": "Boat only from Larnaca harbour or dive boats.",
     "tips": "A rare World War era vessel now providing habitat and dive interest. Swim-throughs under the hull and open areas make it engaging for advanced dive profiles. Often 20 m+ visibility, depending on conditions.",
     "popular": "no",
-    "image": "static/images/cricket.jpg"
+    "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1773501738/cricket_lwws6h.jpg"
   },
   {
     "slug": "liberty-wreck",
@@ -93,7 +93,7 @@
     "access": "Boat only — typically from Protaras/Ayia Napa dive boats",
     "tips": "A submerged cross and statue add a unique visual element close to the site. Visibility is often 20 m+ under good conditions.",
     "popular": "no",
-    "image": "static/images/liberty.jpg"
+    "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1773501772/liberty_kyqvxx.jpg"
   },
   {
     "slug": "nemesis-iii-wreck",
@@ -109,7 +109,7 @@
     "access": "Boat only — typically from Protaras/Ayia Napa dive boats.",
     "tips": "A smaller, manageable wreck perfect for wreck exploration training. Interior areas of the vessel offer interesting routes and photo opportunities",
     "popular": "no",
-    "image": "static/images/nemesis.jpg"
+    "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1773501772/nemesis_eiwx67.jpg"
   },
   {
     "slug": "sea-caves-cape-greco-caves",
@@ -125,7 +125,7 @@
     "access": "Shore entry — short walk down rocky ground to the sea",
     "tips": "Natural archways and tunnels make for exciting exploration without deep depths, dramatic white limestone cliffs and sea arches are famous photo spots. Great visibility. Typically excellent Mediterranean visibility, often 20 m+ in good conditions",
     "popular": "no",
-    "image": "static/images/sea-caves.JPG"
+    "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1773501734/sea-caves_rzmeid.jpg"
   },
   {
     "slug": "cliffs-canyon-dive-sites-cape-greco",
@@ -141,7 +141,7 @@
     "access": "From shore entry under cliffs (often requiring a careful walk to rocky ledges) and sometimes boat support to reach deeper cliff edges",
     "tips": "underwater terrain with drop-offs and varied contours. Divers can feel a 'free-fall sensation' down steeper walls.",
     "popular": "no",
-    "image": "static/images/cliffs.JPG"
+    "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1773501762/cliffs_vslmk1.jpg"
   },
   {
     "slug": "xylophagou-ormidia-dive-sites",
@@ -157,6 +157,6 @@
     "access": "Shore entry — usually walking down from roadside points to a rocky shoreline and entering by giant stride or careful steps",
     "tips": "Beginner-friendly shore diving, gentler depths and easy entry. Good visibility, often excellent conditions with clear Mediterranean water.",
     "popular": "no",
-    "image": "static/images/ormidia.jpg"
+    "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1773501778/ormidia_ltxbmb.jpg"
   }
 ]
