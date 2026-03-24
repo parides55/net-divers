@@ -9,7 +9,7 @@
         "min_dives": "Ο ελάχιστος αριθμός καταδύσεων ανοιχτής θάλασσας είναι έξι",
         "max_depth": "40 μέτρα (130 πόδια)",
         "certification": "Απαιτείται πιστοποίηση ως NAUI Καταδυτής Ανοιχτής Θάλασσας ή ισοδύναμη",
-        "image": "static/images/diving-sites-18.jpg",
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/advanced_open_water_fiyaqf.jpg",
         "popular": "ναι",
         "home_page": "ναι"
     },
@@ -37,7 +37,7 @@
         "min_dives": "Ο ελάχιστος αριθμός καταδύσεων ανοιχτής θάλασσας είναι τέσσερις",
         "max_depth": "40 μέτρα (130 πόδια)",
         "certification": "Απαιτείται πιστοποίηση ως NAUI Καταδυτής Ανοιχτής Θάλασσας ή ισοδύναμη",
-        "image": "static/images/netdivers-services-6.jpg",
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/master_diver_dcv2vz.jpg",
         "popular": "ναι",
         "home_page": "όχι"
     },
@@ -51,7 +51,7 @@
         "min_dives": "Δύο καταδύσεις ανοιχτής θάλασσας ενθαρρύνονται αλλά δεν απαιτούνται",
         "max_depth": "40 μέτρα (130 πόδια)",
         "certification": "Απαιτείται πιστοποίηση ως NAUI Καταδυτής Ανοιχτής Θάλασσας ή ισοδύναμη",
-        "image": "static/images/netdivers-services-7.jpg",
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/nitrox_diver_y26jvg.jpg",
         "popular": "ναι",
         "home_page": "όχι"
     },
@@ -107,7 +107,7 @@
         "min_dives": "Ο ελάχιστος αριθμός καταδύσεων ανοιχτής θάλασσας είναι τέσσερις.",
         "max_depth": "18 μέτρα (60 πόδια.)",
         "certification": "Δεν απαιτείται πιστοποίηση για να συμμετάσχετε σε αυτό το μάθημα",
-        "image": "static/images/netdivers-services-9.jpg",
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/open_water_dover_n01gbt.jpg",
         "popular": "ναι",
         "home_page": "ναι"
     },
@@ -149,7 +149,7 @@
         "min_dives": "ΔΕ",
         "max_depth": "ΔΕ",
         "certification": "Δεν απαιτείται πιστοποίηση κατάδυσης για να συμμετάσχετε σε αυτά τα μαθήματα",
-        "image": "static/images/diving-sites-18.jpg",
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774360024/CPR_mob16e.jpg",
         "popular": "όχι",
         "home_page": "όχι"
     },
@@ -163,7 +163,7 @@
         "min_dives": "ΔΕ",
         "max_depth": "ΔΕ",
         "certification": "Δεν απαιτείται πιστοποίηση κατάδυσης για να συμμετάσχετε σε αυτά τα μαθήματα",
-        "image": "static/images/diving-sites-18.jpg",
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774360025/diving_first_aid_kmzvbe.jpg",
         "popular": "ναι",
         "home_page": "όχι"
     },
@@ -177,7 +177,7 @@
         "min_dives": "ΔΕ",
         "max_depth": "ΔΕ",
         "certification": "Δεν απαιτείται πιστοποίηση κατάδυσης για να συμμετάσχετε σε αυτά τα μαθήματα",
-        "image": "static/images/diving-sites-18.jpg",
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774360025/emergency-oxygen_yyo7oj.jpg",
         "popular": "όχι",
         "home_page": "όχι"
     },
@@ -233,7 +233,7 @@
         "min_dives": "Ο ελάχιστος αριθμός καταδύσεων ανοιχτής θάλασσας είναι δύο",
         "max_depth": "40 μέτρα (130 πόδια)",
         "certification": "Απαιτείται πιστοποίηση ως NAUI Καταδυτής Ανοιχτής Θάλασσας Προχωρημένου Επιπέδου ή ισοδύναμη",
-        "image": "static/images/netdivers-services-9.jpg",
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/deep_diver_jpr5zc.jpg",
         "popular": "ναι",
         "home_page": "όχι"
     },
@@ -275,7 +275,7 @@
         "min_dives": "Ο ελάχιστος αριθμός καταδύσεων ανοιχτής θάλασσας είναι τρεις",
         "max_depth": "40 μέτρα (130 πόδια)",
         "certification": "Πιστοποίηση NAUI Καταδυτή ή ισοδύναμη",
-        "image": "static/images/netdivers-services-9.jpg",
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774360025/digital_imaging_u24skh.jpg",
         "popular": "όχι",
         "home_page": "όχι"
     },
@@ -289,7 +289,7 @@
         "min_dives": "Ο ελάχιστος αριθμός καταδύσεων ανοιχτής θάλασσας είναι δύο",
         "max_depth": "40 μέτρα (130 πόδια)",
         "certification": "Απαιτείται πιστοποίηση ως NAUI Καταδυτής Ανοιχτής Θάλασσας Προχωρημένου Επιπέδου ή ισοδύναμη",
-        "image": "static/images/netdivers-services-9.jpg",
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367202/wreck_diver_hwxwhv.jpg",
         "popular": "ναι",
         "home_page": "όχι"
     },
@@ -303,7 +303,7 @@
         "min_dives": "Μία κατάδυση σε περιορισμένο νερό",
         "max_depth": "Το μέγιστο βάθος για ιδανικές συνθήκες για οποιαδήποτε κατάδυση ανοιχτής θάλασσας είναι 12 μέτρα (40 πόδια)",
         "certification": "Δεν απαιτείται πιστοποίηση για να συμμετάσχετε σε αυτό το μάθημα.",
-        "image": "static/images/netdivers-services-9.jpg",
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/introduction_scuba_diver_huwp28.jpg",
         "popular": "ναι",
         "home_page": "όχι"
     },

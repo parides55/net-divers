@@ -9,7 +9,7 @@
     "min_dives": "The minimum number of open water dives is six",
     "max_depth": "40m (130 ft.)",
     "certification": " Certification as a NAUI Open Water Scuba Diver or the equivalent is required",
-    "image": "static/images/diving-sites-18.jpg",
+    "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/advanced_open_water_fiyaqf.jpg",
     "popular": "yes",
     "home_page": "yes"
   },
@@ -37,7 +37,7 @@
     "min_dives": "The minimum number of open water dives is four",
     "max_depth": " 40m (130 ft.)",
     "certification": "Certification as a NAUI Open Water Scuba Diver or the equivalent is required",
-    "image": "static/images/netdivers-services-6.jpg",
+    "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/master_diver_dcv2vz.jpg",
     "popular": "yes",
     "home_page": "no"
   },
@@ -51,7 +51,7 @@
     "min_dives": "Two open water dives are encouraged but not required",
     "max_depth": " 40m (130 ft.)",
     "certification": "certification as a NAUI Open Water Scuba Diver or the equivalent is required",
-    "image": "static/images/netdivers-services-7.jpg",
+    "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/nitrox_diver_y26jvg.jpg",
     "popular": "yes",
     "home_page": "no"
   },
@@ -107,7 +107,7 @@
     "min_dives": "The minimum number of open water dives is four.",
     "max_depth": "18m (60 ft.)",
     "certification": " There is no certification required to enter this course",
-    "image": "static/images/netdivers-services-9.jpg",
+    "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/open_water_dover_n01gbt.jpg",
     "popular": "yes",
     "home_page": "yes"
   },
@@ -149,7 +149,7 @@
     "min_dives": "NA",
     "max_depth": "NA",
     "certification": "Diving certification is not required to participate in these courses",
-    "image": "static/images/diving-sites-18.jpg",
+    "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774360024/CPR_mob16e.jpg",
     "popular": "no",
     "home_page": "no"
   },
@@ -163,7 +163,7 @@
     "min_dives": "NA",
     "max_depth": "NA",
     "certification": "Diving certification is not required to participate in these courses",
-    "image": "static/images/diving-sites-18.jpg",
+    "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774360025/diving_first_aid_kmzvbe.jpg",
     "popular": "yes",
     "home_page": "no"
   },
@@ -177,7 +177,7 @@
     "min_dives": "NA",
     "max_depth": "NA",
     "certification": "Diving certification is not required to participate in these courses",
-    "image": "static/images/diving-sites-18.jpg",
+    "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774360025/emergency-oxygen_yyo7oj.jpg",
     "popular": "no",
     "home_page": "no"
   },
@@ -233,7 +233,7 @@
     "min_dives": "The minimum number of open water dives is two",
     "max_depth": "40m (130ft)",
     "certification": " Certification as a NAUI Advanced Open Water Scuba Diver or the equivalent is required",
-    "image": "static/images/netdivers-services-9.jpg",
+    "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/deep_diver_jpr5zc.jpg",
     "popular": "yes",
     "home_page": "no"
   },
@@ -275,7 +275,7 @@
     "min_dives": "The minimum number of open water dives is three",
     "max_depth": "40m (130ft)",
     "certification": " NAUI Scuba Diver certification or equivalent",
-    "image": "static/images/netdivers-services-9.jpg",
+    "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774360025/digital_imaging_u24skh.jpg",
     "popular": "no",
     "home_page": "no"
   },
@@ -289,7 +289,7 @@
     "min_dives": "The minimum number of open water dives is two",
     "max_depth": "40m (130ft)",
     "certification": " Certification as a NAUI Advanced Open Water Scuba Diver or the equivalent is required",
-    "image": "static/images/netdivers-services-9.jpg",
+    "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367202/wreck_diver_hwxwhv.jpg",
     "popular": "yes",
     "home_page": "no"
   },
@@ -303,7 +303,7 @@
     "min_dives": "One confined water dive",
     "max_depth": "The maximum depth for ideal conditions for any open water dive is 12m (40ft)",
     "certification": "No certification required to enter this course.",
-    "image": "static/images/netdivers-services-9.jpg",
+    "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/introduction_scuba_diver_huwp28.jpg",
     "popular": "yes",
     "home_page": "no"
   },
