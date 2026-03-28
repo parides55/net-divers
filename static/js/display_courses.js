@@ -45,12 +45,6 @@ function printData(data) {
             collapseTwo.appendChild(createCourseCardGR(course));
         };
 
-        if (course.category === "Entry-Level") {
-            collapseTwo.appendChild(createCourseCardEN(course));
-        } else if (course.category === "Συνεχιζόμενη Εκπαίδευση") {
-            collapseTwo.appendChild(createCourseCardGR(course));
-        };
-
         if (course.category === "Continuing Education") {
             collapseThree.appendChild(createCourseCardEN(course));
         } else if (course.category === "Εισαγωγικό Επίπεδο") {
