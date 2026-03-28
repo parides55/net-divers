@@ -160,6 +160,8 @@
 .card-img-top {
     object-fit: cover;
     height: 230px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
 
 .popular-card-img-top {
@@ -257,8 +259,10 @@
 }
 
 .courses-cards {
-    height: 450px;
-    width: 20rem;
+    height: 28rem;
+    width: 14rem;
+    border: none;
+    border-radius: 0;
 }
 
 .courses-cards:hover,
