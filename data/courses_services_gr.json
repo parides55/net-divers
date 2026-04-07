@@ -65,7 +65,7 @@
         "min_dives": "ΔΕ",
         "max_depth": "Το βάθος περιορίζεται από τις ικανότητες, την εμπειρία και την προηγούμενη πιστοποίηση του συμμετέχοντος.",
         "certification": "Απαιτείται πιστοποίηση ως NAUI Καταδυτής ή ισοδύναμη",
-        "image": "static/images/netdivers-services-9.jpg",
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1775597157/refresher_plcj3s.jpg",
         "popular": "όχι",
         "home_page": "όχι"
     },
@@ -191,7 +191,7 @@
         "min_dives": "Ο ελάχιστος αριθμός καταδύσεων ανοιχτής θάλασσας είναι δύο",
         "max_depth": "40 μέτρα (130 πόδια)",
         "certification": "Πιστοποιημένος ως NAUI Καταδυτής Ανοιχτής Θάλασσας ή ισοδύναμος. – Πιστοποίηση ως NAUI Καταδυτής Διάσωσης ή ισοδύναμος. – Πιστοποιημένος ως NAUI Καταδυτής Νιτροξ ή ισοδύναμος. – Πιστοποιημένος ως NAUI Αρχιμαΐστρος Καταδυτής ή ισοδύναμος. – Τρέχουσα πιστοποίηση σε Πρώτες Βοήθειες Κατάδυσης για Επαγγελματίες Καταδύτες (DFA Pro) ή ισοδύναμη",
-        "image": "static/images/netdivers-services-9.jpg",
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1775597157/assistance_instructor_edn0nu.jpg",
         "popular": "όχι",
         "home_page": "όχι"
     },
@@ -205,7 +205,7 @@
         "min_dives": "Ο ελάχιστος αριθμός δραστηριοτήτων Divemaster ανοιχτής θάλασσας είναι 20, που διεξάγονται σε όχι λιγότερες από 10 καταδύσεις.",
         "max_depth": "40 μέτρα (130 πόδια)",
         "certification": "Πιστοποιημένος ως NAUI Καταδυτής Ανοιχτής Θάλασσας ή ισοδύναμος. – Πιστοποίηση ως NAUI Καταδυτής Διάσωσης ή ισοδύναμος. – Πιστοποιημένος ως NAUI Καταδυτής Νιτροξ ή ισοδύναμος. – Πιστοποιημένος ως NAUI Αρχιμαΐστρος Καταδυτής ή ισοδύναμος. – Τρέχουσα πιστοποίηση σε Πρώτες Βοήθειες Κατάδυσης για Επαγγελματίες Καταδύτες (DFA Pro) ή ισοδύναμη",
-        "image": "static/images/netdivers-services-9.jpg",
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1775597157/divemaster_ou4wkw.jpg",
         "popular": "όχι",
         "home_page": "όχι"
     },
@@ -247,7 +247,7 @@
         "min_dives": "Ο ελάχιστος αριθμός καταδύσεων ανοιχτής θάλασσας είναι δύο.",
         "max_depth": "40 μέτρα (130 πόδια)",
         "certification": "Ως μάθημα καταδύτη σκούμπα, απαιτείται πιστοποίηση ως NAUI Καταδυτής ή ισοδύναμη",
-        "image": "static/images/netdivers-services-9.jpg",
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1775597157/night_time_limited_vis_hvzlbs.png",
         "popular": "όχι",
         "home_page": "όχι"
     },
