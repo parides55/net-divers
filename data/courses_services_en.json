@@ -79,7 +79,7 @@
     "min_dives": "The minimum number of open water dives is two",
     "max_depth": " 18m (60 ft).",
     "certification": " Certification as a NAUI Open Water Scuba Diver or the equivalent is required",
-    "image": "static/images/netdivers-services-13.jpg",
+    "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1775553318/rescue_scuba_wamvtb.jpg",
     "popular": "yes",
     "home_page": "yes"
   },
@@ -93,7 +93,7 @@
     "min_dives": "The diver shall undertake the open water diving portion of the NAUI Open Water Scuba Diver course (four dives)",
     "max_depth": " 18m (60 ft.)",
     "certification": "No certification required to enter this course",
-    "image": "static/images/netdivers-services-6.jpg",
+    "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1775553318/experienced_l2xpg1.jpg",
     "popular": "no",
     "home_page": "no"
   },
@@ -261,7 +261,7 @@
     "min_dives": "The minimum number of open water dives is two",
     "max_depth": "40m (130ft)",
     "certification": " Certification as a NAUI Scuba Diver or the equivalent is required.",
-    "image": "static/images/netdivers-services-9.jpg",
+    "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1775507900/enhanced_image_ldhp0w.png",
     "popular": "yes",
     "home_page": "no"
   },
