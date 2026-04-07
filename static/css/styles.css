@@ -233,6 +233,13 @@
     margin: 10px 20px;
 }
 
+.card-img {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
 /* --------------------------- Courses and Services Page --------------------------- */
 .accordion-collapse {
     display: flex;
@@ -288,6 +295,7 @@
 .sites-cards {
     height: 500px;
     width: 300px;
+    border-radius: 0;
 }
 
 .sites-cards img {
