@@ -38,7 +38,7 @@ function printPopularCoursesEN(data) {
                 <img src="${course.image}" class="card-img-top popular-card-img-top" alt="${course.title}">
                 <div class="card-body popular-card-body">
                     <h4 class="card-title fw-bold">${course.title}</h4>
-                    <a href="course_info.html?id=${course.title}" class="btn btn-outline-primary">View this course</a>
+                    <a href="course_info_en.html?id=${encodeURIComponent(course.slug)}" class="btn btn-outline-primary">View this course</a>
                 </div>
             </div>
             `;
@@ -62,7 +62,7 @@ function printPopularCoursesGR(data) {
                 <img src="${course.image}" class="card-img-top popular-card-img-top" alt="${course.title}">
                 <div class="card-body popular-card-body">
                     <h4 class="card-title fw-bold">${course.title}</h4>
-                    <a href="course_info.html?id=${course.title}" class="btn btn-outline-primary">Δείτε το μάθημα</a>
+                    <a href="course_info_gr.html?id=${encodeURIComponent(course.slug)}" class="btn btn-outline-primary">Δείτε το μάθημα</a>
                 </div>
             </div>
             `;
