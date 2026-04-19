@@ -16,7 +16,7 @@
   {
     "slug": "dry-suit-diver",
     "title": "Drysuit Diver",
-    "category": "Continuing Education",
+    "category": "Continuing Education - TO REMOVE",
     "description": "This continuing education course provides the use of dry suits and how to become familiar and comfortable with their thermal protection options, controls, and buoyancy characteristics. Graduates are considered competent to engage in open water diving activities, while using a drysuit, without supervision, provided the diving environment, activities, areas dived, and equipment approximate those of training.",
     "min_age": "15 years by the water phase of the course.",
     "min_hours": "2 hours",
@@ -114,7 +114,7 @@
   {
     "slug": "recreational-hookah-diver",
     "title": "Recreational Hookah Diver",
-    "category": "Entry-Level",
+    "category": "Entry-Level - TO REMOVE",
     "description": "This entry-level certification course trains students how to use the hookah diving system. Graduates are considered competent to use the hookah diving system(s) used in training and engage in open water hookah diving activities without supervision, provided the diving environment, activities, areas dived, and equipment approximate those of training. This course does not qualify graduates as scuba divers. This course does not qualify graduates as scuba divers.",
     "min_age": " Minimum is 15 years by the water phase of the course",
     "min_hours": "17 hours including at least 10 water hours",
@@ -128,7 +128,7 @@
   {
     "slug": "supplied-air-snorkeling",
     "title": "Supplied Air Snorkeling",
-    "category": "Entry-Level",
+    "category": "Entry-Level - TO REMOVE",
     "description": "Explore from the surface with the use of positive flotation, surface only breathing-air devices, such as Supplied Air Snorkeling for Youth (SASY) or Scuba Air Snorkeling equipment. Students will become familiar with the manufacturers' recommendations regarding the operation and use of the selected equipment while maintaining positive buoyancy on the surface throughout the dive experience.",
     "min_age": "No minimum age",
     "min_hours": "No minimum",
@@ -212,7 +212,7 @@
   {
     "slug": "skin-diving-instructor",
     "title": "Skin Diving Instructor",
-    "category": "Leadership",
+    "category": "Leadership - TO REMOVE",
     "description": "This is a leadership level certification course designed to train and qualify persons and issue certifications in skin (breath-hold) diving. The course will make available to individuals; schools, camps, or similar groups NAUI leaders who can effectively teach people to enjoy skin diving with minimal risk.",
     "min_age": "Minimum age of 18 years prior to enrollment and start of training",
     "min_hours": "7 hours",
