@@ -3,12 +3,20 @@
     height: 100vh;
 }
 
-.screen-height-83 { /*-------Check if needed-------*/
+.screen-height-83 {
     height: 83vh;
 }
 
 .screen-height-80 {
     height: 80vh;
+}
+
+.container-fluid {
+    padding-right: 0;
+}
+
+.row {
+    margin-right: 0;
 }
 
 .page-titles {
@@ -389,6 +397,11 @@
     background: url(https://res.cloudinary.com/doy01c41z/image/upload/v1773501762/diving-team-swim-away_o4dngo.jpg) no-repeat center center/cover;
 }
 
+form {
+    width: 100%;
+    padding-right: 4px;
+}
+
 .footer-links {
     text-decoration: none;
 }
@@ -550,6 +563,11 @@
     .instructor-img {
         width: 270px;
         height: 250px;
+    }
+
+    form {
+        width: 90%;
+        padding-right: 0;
     }
 }
 
