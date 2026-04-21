@@ -77,7 +77,7 @@ function displayCourseEN(course) {
     </p>
         <div class="text-body-secondary d-flex justify-content-evenly">
             <a href="courses_and_services_en.html#courses-table" class="btn btn-outline-dark" >Back to courses</a>
-            <a href="mailto:christos@net-divers.com.cy?subject=Course Inquiry:%20${course.title}?" target="_blank" class="btn btn-success">Request Booking</a>
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal">Request Booking</button>
         </div>
     </div>
     `;
@@ -85,6 +85,7 @@ function displayCourseEN(course) {
     document.getElementById("course-image-div").src = course.image;
     document.getElementById("course-image-div").classList.remove("hide");
     document.getElementById("course-image-div").classList.add("animate__animated", "animate__fadeInRight", "animate__slower");
+    document.getElementById("modalLabel").textContent = `Booking Request for: ${course.title}`;
 };
 
 function displayCourseGR(course) {
@@ -103,8 +104,8 @@ function displayCourseGR(course) {
         </ul>
     </p>
         <div class="text-body-secondary d-flex justify-content-evenly">
-            <a href="courses_and_services_gr.html#courses-table" class="btn btn-outline-dark" >Επιστροφή στα μαθήματα</a>
-            <a href="mailto:christos@net-divers.com.cy?subject=Course Inquiry:%20${course.title}?" target="_blank" class="btn btn-success">Αίτημα κράτησης</a>
+            <a href="courses_and_services_gr.html#courses-table" class="btn btn-outline-dark me-2" >Επιστροφή στα μαθήματα</a>
+            <button type="button" class="btn btn-success ms-2" data-bs-toggle="modal" data-bs-target="#modal">Αίτημα κράτησης</button>
         </div>
     </div>
     `;
@@ -112,6 +113,7 @@ function displayCourseGR(course) {
     document.getElementById("course-image-div").src = course.image;
     document.getElementById("course-image-div").classList.remove("hide");
     document.getElementById("course-image-div").classList.add("animate__animated", "animate__fadeInRight", "animate__slower");
+    document.getElementById("modalLabel").textContent = `Αίτημα κράτησης για: ${course.title}`;
 };
 
 function setTranslationLinkEN(course) {

@@ -462,6 +462,10 @@ form {
         margin-top: 5rem;
     }
 
+    .btn {
+        --bs-btn-font-size: 0.8rem;
+    }
+
     #logo-image {
         width: 3.5rem;
     }
