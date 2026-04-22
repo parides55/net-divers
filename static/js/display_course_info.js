@@ -86,6 +86,7 @@ function displayCourseEN(course) {
     document.getElementById("course-image-div").classList.remove("hide");
     document.getElementById("course-image-div").classList.add("animate__animated", "animate__fadeInRight", "animate__slower");
     document.getElementById("modalLabel").textContent = `Booking Request for: ${course.title}`;
+    document.getElementById("course-name-input").value =`Booking request for the course: ${course.title}`;
 };
 
 function displayCourseGR(course) {
@@ -114,6 +115,7 @@ function displayCourseGR(course) {
     document.getElementById("course-image-div").classList.remove("hide");
     document.getElementById("course-image-div").classList.add("animate__animated", "animate__fadeInRight", "animate__slower");
     document.getElementById("modalLabel").textContent = `Αίτημα κράτησης για: ${course.title}`;
+    document.getElementById("course-name-input").value =`Αίτηση κράτησης για το μάθημα: ${course.title}`;
 };
 
 function setTranslationLinkEN(course) {
