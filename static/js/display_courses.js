@@ -87,6 +87,12 @@ function printData(data) {
         } else if (course.category === "Ηγεσία") {
             collapseSix.appendChild(createCourseCardGR(course));
         }
+
+        if (course.category === "More Courses") {
+            collapseSeven.appendChild(createCourseCardEN(course));
+        } else if (course.category === "Άλλα Μαθήματα") {
+            collapseSeven.appendChild(createCourseCardGR(course));
+        }
     });
 };
 
