@@ -60,13 +60,13 @@ function printData(data) {
 
         if (course.category === "Entry-Level") {
             collapseTwo.appendChild(createCourseCardEN(course));
-        } else if (course.category === "Συνεχιζόμενη Εκπαίδευση") {
+        } else if (course.category === "Εισαγωγικό Επίπεδο") {
             collapseTwo.appendChild(createCourseCardGR(course));
         };
 
         if (course.category === "Continuing Education") {
             collapseThree.appendChild(createCourseCardEN(course));
-        } else if (course.category === "Εισαγωγικό Επίπεδο") {
+        } else if (course.category === "Συνεχιζόμενη Εκπαίδευση") {
             collapseThree.appendChild(createCourseCardGR(course));
         }
 
