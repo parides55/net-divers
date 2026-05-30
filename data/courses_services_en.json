@@ -252,6 +252,20 @@
     "home_page": "no"
   },
   {
+    "slug": "adaptive-scuba-diver",
+    "title": "Adaptive Scuba Diver",
+    "category": "More Courses",
+    "description": "This NAUI program provides diving credentials to persons with disabilities whose disability prevents them from completing all requirements for certification in a NAUI Open Water Scuba Diver Standard. Graduates are considered competent to engage in open-water diving activities with allowances for their specific accommodations.",
+    "min_age": "Minimum is 15 years by the water phase of the course. Junior certification for ages 10-14 years is allowed.",
+    "min_hours": "17 hours including at least 10 water hours.",
+    "min_dives": "The minimum number of open water dives is four.",
+    "max_depth": "18m (60 ft.)",
+    "certification": "As an Open Water Scuba Diver course, certification as a NAUI Open Water Scuba Diver or the equivalent is required",
+    "image": "",
+    "popular": "no",
+    "home_page": "no"
+  },
+  {
     "slug": "refresher-scuba",
     "title": "Refresher Scuba",
     "category": "More Courses",
