@@ -26,6 +26,11 @@
     <link rel="preload" href="https://res.cloudinary.com/doy01c41z/image/upload/v1773501760/Green-Bay-deep-blue_mjklc9.jpg" as="image">
     <link rel="preload" href="https://res.cloudinary.com/doy01c41z/image/upload/v1773501762/diving-team-swim-away_o4dngo.jpg" as="image">
     
+    <!-- Brand fonts (Latin + Greek) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@400;500;600;700&family=Sofia+Sans+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     
@@ -84,83 +89,25 @@
     <!-- Scroll to Top Button -->
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <!-- Main Content -->
-    <section>        
-        <div class="container-fluid p-5">
-            <div class="row text-center animate__animated animate__fadeInDown animate__delay-1s">
+    <section class="page-section">
+        <div class="page-wrap">
+            <header class="page-header">
                 <h1 class="page-titles">Τα Μαθήματά μας</h1>
-            </div>
-            <div class="row about_us_paragraphs mt-5 animate__animated animate__fadeInUp animate__delay-1s">
-                <p>
-                    Προσφέρουμε μια ευρεία γκάμα μαθημάτων αυτόνομης κατάδυσης, προσαρμοσμένων σε όλα τα επίπεδα 
-                    εμπειρίας — από προγράμματα για αρχάριους που διδάσκουνται τις βασικές αρχές της κατάδυσης, έως 
-                    προχωρημένα μαθήματα που βελτιώνουν τις δεξιότητές σας και εμβαθύνουν τις γνώσεις σας για τον 
-                    υποβρύχιο κόσμο της θάλασσας. Για όσους επιθυμούν να επεκτείνουν την εμπειρία τους, προσφέρουμε 
-                    εξειδικευμένες καταδύσεις όπως καταδύσεις από στεριά ή με βάρκα, εξερεύνηση ναυαγίων και κατανόηση 
-                    λειτουργείας του υποβρύχιου κόσμου. Οι πιστοποιημένοι εκπαιδευτές μας παρέχουν επίσης απαραίτητη εκπαίδευση 
-                    πρώτων βοηθειών και αντιμετώπισης εκτάκτων αναγκών, διασφαλίζοντας ασφάλεια και αυτοπεποίθηση 
-                    τόσο πάνω όσο και κάτω από την επιφάνεια του νερού. Είτε παίρνετε την πρώτη σας ανάσα κάτω από το νερό 
-                    είτε αναζητάτε την επόμενη καταδυτική σας πρόκληση, έχουμε το κατάλληλο μάθημα για εσάς.
-                </p>
-            </div>
-            <div id="courses-table" class="row courses-row mt-5 animate__animated animate__fadeInLeft animate__delay-2s">
-                <div class="accordion p-0" id="accordionExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button fst-italic fw-bold fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Τα Πιο Δημοφιλή Μαθήματα
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample"></div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed fst-italic fw-bold fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Βασική Εκπαίδευση
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample"></div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed fst-italic fw-bold fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Μαθήματα Συνεχιζόμενης Εκπαίδευσης
-                            </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample"></div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed fst-italic fw-bold fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                Μαθήματα Πρώτων Βοηθειών
-                            </button>
-                        </h2>
-                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample"></div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed fst-italic fw-bold fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                Ειδική Εκπαίδευση
-                            </button>
-                        </h2>
-                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample"></div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed fst-italic fw-bold fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                Μαθήματα Ηγεσίας
-                            </button>
-                        </h2>
-                        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample"></div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed fst-italic fw-bold fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                Ακόμα Περισσότερα Μαθήματα
-                            </button>
-                        </h2>
-                        <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample"></div>
-                    </div>
+                <p class="page-lead">Προσφέρουμε μια ευρεία γκάμα μαθημάτων αυτόνομης κατάδυσης, προσαρμοσμένων σε όλα τα επίπεδα εμπειρίας — από προγράμματα για αρχάριους που διδάσκουνται τις βασικές αρχές της κατάδυσης, έως προχωρημένα μαθήματα που βελτιώνουν τις δεξιότητές σας και εμβαθύνουν τις γνώσεις σας για τον υποβρύχιο κόσμο της θάλασσας. Για όσους επιθυμούν να επεκτείνουν την εμπειρία τους, προσφέρουμε εξειδικευμένες καταδύσεις όπως καταδύσεις από στεριά ή με βάρκα, εξερεύνηση ναυαγίων και κατανόηση λειτουργείας του υποβρύχιου κόσμου. Οι πιστοποιημένοι εκπαιδευτές μας παρέχουν επίσης απαραίτητη εκπαίδευση πρώτων βοηθειών και αντιμετώπισης εκτάκτων αναγκών, διασφαλίζοντας ασφάλεια και αυτοπεποίθηση τόσο πάνω όσο και κάτω από την επιφάνεια του νερού. Είτε παίρνετε την πρώτη σας ανάσα κάτω από το νερό είτε αναζητάτε την επόμενη καταδυτική σας πρόκληση, έχουμε το κατάλληλο μάθημα για εσάς.</p>
+            </header>
+            <!-- Category filter: each data-filter must match a "category" value in the courses JSON -->
+            <div id="courses-table">
+                <div class="filter-pills" role="group" aria-label="Φιλτράρισμα μαθημάτων ανά κατηγορία">
+                    <button type="button" class="filter-pill active" data-filter="all" aria-pressed="true">Όλα τα μαθήματα</button>
+                    <button type="button" class="filter-pill" data-filter="popular" aria-pressed="false">Δημοφιλή</button>
+                    <button type="button" class="filter-pill" data-filter="Εισαγωγικό Επίπεδο" aria-pressed="false">Βασική εκπαίδευση</button>
+                    <button type="button" class="filter-pill" data-filter="Συνεχιζόμενη Εκπαίδευση" aria-pressed="false">Συνεχιζόμενη εκπαίδευση</button>
+                    <button type="button" class="filter-pill" data-filter="Πρώτες Βοήθειες" aria-pressed="false">Πρώτες βοήθειες</button>
+                    <button type="button" class="filter-pill" data-filter="Ειδικότητα" aria-pressed="false">Ειδική εκπαίδευση</button>
+                    <button type="button" class="filter-pill" data-filter="Ηγεσία" aria-pressed="false">Ηγεσία</button>
+                    <button type="button" class="filter-pill" data-filter="Άλλα Μαθήματα" aria-pressed="false">Περισσότερα μαθήματα</button>
                 </div>
+                <div id="courses-grid" class="course-grid"></div>
             </div>
             <div class="row mt-5">
                 <div class="col cta-buttons-div">
@@ -181,7 +128,7 @@
         </div>
     </section> 
 <!-- Footer -->
-    <footer id="footer-section" class="text-bg-dark">
+    <footer id="footer-section" class="site-footer">
         <div class="container-fluid">
             <div class="row pt-4">
                 <div class="col-6 col-md-4 col-lg-2 footer-images footer-image-1"></div>

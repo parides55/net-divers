@@ -30,6 +30,11 @@
     <link rel="preload" href="https://res.cloudinary.com/doy01c41z/image/upload/v1773501760/Green-Bay-deep-blue_mjklc9.jpg" as="image">
     <link rel="preload" href="https://res.cloudinary.com/doy01c41z/image/upload/v1773501762/diving-team-swim-away_o4dngo.jpg" as="image">
 
+    <!-- Brand fonts (Latin + Greek) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@400;500;600;700&family=Sofia+Sans+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 
@@ -44,7 +49,7 @@
 </head>
 <body>
     <!-- Hero section -->
-    <section id="home-section" class="text-center screen-height-83">
+    <section id="home-section">
         <!-- NavBar -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -53,7 +58,7 @@
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span>
-                        <svg class="burger-menu-icon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-list" viewBox="0 0 16 16">
+                        <svg class="burger-menu-icon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
                         </svg>
                     </span>
@@ -61,19 +66,19 @@
                 <div class="collapse navbar-collapse text-start" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link nav-item-white" href="courses_and_services_gr.html">Μαθήματα Καταδύσεων</a>
+                            <a class="nav-link nav-item-black" href="courses_and_services_gr.html">Μαθήματα Καταδύσεων</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-item-white" href="explore_cy_gr.html">Εξερεύνησε την Κύπρο</a>
+                            <a class="nav-link nav-item-black" href="explore_cy_gr.html">Εξερεύνησε την Κύπρο</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-item-white" aria-current="page" href="about_us_gr.html">Σχετικά με μας</a>
+                            <a class="nav-link nav-item-black" aria-current="page" href="about_us_gr.html">Σχετικά με μας</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-item-white" href="#footer-section">Επικοινωνία</a>
+                            <a class="nav-link nav-item-black" href="#footer-section">Επικοινωνία</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-item-white icon-link icon-link-hover" href="index_en.html">
+                            <a class="nav-link nav-item-black icon-link icon-link-hover" href="index_en.html">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
                                     <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z"/>
                                 </svg> EN
@@ -89,23 +94,21 @@
         <!-- Scroll to Top Button -->
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
         <!-- Text and CTA div -->
-        <div id="home-text-div" class="container-fluid screen-height-83">
+        <div id="home-text-div">
             <div class="row h-100">
                 <div class="col">
-                    <h1 id="hero_text" class="text-light animate__animated animate__fadeInDown animate__slower">Κάθε κατάδυση και μια ιστορία!</h1>
-                    <br><br>
-                    <h4 id="moto_text" class="text-light fst-italic animate__animated animate__zoomIn animate__delay-1s animate__slower">Ανακάλυψε τον Υποβρύχιο Κόσμο με τους NetDivers!</h4>
-                    <br><br><br>
+                    <h1 id="hero_text" class="animate__animated animate__fadeInDown animate__slower">Κάθε κατάδυση και μια ιστορία!</h1>
+                    <h4 id="moto_text" class="animate__animated animate__zoomIn animate__delay-1s animate__slower">Ανακάλυψε τον Υποβρύχιο Κόσμο με τους NetDivers!</h4>
                     <a class="btn btn-primary cta-btn animate__animated animate__fadeInUp animate__slower" href="secondary_gr.html">ΞΕΚΙΝΗΣΤΕ ΚΑΤΑΔΥΣΕΙΣ</a>
                 </div>
             </div>
         </div>
         <!-- Carousel -->
-        <div id="carouselExampleAutoplaying" class="carousel slide carousel-div" data-bs-ride="carousel">
+        <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade carousel-div" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="3000">
@@ -209,7 +212,7 @@
         </div>
     </section>
     <!-- Footer -->
-    <footer id="footer-section" class="text-bg-dark">
+    <footer id="footer-section" class="site-footer">
         <div class="container-fluid">
             <div class="row pt-4">
                 <div class="col-6 col-md-4 col-lg-2 footer-images footer-image-1"></div>

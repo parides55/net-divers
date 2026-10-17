@@ -54,13 +54,14 @@ function printPopularCoursesEN(data) {
             col.classList.add("card-cols")
             
             col.innerHTML = `
-            <div class="card popular-cards">
-                <img src="${course.image}" class="card-img-top popular-card-img-top" alt="${course.title}">
-                <div class="card-body popular-card-body">
-                    <h4 class="card-title fw-bold">${course.title}</h4>
-                    <a href="course_info_en.html?id=${encodeURIComponent(course.slug)}" class="btn btn-outline-primary">View this course</a>
+            <a class="course-card" href="course_info_en.html?id=${encodeURIComponent(course.slug)}">
+                <img src="${course.image}" alt="${course.title}" loading="lazy">
+                <div class="course-card-body">
+                    <h3 class="course-card-title">${course.title}</h3>
+                    ${depthTag(course, "Max depth", "m")}
+                    <span class="card-link">View this course <span aria-hidden="true">&rarr;</span></span>
                 </div>
-            </div>
+            </a>
             `;
             popularCoursesRow.appendChild(col);
         }
@@ -78,15 +79,24 @@ function printPopularCoursesGR(data) {
             col.classList.add("card-cols")
             
             col.innerHTML = `
-            <div class="card popular-cards">
-                <img src="${course.image}" class="card-img-top popular-card-img-top" alt="${course.title}">
-                <div class="card-body popular-card-body">
-                    <h4 class="card-title fw-bold">${course.title}</h4>
-                    <a href="course_info_gr.html?id=${encodeURIComponent(course.slug)}" class="btn btn-outline-primary">Δείτε το μάθημα</a>
+            <a class="course-card" href="course_info_gr.html?id=${encodeURIComponent(course.slug)}">
+                <img src="${course.image}" alt="${course.title}" loading="lazy">
+                <div class="course-card-body">
+                    <h3 class="course-card-title">${course.title}</h3>
+                    ${depthTag(course, "Μέγιστο βάθος", "μ.")}
+                    <span class="card-link">Δείτε το μάθημα <span aria-hidden="true">&rarr;</span></span>
                 </div>
-            </div>
+            </a>
             `;
             popularCoursesRow.appendChild(col);
         }
     });
 };
+
+// Small "Max depth 18 m" tag, read from the first number in max_depth.
+// Courses without a depth (e.g. first aid) get no tag.
+function depthTag(course, label, unit) {
+    const match = String(course.max_depth || "").match(/\d+/);
+    if (!match) return "";
+    return `<p class="depth-tag">${label} <strong>${match[0]} ${unit}</strong></p>`;
+}
