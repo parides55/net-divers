@@ -1,3 +1,99 @@
+/* --------------------------- Brand theme (Design B: daylight) --------------------------- */
+/* Change the palette here and the whole site follows. */
+:root {
+    --nd-ink: #0b2a3f;        /* navy: all text and headings */
+    --nd-ink-rgb: 11, 42, 63;
+    --nd-sea: #0077b6;        /* sea blue: links, buttons, colour band */
+    --nd-sea-dark: #005f92;
+    --nd-sea-rgb: 0, 119, 182;
+    --nd-shallow: #e6f4f5;    /* pale aqua: panels and footer */
+    --nd-gear: #ffc629;       /* dive-gear yellow: booking / main call to action */
+    --nd-gear-dark: #f0b400;
+
+    --nd-font-body: "Sofia Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --nd-font-display: "Sofia Sans Condensed", "Arial Narrow", "Roboto Condensed", var(--nd-font-body);
+
+    /* Bootstrap overrides */
+    --bs-primary: var(--nd-sea);
+    --bs-primary-rgb: var(--nd-sea-rgb);
+    --bs-dark: var(--nd-ink);
+    --bs-dark-rgb: var(--nd-ink-rgb);
+    --bs-body-color: var(--nd-ink);
+    --bs-body-color-rgb: var(--nd-ink-rgb);
+    --bs-heading-color: var(--nd-ink);
+    --bs-link-color: var(--nd-sea);
+    --bs-link-color-rgb: var(--nd-sea-rgb);
+    --bs-link-hover-color: var(--nd-sea-dark);
+    --bs-link-hover-color-rgb: 0, 95, 146;
+    --bs-body-font-family: var(--nd-font-body);
+    --bs-body-font-size: 1.0625rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--nd-font-display);
+    font-weight: 700;
+    line-height: 1.05;
+}
+
+.text-bg-primary :is(h1, h2, h3, h4, h5, h6),
+.text-bg-dark :is(h1, h2, h3, h4, h5, h6) {
+    color: inherit;
+}
+
+.btn {
+    font-weight: 600;
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--nd-sea);
+    --bs-btn-border-color: var(--nd-sea);
+    --bs-btn-hover-bg: var(--nd-sea-dark);
+    --bs-btn-hover-border-color: var(--nd-sea-dark);
+    --bs-btn-active-bg: var(--nd-sea-dark);
+    --bs-btn-active-border-color: var(--nd-sea-dark);
+    --bs-btn-disabled-bg: var(--nd-sea);
+    --bs-btn-disabled-border-color: var(--nd-sea);
+    --bs-btn-focus-shadow-rgb: var(--nd-sea-rgb);
+}
+
+.btn-outline-primary {
+    --bs-btn-color: var(--nd-sea-dark);
+    --bs-btn-border-color: var(--nd-sea);
+    --bs-btn-hover-bg: var(--nd-sea);
+    --bs-btn-hover-border-color: var(--nd-sea);
+    --bs-btn-active-bg: var(--nd-sea);
+    --bs-btn-active-border-color: var(--nd-sea);
+    --bs-btn-disabled-color: var(--nd-sea);
+    --bs-btn-disabled-border-color: var(--nd-sea);
+    --bs-btn-focus-shadow-rgb: var(--nd-sea-rgb);
+}
+
+/* The one "do this" button: hero CTA and booking requests */
+.btn-accent,
+.cta-btn {
+    --bs-btn-color: var(--nd-ink);
+    --bs-btn-bg: var(--nd-gear);
+    --bs-btn-border-color: var(--nd-gear);
+    --bs-btn-hover-color: var(--nd-ink);
+    --bs-btn-hover-bg: var(--nd-gear-dark);
+    --bs-btn-hover-border-color: var(--nd-gear-dark);
+    --bs-btn-active-color: var(--nd-ink);
+    --bs-btn-active-bg: var(--nd-gear-dark);
+    --bs-btn-active-border-color: var(--nd-gear-dark);
+    --bs-btn-focus-shadow-rgb: 255, 198, 41;
+}
+
+.form-control:focus {
+    border-color: var(--nd-sea);
+    box-shadow: 0 0 0 0.25rem rgba(var(--nd-sea-rgb), 0.25);
+}
+
+.depth-tag {
+    margin: 0.25rem 0 0;
+    font-size: 0.95rem;
+    color: var(--nd-sea-dark);
+}
+
 /* --------------------------- General styles --------------------------- */
 .fullscreen_height {
     height: 100vh;
@@ -20,13 +116,12 @@
 }
 
 .page-titles {
-    font-size: 5rem;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    font-size: clamp(2.75rem, 6vw, 5rem);
+    font-weight: 800;
 }
 
 .secondary-titles {
-    font-size: 3rem;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    font-size: clamp(2rem, 4vw, 3rem);
 }
 
 .hide {
@@ -41,7 +136,208 @@
 }
 
 .card {
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 20px rgba(var(--nd-ink-rgb), 0.1);
+}
+
+/* --------------------------- Shared page layout --------------------------- */
+.page-wrap {
+    max-width: 82rem;
+    margin-inline: auto;
+    padding: clamp(2rem, 5vw, 4rem) clamp(1.25rem, 4vw, 3rem) 1rem;
+}
+
+.page-header {
+    margin-bottom: 2.5rem;
+}
+
+.page-header .page-titles {
+    margin-bottom: 1rem;
+}
+
+.page-lead {
+    max-width: 68ch;
+    margin: 0;
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+
+/* Pills: category filter on the courses page, sort order on the explore page */
+.filter-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.filter-pill {
+    padding: 0.5rem 1.1rem;
+    border: 1px solid rgba(var(--nd-ink-rgb), 0.25);
+    border-radius: 999px;
+    background-color: #fff;
+    color: var(--nd-ink);
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.filter-pill:hover {
+    border-color: var(--nd-sea);
+    color: var(--nd-sea-dark);
+}
+
+.filter-pill.active {
+    border-color: var(--nd-ink);
+    background-color: var(--nd-ink);
+    color: #fff;
+}
+
+.filter-pill:focus-visible,
+.course-card:focus-visible,
+.site-row:focus-visible {
+    outline: 3px solid var(--nd-sea);
+    outline-offset: 3px;
+}
+
+.card-link {
+    font-weight: 600;
+    color: var(--nd-sea-dark);
+}
+
+/* Course card: used on the homepage and the courses page */
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.course-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid rgba(var(--nd-ink-rgb), 0.12);
+    border-radius: 0.75rem;
+    background-color: #fff;
+    color: var(--nd-ink);
+    text-align: left;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.course-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(var(--nd-ink-rgb), 0.14);
+    color: var(--nd-ink);
+}
+
+.course-card img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    background-color: var(--nd-shallow);
+}
+
+.course-card-body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 0.35rem;
+    padding: 1.1rem 1.25rem 1.25rem;
+}
+
+.course-card-category {
+    margin: 0;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--nd-sea-dark);
+}
+
+.course-card-title {
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+.course-card .depth-tag {
+    margin: 0;
+    color: var(--nd-ink);
+}
+
+.course-card .card-link {
+    margin-top: auto;
+    padding-top: 0.75rem;
+}
+
+.card-cols {
+    margin-bottom: 1.5rem;
+}
+
+/* Split hero for inner pages: text on white at the left, photo at the right */
+.split-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 6fr) minmax(0, 5fr);
+    grid-template-rows: auto 1fr;
+    min-height: 80vh;
+    background-color: #fff;
+}
+
+.split-hero > .navbar {
+    grid-column: 1 / -1;
+}
+
+.split-hero-text {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem clamp(1.5rem, 5vw, 5rem) 3.5rem;
+    /* line the text up with the .page-wrap content below */
+    padding-left: max(clamp(1.25rem, 4vw, 3rem), calc((100vw - 82rem) / 2 + 3rem));
+}
+
+.split-hero-photo {
+    grid-column: 2;
+    grid-row: 2;
+    min-height: 20rem;
+    border-top-left-radius: 3rem;
+    background-color: var(--nd-shallow);
+}
+
+@media (max-width: 991.98px) {
+    .split-hero {
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-rows: auto auto auto;
+        min-height: 0;
+    }
+
+    .split-hero-photo {
+        grid-column: 1;
+        grid-row: 2;
+        height: 40vh;
+        border-top-left-radius: 0;
+    }
+
+    .split-hero-text {
+        grid-row: 3;
+        padding-top: 2rem;
+        padding-bottom: 2.5rem;
+    }
+}
+
+/* Inner pages use a white navbar, like the homepage */
+.navbar.bg-body-tertiary {
+    background-color: #fff !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .course-card,
+    .site-row,
+    .filter-pill {
+        transition: none;
+    }
 }
 
 #myBtn {
@@ -53,7 +349,7 @@
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: red;
+    background-color: var(--nd-ink);
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -61,7 +357,7 @@
 }
 
 #myBtn:hover {
-    background-color: #555;
+    background-color: var(--nd-sea);
 }
 
 /* --------------------------- NavBar --------------------------- */
@@ -87,7 +383,7 @@
 
 .nav-item-black {
     font-size: 1.3rem;
-    color: black;
+    color: var(--nd-ink);
 }
 
 .nav-item-black:hover {
@@ -99,15 +395,41 @@
 }
 
 /* --------------------------- Home Page --------------------------- */
+/* Split hero: text on white at the left, photo at the right */
 #home-section {
     position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+    grid-template-rows: auto 1fr;
+    min-height: 88vh;
+    background-color: #fff;
+    color: var(--nd-ink);
+}
+
+#home-section > .navbar {
+    grid-column: 1 / -1;
 }
 
 #home-text-div {
+    grid-column: 1;
+    grid-row: 2;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-top: 10rem;
+    padding: 2rem clamp(1.5rem, 5vw, 5rem) 3.5rem;
+}
+
+#home-text-div > .row {
+    height: auto !important;
+    width: 100%;
+    margin: 0;
+}
+
+#home-text-div .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: clamp(1.25rem, 3.5vh, 2.25rem);
+    padding: 0;
 }
 
 .aboutUs-row-homepage {
@@ -116,34 +438,81 @@
 }
 
 #hero_text {
-    font-size: 4rem;
+    font-size: clamp(2.75rem, 6vw, 6rem);
+    font-weight: 800;
+    line-height: 0.95;
+    margin: 0;
+    text-wrap: balance;
 }
 
 #moto_text {
-    font-size: 1.5rem;
-    opacity: 0.75;
+    font-family: var(--nd-font-body);
+    font-size: clamp(1.1rem, 1.7vw, 1.4rem);
+    font-weight: 400;
+    line-height: 1.4;
+    max-width: 30ch;
+    margin: 0;
 }
 
 .cta-btn {
-    font-size: 1.5rem;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    padding: 0.8em 1.8em;
 }
 
 .carousel-div {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: -1;
+    grid-column: 2;
+    grid-row: 2;
+    position: relative;
+    min-height: 20rem;
+    overflow: hidden;
+    border-top-left-radius: 3rem; /* the one soft corner; set to 0 for a square photo */
+    background-color: var(--nd-shallow); /* shows while the first photo loads */
+}
+
+.carousel-div .carousel-inner,
+.carousel-div .carousel-item {
+    height: 100%;
 }
 
 .carousel-images {
-    height: 83vh;
+    position: absolute;
+    inset: 0;
+    height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
+@media (max-width: 991.98px) {
+    #home-section {
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-rows: auto auto auto;
+        min-height: 0;
+    }
+
+    .carousel-div {
+        grid-column: 1;
+        grid-row: 2;
+        height: 44vh;
+        border-top-left-radius: 0;
+    }
+
+    #home-text-div {
+        grid-row: 3;
+        padding-top: 2rem;
+        padding-bottom: 2.5rem;
+    }
+}
+
+/* Services row sits on a pale aqua panel instead of bordered columns */
+#statements-section {
+    margin: 0;
+    padding: 1.5rem 1rem 2.5rem;
+    background-color: var(--nd-shallow);
+}
+
 .statement-col {
-    border-left: 1px solid grey;
     padding: 1rem 2rem;
 }
 
@@ -171,18 +540,20 @@
     z-index: -1;
 }
 
+/* Scrim under the "Explore" link */
+#explore-cyprus-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(0deg, rgba(var(--nd-ink-rgb), 0.7) 0%, rgba(var(--nd-ink-rgb), 0) 55%);
+}
+
 #explore-cyprus-div {
     position: absolute;
     bottom: 15%;
     left: 74%;
     width: max-content;
-}
-
-.popular-cards {
-    height: 28rem;
-    border: none;
-    border-radius: 0;
-    margin: 1rem 0.5rem;
 }
 
 .card-img-top {
@@ -218,8 +589,20 @@
     z-index: -1;
 }
 
+/* Navy scrim so the white text reads over the video */
+#secondary::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-color: rgba(var(--nd-ink-rgb), 0.45);
+}
+
 #secondary_hero_text {
-    font-size: 4rem;
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    font-weight: 800;
+    line-height: 1;
 }
 
 #secondary-cta-div {
@@ -243,67 +626,151 @@
 }
 
 /* --------------------------- Explore CY Page --------------------------- */
-#explore_cy_hero_section {
-    background: url(https://res.cloudinary.com/doy01c41z/image/upload/v1773501763/fish-underwater_mvl1wk.jpg) no-repeat center center/cover;
+#explore_cy_hero_section .split-hero-photo {
+    background: var(--nd-shallow) url(https://res.cloudinary.com/doy01c41z/image/upload/v1773501763/fish-underwater_mvl1wk.jpg) no-repeat center center/cover;
 }
 
 #explore-title {
-    font-size: 60px;
-    padding-left: 2rem;
+    margin: 0;
+    font-size: clamp(2.75rem, 5.5vw, 5.5rem);
+    font-weight: 800;
+    line-height: 0.95;
 }
 
-#description_cy {
+#explore-paragraph {
+    max-width: 56ch;
+    margin: 0;
+    line-height: 1.65;
+}
+
+/* --------------------------- Diving sites list --------------------------- */
+#check-dive-sites-cta {
+    padding-left: 10rem;
+}
+
+.sites-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1rem 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.sites-header .secondary-titles {
+    margin: 0;
+}
+
+.sites-list {
+    border-top: 1px solid rgba(var(--nd-ink-rgb), 0.15);
+}
+
+/* One site per row: depth figure, photo, then name and summary */
+.site-row {
+    display: grid;
+    grid-template-columns: 7rem 17rem minmax(0, 1fr);
+    gap: 1.75rem;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    border-bottom: 1px solid rgba(var(--nd-ink-rgb), 0.15);
+    color: var(--nd-ink);
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.site-row:hover {
+    background-color: var(--nd-shallow);
+    color: var(--nd-ink);
+}
+
+.site-depth {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    padding: 0 20px;
-    margin: 10px 20px;
 }
 
-.card-img {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
+.site-depth-label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--nd-sea-dark);
 }
 
-/* --------------------------- Courses and Services Page --------------------------- */
-.accordion-collapse {
-    display: flex;
-    justify-content: flex-start;
-    overflow: auto;
+.site-depth-value {
+    font-family: var(--nd-font-display);
+    font-size: 3.25rem;
+    font-weight: 800;
+    line-height: 1;
 }
 
-.accordion-button:not(.collapsed) {
-    background-color: black;
-    color: white;
+.site-depth-value small {
+    font-size: 1.25rem;
+    font-weight: 700;
 }
 
-.accordion {
-    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #000;
+.site-row img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    background-color: var(--nd-shallow);
 }
 
+.site-name {
+    margin: 0 0 0.15rem;
+    font-size: 1.9rem;
+}
+
+.site-city {
+    margin: 0 0 0.5rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--nd-sea-dark);
+}
+
+.site-excerpt {
+    max-width: 62ch;
+    margin: 0 0 0.75rem;
+}
+
+.site-excerpt::first-letter {
+    text-transform: uppercase;
+}
+
+@media (max-width: 767.98px) {
+    .site-row {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 0.9rem;
+        padding: 1.5rem 0;
+    }
+
+    .site-row img {
+        order: -1;
+        aspect-ratio: 16 / 9;
+    }
+
+    .site-depth {
+        flex-direction: row;
+        align-items: baseline;
+        gap: 0.5rem;
+    }
+
+    .site-depth-value {
+        font-size: 2rem;
+    }
+}
+
+/* --------------------------- Course and dive site detail pages --------------------------- */
 .course-image,
 .diving-site-image {
     width: 50%;
+    object-fit: cover;
+    border-top-left-radius: 3rem;
 }
 
-.accordion-item {
-    border: none;
-}
-
-.courses-cards {
-    height: 30rem;
-    width: 14rem;
-    border: none;
-    border-radius: 0;
-}
-
-.courses-cards:hover,
-.sites-cards:hover {
-    transform: scale(1.01);
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.9);
+@media (max-width: 1024px) {
+    .course-image,
+    .diving-site-image {
+        border-top-left-radius: 0;
+    }
 }
 
 .course-info-image {
@@ -311,25 +778,33 @@
     width: auto;
 }
 
-/* --------------------------- Diving Sites Page --------------------------- */
-#check-dive-sites-cta {
-    padding-left: 10rem;
+.detail-title {
+    margin-bottom: 1.25rem;
+    font-size: clamp(2.25rem, 4.5vw, 3.75rem);
+    font-weight: 800;
 }
 
-.sites-row {
-    margin: 0 2rem;
+/* Key facts panel */
+.fact-list {
+    display: grid;
+    gap: 0.9rem;
+    margin: 1.5rem 0;
+    padding: 1.25rem 1.5rem;
+    border-radius: 0.75rem;
+    background-color: var(--nd-shallow);
+    list-style: none;
 }
 
-.sites-cards {
-    height: 500px;
-    width: 300px;
-    border-radius: 0;
+.fact-list strong {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--nd-sea-dark);
 }
 
-.sites-cards img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+.detail-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
 }
 
 /* --------------------------- About Us Page --------------------------- */
@@ -342,6 +817,7 @@
     height: 300px;
     border-radius: 50%;
     margin: 1rem;
+    object-fit: cover;
 }
 
 .gallery-img{
@@ -351,11 +827,11 @@
 }
 
 .about_us_paragraphs {
-    padding: 0 100px;
-    line-height: 35px;
-    letter-spacing: 2px;
+    max-width: 68ch;
+    margin-inline: auto;
+    line-height: 1.7;
     text-align: start;
-    font-size: large;
+    font-size: 1.125rem;
 }
 
 .cta-about-us {
@@ -370,6 +846,15 @@
 }
 
 /* --------------------------- Footer --------------------------- */
+.site-footer {
+    background-color: var(--nd-shallow);
+    color: var(--nd-ink);
+}
+
+.site-footer a {
+    color: var(--nd-sea-dark);
+}
+
 .footer-images {
     height: 170px;
 }
@@ -428,9 +913,6 @@ form {
 }
 
 @media (max-width: 992px) {
-    .about_us_paragraphs {
-        padding: 0 10px;
-    }
 
     .cta-buttons-div {
         gap: 2rem;
@@ -458,9 +940,6 @@ form {
 }
 
 @media (max-width: 576px) {
-    #home-text-div {
-        margin-top: 5rem;
-    }
 
     .btn {
         --bs-btn-font-size: 0.8rem;
@@ -504,7 +983,7 @@ form {
         display: flex;
         flex-direction: column;
         align-items: center;
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid rgba(var(--nd-ink-rgb), 0.2);
         padding-bottom: 1rem;
     }
 
@@ -519,49 +998,17 @@ form {
 }
 
 @media (max-width: 430px) {
-    #hero_text {
-        font-size: 2.8rem;
-    }
-
-    #moto_text {
-        font-size: 1rem;
-    }
-
-    .cta-btn {
-        font-size: 1rem;
-    }
 
     #explore-cyprus-div {
         left: 17%;
-    }
-
-    #explore-title {
-        font-size: 40px;
-        padding-left: 0;
-    }
-
-    #explore-paragraph {
-        font-size: 13px;
     }
 
     #check-dive-sites-cta {
         padding-left: 0rem;
     }
 
-    .page-titles {
-        font-size: 3.2rem;
-    }
-
     .card-cols {
         padding: 0;
-    }
-
-    #secondary_hero_text {
-        font-size: 3rem;
-    }
-
-    .secondary-titles {
-        font-size: 2.5rem;
     }
 
     .instructor-img {
@@ -582,36 +1029,8 @@ form {
         width: 3.5rem;
     }
 
-    #hero_text {
-        font-size: 2.3rem;
-    }
-
-    #moto_text {
-        font-size: 0.8rem;
-    }
-
-    .cta-btn {
-        font-size: 0.8rem;
-    }
-
     .nav-item-white {
         font-size: 1rem;
-    }
-
-    #moto_text {
-        font-size: 1.2rem;
-    }
-
-    .page-titles {
-        font-size: 2.6rem;
-    }
-
-    .about_us_paragraphs {
-        letter-spacing: 0px;
-    }
-
-    #description_cy {
-        margin: 5px 15px;
     }
 
     .instructor-img {
@@ -621,9 +1040,6 @@ form {
 }
 
 @media (max-width: 320px) and (max-height: 568px) {
-    #home-text-div {
-        margin-top: 1rem;
-    }
 
     .burger-menu-icon {
         width: 30px;
@@ -634,40 +1050,8 @@ form {
         width: 2.5rem;
     }
 
-    #hero_text {
-        font-size: 2rem;
-    }
-
-    #moto_text {
-        font-size: 0.8rem;
-    }
-
-    .cta-btn {
-        font-size: 0.8rem;
-    }
-
     .nav-item-white {
         font-size: 1rem;
-    }
-
-    #moto_text {
-        font-size: 0.9rem;
-    }
-
-    .page-titles {
-        font-size: 2.2rem;
-    }
-
-    .about_us_paragraphs {
-        letter-spacing: 0px;
-    }
-
-    #explore-title {
-        font-size: 30px;
-    }
-
-    #explore-paragraph {
-        font-size: 9px;
     }
 
     .instructor-img {

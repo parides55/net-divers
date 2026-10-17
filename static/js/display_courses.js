@@ -21,117 +21,78 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
-if (currentFile === 'courses_and_services_gr.html') {
-    // Greek version
-    fetch('data/courses_services_gr.json')
-        .then(response => response.json())
-        .then(data => {
-            printData(data);
-        })
-        .catch(error => {
-            console.error('Error fetching JSON:', error);
-        });
-} else {
-    // English version
-    fetch('data/courses_services_en.json')
-        .then(response => response.json())
-        .then(data => {
-            printData(data);
-        })
-        .catch(error => {
-            console.error('Error fetching JSON:', error);
-        });
-}
+const isGreek = currentFile === 'courses_and_services_gr.html';
 
-function printData(data) {
-    const collapseOne = document.getElementById("collapseOne");
-    const collapseTwo = document.getElementById("collapseTwo");
-    const collapseThree = document.getElementById("collapseThree");
-    const collapseFour = document.getElementById("collapseFour");
-    const collapseFive = document.getElementById("collapseFive");
-    const collapseSix = document.getElementById("collapseSix");
+const TEXT = isGreek
+    ? { data: 'data/courses_services_gr.json', page: 'course_info_gr.html', view: 'Δείτε το μάθημα', depth: 'Μέγιστο βάθος', unit: 'μ.' }
+    : { data: 'data/courses_services_en.json', page: 'course_info_en.html', view: 'View this course', depth: 'Max depth', unit: 'm' };
 
-    data.forEach(course => {
-        if (course.popular === "yes") {
-            collapseOne.appendChild(createCourseCardEN(course));
-        } else if (course.popular === "ναι") {
-            collapseOne.appendChild(createCourseCardGR(course));
-        }
+const grid = document.getElementById("courses-grid");
+const pills = Array.from(document.querySelectorAll(".filter-pill"));
 
-        if (course.category === "Entry-Level") {
-            collapseTwo.appendChild(createCourseCardEN(course));
-        } else if (course.category === "Εισαγωγικό Επίπεδο") {
-            collapseTwo.appendChild(createCourseCardGR(course));
-        };
+// The pills in the HTML decide which categories are shown and what they are called.
+// A course whose category has no pill stays hidden, exactly as before.
+const categoryLabels = {};
+pills.forEach(pill => {
+    const key = pill.dataset.filter;
+    if (key !== "all" && key !== "popular") categoryLabels[key] = pill.textContent.trim();
+});
 
-        if (course.category === "Continuing Education") {
-            collapseThree.appendChild(createCourseCardEN(course));
-        } else if (course.category === "Συνεχιζόμενη Εκπαίδευση") {
-            collapseThree.appendChild(createCourseCardGR(course));
-        }
+let courses = [];
 
-        if (course.category === "First Aid") {
-            collapseFour.appendChild(createCourseCardEN(course));
-        } else if (course.category === "Πρώτες Βοήθειες") {
-            collapseFour.appendChild(createCourseCardGR(course));
-        }
-
-        if (course.category === "Specialty") {
-            collapseFive.appendChild(createCourseCardEN(course));
-        } else if (course.category === "Ειδικότητα") {
-            collapseFive.appendChild(createCourseCardGR(course));
-        }
-
-        if (course.category === "Leadership") {
-            collapseSix.appendChild(createCourseCardEN(course));
-        } else if (course.category === "Ηγεσία") {
-            collapseSix.appendChild(createCourseCardGR(course));
-        }
-
-        if (course.category === "More Courses") {
-            collapseSeven.appendChild(createCourseCardEN(course));
-        } else if (course.category === "Άλλα Μαθήματα") {
-            collapseSeven.appendChild(createCourseCardGR(course));
-        }
+fetch(TEXT.data)
+    .then(response => response.json())
+    .then(data => {
+        courses = data.filter(course => course.category in categoryLabels);
+        showCourses("all");
+    })
+    .catch(error => {
+        console.error('Error fetching JSON:', error);
     });
-};
 
-function createCourseCardEN(course) {
-    const col = document.createElement("div");
-    col.classList.add("accordion-body");
+pills.forEach(pill => {
+    pill.addEventListener("click", () => {
+        pills.forEach(other => {
+            const isActive = other === pill;
+            other.classList.toggle("active", isActive);
+            other.setAttribute("aria-pressed", isActive);
+        });
+        showCourses(pill.dataset.filter);
+    });
+});
 
-    col.innerHTML = `
-        <div class="card courses-cards mb-5">
-            <img src="${course.image}" class="card-img-top" alt="${course.title}">
-            <div class="card-body popular-card-body">
-                <h4 class="card-title fw-bold">${course.title}</h4>
-                <a href="course_info_en.html?id=${encodeURIComponent(course.slug)}"
-                    class="btn btn-outline-primary">
-                    View this course
-                </a>
-            </div>
-        </div>
-    `;
-
-    return col;
+function isPopular(course) {
+    return course.popular === "yes" || course.popular === "ναι";
 }
 
-function createCourseCardGR(course) {
-    const col = document.createElement("div");
-    col.classList.add("accordion-body");
+function showCourses(filter) {
+    grid.innerHTML = "";
+    courses
+        .filter(course => {
+            if (filter === "all") return true;
+            if (filter === "popular") return isPopular(course);
+            return course.category === filter;
+        })
+        .forEach(course => grid.appendChild(createCourseCard(course)));
+}
 
-    col.innerHTML = `
-        <div class="card courses-cards mb-5">
-            <img src="${course.image}" class="card-img-top" alt="${course.title}">
-            <div class="card-body popular-card-body">
-                <h4 class="card-title fw-bold">${course.title}</h4>
-                <a href="course_info_gr.html?id=${encodeURIComponent(course.slug)}"
-                    class="btn btn-outline-primary">
-                    Δείτε το μάθημα
-                </a>
-            </div>
+function createCourseCard(course) {
+    const card = document.createElement("a");
+    card.className = "course-card";
+    card.href = `${TEXT.page}?id=${encodeURIComponent(course.slug)}`;
+
+    // First number in max_depth, e.g. "18m (60 ft.)" -> 18. No number, no tag.
+    const depth = String(course.max_depth || "").match(/\d+/);
+
+    card.innerHTML = `
+        <img src="${course.image}" alt="${course.title}" loading="lazy">
+        <div class="course-card-body">
+            <p class="course-card-category">${categoryLabels[course.category]}</p>
+            <h3 class="course-card-title">${course.title}</h3>
+            ${depth ? `<p class="depth-tag">${TEXT.depth} <strong>${depth[0]} ${TEXT.unit}</strong></p>` : ""}
+            <span class="card-link">${TEXT.view} <span aria-hidden="true">&rarr;</span></span>
         </div>
     `;
 
-    return col;
+    return card;
 }
