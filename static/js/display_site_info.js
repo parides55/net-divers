@@ -92,12 +92,9 @@ function displaySiteInfoGR(site) {
     <p>${site.description}</p>
     <p>
         <ul>
-            <li><strong>Πόλη:</strong> ${site.city}</li>
             <li><strong>Τοποθεσία:</strong> ${site.location}</li>
             <li><strong>Μέγιστο βάθος:</strong> ${site.depth}</li>
-            <li><strong>Απαιτούμενη πιστοποίηση:</strong> ${site.certification}</li>
-            <li><strong>Είδη θαλάσσιας ζωής:</strong> ${site.marine_life}</li>
-            <li><strong>Τύπος καταδύσεων:</strong> ${site.dive_type}</li>
+            <li><strong>Απαιτούμενη πιστοποίηση:</strong> ${site.difficulty}</li>
             <li><strong>Πρόσβαση:</strong> ${site.access}</li>
             <li><strong>Συμβουλές:</strong> ${site.tips}</li>
         </ul>
