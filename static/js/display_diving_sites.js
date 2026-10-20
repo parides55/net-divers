@@ -24,8 +24,8 @@ function topFunction() {
 const isGreek = currentFile === 'explore_cy_gr.html';
 
 const TEXT = isGreek
-    ? { data: 'data/diving_sites_gr.json', page: 'diving_site_info_gr.html', view: 'Δείτε το σημείο', depth: 'Μέγιστο βάθος', unit: 'μ.', alt: 'Φωτογραφία:' }
-    : { data: 'data/diving_sites_en.json', page: 'diving_site_info_en.html', view: 'View dive site', depth: 'Max depth', unit: 'm', alt: 'Image of' };
+    ? { data: 'data/diving_sites_gr.json', page: 'diving_site_info_gr.html', view: 'Δείτε το σημείο', access: 'Πρόσβαση', alt: 'Φωτογραφία:' }
+    : { data: 'data/diving_sites_en.json', page: 'diving_site_info_en.html', view: 'View dive site', access: 'Access', alt: 'Image of' };
 
 const list = document.querySelector(".sites-list");
 const sortPills = Array.from(document.querySelectorAll(".filter-pill"));
@@ -63,6 +63,12 @@ function maxDepth(text) {
     return { maxDepth: deepest.value, depthPlus: deepest.plus };
 }
 
+// Short access for the list: the first sentence of "access", without the full stop,
+// e.g. "Boat access only. Organised trips operate..." -> "Boat access only".
+function shortAccess(text) {
+    return String(text || "").split(".")[0].trim();
+}
+
 // Short place name for the list: the part of "location" before the first comma.
 function shortLocation(text) {
     return String(text || "").split(",")[0].trim();
@@ -85,10 +91,10 @@ function createSiteRow(site) {
     row.href = `${TEXT.page}?id=${site.slug}`;
 
     row.innerHTML = `
-        <div class="site-depth">
-            ${site.maxDepth !== null ? `
-            <span class="site-depth-label">${TEXT.depth}</span>
-            <span class="site-depth-value">${site.maxDepth}${site.depthPlus ? "+" : ""}<small> ${TEXT.unit}</small></span>` : ""}
+        <div class="site-access">
+            ${site.access ? `
+            <span class="site-access-label">${TEXT.access}</span>
+            <span class="site-access-value">${shortAccess(site.access)}</span>` : ""}
         </div>
         <img src="${site.image}" alt="${TEXT.alt} ${site.name}" loading="lazy">
         <div class="site-text">

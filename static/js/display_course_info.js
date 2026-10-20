@@ -65,14 +65,14 @@ function displayCourseEN(course) {
     
     container.innerHTML = `
     <h1 class="detail-title">${course.title}</h1>
-    <p>${course.description}</p>
-    <ul class="fact-list">
+    <p class="detail-description">${course.description}</p>
+    ${hasFacts(course) ? `<ul class="fact-list">
             <li><strong>Minimum age:</strong> ${course.min_age}</li>
             <li><strong>Minimum hours:</strong> ${course.min_hours}</li>
             <li><strong>Minimum dives:</strong> ${course.min_dives}</li>
             <li><strong>Maximum depth:</strong> ${course.max_depth}</li>
             <li><strong>Certification required:</strong> ${course.certification}</li>
-        </ul>
+        </ul>` : ""}
         <div class="detail-actions">
             <a href="courses_and_services_en.html#courses-table" class="btn btn-outline-primary" >Back to courses</a>
             <button type="button" class="btn btn-accent" data-bs-toggle="modal" data-bs-target="#modal">Request Booking</button>
@@ -92,14 +92,14 @@ function displayCourseGR(course) {
     
     container.innerHTML = `
     <h1 class="detail-title">${course.title}</h1>
-    <p>${course.description}</p>
-    <ul class="fact-list">
+    <p class="detail-description">${course.description}</p>
+    ${hasFacts(course) ? `<ul class="fact-list">
             <li><strong>Ελάχιστη ηλικία:</strong> ${course.min_age}</li>
             <li><strong>Ελάχιστες ώρες:</strong> ${course.min_hours}</li>
             <li><strong>Ελάχιστες καταδύσεις:</strong> ${course.min_dives}</li>
             <li><strong>Μέγιστο βάθος:</strong> ${course.max_depth}</li>
             <li><strong>Απαιτούμενη πιστοποίηση:</strong> ${course.certification}</li>
-        </ul>
+        </ul>` : ""}
         <div class="detail-actions">
             <a href="courses_and_services_gr.html#courses-table" class="btn btn-outline-primary" >Επιστροφή στα μαθήματα</a>
             <button type="button" class="btn btn-accent" data-bs-toggle="modal" data-bs-target="#modal">Αίτημα κράτησης</button>
@@ -122,4 +122,10 @@ function setTranslationLinkEN(course) {
 function setTranslationLinkGR(course) {
     const translationLink = document.getElementById("translation-link");
     translationLink.href = `course_info_gr.html?id=${course.slug}`;
+}
+
+// The "More Courses" card lists several courses in its description,
+// so it has no single age, hours, dives or depth to show.
+function hasFacts(course) {
+    return !["More Courses", "Άλλα Μαθήματα"].includes(course.category);
 }

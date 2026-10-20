@@ -93,7 +93,7 @@
         <div class="split-hero-text">
             <h1 id="explore-title">Explore<br>Cyprus<br>Underwater</h1>
             <p id="explore-paragraph">Cyprus is a scuba diver's paradise, offering crystal-clear waters, diverse marine life, and some of the best diving conditions in the Mediterranean. With its warm climate and impressive underwater visibility, the island is ideal for both beginners and advanced divers. From vibrant reefs and fascinating sea caves to historic shipwrecks like the world-famous Zenobia, Cyprus provides unforgettable diving experiences year-round. Whether you're seeking adventure, exploration, or tranquility beneath the waves, Cyprus is the perfect destination to dive in and discover.</p>
-            <a class="btn btn-primary btn-lg" href="#diving-sites-section">See the dive sites</a>
+            <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#diveMapModal">See the dive sites</button>
         </div>
         <div class="split-hero-photo" role="img" aria-label="Fish swimming over the sea bed in Cyprus"></div>
     </section>
@@ -111,18 +111,8 @@
             <div class="sites-list"></div>
             <div class="row mt-5">
                 <div class="col cta-buttons-div">
-                    <a class="icon-link icon-link-hover text-black text-decoration-none fs-4 fst-italic pe-4" href="courses_and_services_en.html">
-                        Check our Diving Courses
-                        <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
-                            <path d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                        </svg>
-                    </a>
-                    <a class="icon-link icon-link-hover text-black text-decoration-none fs-4 fst-italic pe-4" href="about_us_en.html">
-                        More About us
-                        <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
-                            <path d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                        </svg>
-                    </a>
+                    <a class="btn cta-btn" href="courses_and_services_en.html">Check our Diving Courses</a>
+                    <a class="btn cta-btn" href="about_us_en.html">More About us</a>
                 </div>
             </div>
         </div>
@@ -206,6 +196,45 @@
             </div>
         </div>
     </footer>
+
+    <!-- Dive sites map: opened by the button in the hero -->
+    <div class="modal fade" id="diveMapModal" tabindex="-1" aria-labelledby="diveMapModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content dive-map-modal">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="diveMapModalLabel">Dive sites – <span lang="el">Σημεία Κατάδυσης</span></h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="dive-map-layout">
+                        <figure class="dive-map-figure">
+                            <a href="https://res.cloudinary.com/doy01c41z/image/upload/v1792507054/dive_point_l13lbr.png" target="_blank" rel="noopener">
+                                <img src="https://res.cloudinary.com/doy01c41z/image/upload/v1792507054/dive_point_l13lbr.png" alt="Map of Cyprus showing the numbered dive sites" loading="lazy">
+                            </a>
+                            <figcaption><a href="https://res.cloudinary.com/doy01c41z/image/upload/v1792507054/dive_point_l13lbr.png" target="_blank" rel="noopener">Open the full-size map</a></figcaption>
+                        </figure>
+                        <ol class="dive-map-list">
+                            <li><span class="dive-map-en">Zenobia Wreck</span> – <span lang="el">Ναυάγιο Ζηνοβία</span></li>
+                            <li><span class="dive-map-en">Cricket Wreck</span> – <span lang="el">Ναυάγιο Κρίκετ</span></li>
+                            <li><span class="dive-map-en">Nemesis Wreck</span> – <span lang="el">Ναυάγιο Νέμεσις</span></li>
+                            <li><span class="dive-map-en">Liberty Wreck</span> – <span lang="el">Ναυάγιο Λίμπερτι</span></li>
+                            <li><span class="dive-map-en">Green Bay Statues</span> – <span lang="el">Πράσινος κόλπος ή Κόλπος του Αράπη Αγάλματα</span></li>
+                            <li><span class="dive-map-en">Green Bay Blue Holes</span> – <span lang="el">Πράσινος κόλπος ή Κόλπος του Αράπη Αψίδες και Βραχώδεις σχηματισμοί</span></li>
+                            <li><span class="dive-map-en">Cyclops Cave</span> – <span lang="el">Η Σπηλιά του Κύκλωπα</span></li>
+                            <li><span class="dive-map-en">Cape Greco Chapel</span> – <span lang="el">Εκκλησάκια Άγιοι Ανάργυροι στο ακρωτήρι Κάβο Γκρέκο</span></li>
+                            <li><span class="dive-map-en">Cape Greco Blue Holes</span> – <span lang="el">Αψίδες και Βραχώδεις σχηματισμοί στο ακρωτήρι Κάβο Γκρέκο</span></li>
+                            <li><span class="dive-map-en">Cape Greco The Canyon</span> – <span lang="el">Φαράγγι στο ακρωτήρι Κάβο Γκρέκο</span></li>
+                            <li><span class="dive-map-en">The Pirate Cave</span> – <span lang="el">Η Σπηλιά του Πειρατή</span></li>
+                            <li><span class="dive-map-en">The Watchtower</span> – <span lang="el">Σκοπιά της Ξυλοφάγου</span></li>
+                            <li><span class="dive-map-en">Jubilee Shoals</span> – <span lang="el">Υποβρύχιος τοίχος Αυδήμου</span></li>
+                            <li><span class="dive-map-en">St. Georges Island Akamas</span> – <span lang="el">Νησάκι του Αγίου Γεωργίου</span></li>
+                            <li><span class="dive-map-en">More dives</span> – <span lang="el">Ακόμα περισσότερες καταδύσεις</span></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     <script src="static/js/display_diving_sites.js" ></script> 
