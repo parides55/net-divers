@@ -28,6 +28,20 @@
         "home_page": "yes"
     },
     {
+        "slug": "nitrox-diver",
+        "title": "Enriched Air Nitrox Diver",
+        "category": "Continuing Education",
+        "description": "This continuing-education course provides the knowledge and skills required to use enriched air Nitrox containing 32% or 40% oxygen as a breathing gas while diving. <br>Diving with enriched air Nitrox increases bottom time and reduces decompression time and surface intervals between dives compared with diving on regular air. During this course, you will practise using oxygen analysers and learn to identify cylinder markings to determine whether a cylinder can be used with enriched air. You will also learn how to set your dive computer for enriched-air Nitrox dives and plan your dives.",
+        "min_age": "Minimum age 15 by the in-water phase of the course. The Junior Open Water Scuba Diver certification is issued to children aged 10–14.",
+        "min_hours": "Theoretical part 2 (two) hours (estimated) Practical part 2 (two) hours",
+        "min_dives": "A minimum of two (2) open-water dives is required.",
+        "max_depth": "40 metres (130 feet)",
+        "certification": "NAUI Open Water Scuba Diver certification or equivalent is required.",
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/nitrox_diver_y26jvg.jpg",
+        "popular": "no",
+        "home_page": "no"
+    },
+    {
         "slug": "master-scuba-diver",
         "title": "Master Scuba Diver",
         "category": "Continuing Education",
@@ -95,20 +109,6 @@
         "certification": "Scuba certification is not required to take this course. This certification must be renewed every two years.",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774360025/diving_first_aid_kmzvbe.jpg",
         "popular": "yes",
-        "home_page": "no"
-    },
-    {
-        "slug": "nitrox-diver",
-        "title": "Enriched Air Nitrox Diver",
-        "category": "First Aid",
-        "description": "This continuing-education course provides the knowledge and skills required to use enriched air Nitrox containing 32% or 40% oxygen as a breathing gas while diving. <br>Diving with enriched air Nitrox increases bottom time and reduces decompression time and surface intervals between dives compared with diving on regular air. During this course, you will practise using oxygen analysers and learn to identify cylinder markings to determine whether a cylinder can be used with enriched air. You will also learn how to set your dive computer for enriched-air Nitrox dives and plan your dives.",
-        "min_age": "Minimum age 15 by the in-water phase of the course. The Junior Open Water Scuba Diver certification is issued to children aged 10–14.",
-        "min_hours": "Theoretical part 2 (two) hours (estimated) Practical part 2 (two) hours",
-        "min_dives": "A minimum of two (2) open-water dives is required.",
-        "max_depth": "40 metres (130 feet)",
-        "certification": "NAUI Open Water Scuba Diver certification or equivalent is required.",
-        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/nitrox_diver_y26jvg.jpg",
-        "popular": "no",
         "home_page": "no"
     },
     {
