@@ -28,20 +28,6 @@
         "home_page": "yes"
     },
     {
-        "slug": "rescue-scuba-diver",
-        "title": "Rescue Scuba Diver",
-        "category": "Continuing Education",
-        "description": "This continuing-education course provides divers with the knowledge and skills needed to manage emergencies and various hazards, and to respond effectively to specific problems both in and out of the water. The course includes surface rescues and rescues from depth, with or without scuba equipment, from both boats and shore. It fulfils the rescue-training prerequisite for certifications such as Skin Diving Instructor, Assistant Instructor, Divemaster and Instructor.",
-        "min_age": "Minimum age 15 by the in-water phase of the course.",
-        "min_hours": "4 hours of theory and 4 hours of practical training out of the water.",
-        "min_dives": "A minimum of two open-water dives is required.",
-        "max_depth": "18 metres (60 feet).",
-        "certification": "Open Water Scuba Diver certification is required. A current Diving First Aid certification is also required. If you do not have this certification, you can obtain it during Rescue Scuba Diver training as an additional specialty.",
-        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1775553318/rescue_scuba_wamvtb.jpg",
-        "popular": "yes",
-        "home_page": "yes"
-    },
-    {
         "slug": "master-scuba-diver",
         "title": "Master Scuba Diver",
         "category": "Continuing Education",
@@ -54,6 +40,20 @@
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/master_diver_dcv2vz.jpg",
         "popular": "no",
         "home_page": "no"
+    },
+    {
+        "slug": "rescue-scuba-diver",
+        "title": "Rescue Scuba Diver",
+        "category": "Continuing Education",
+        "description": "This continuing-education course provides divers with the knowledge and skills needed to manage emergencies and various hazards, and to respond effectively to specific problems both in and out of the water. The course includes surface rescues and rescues from depth, with or without scuba equipment, from both boats and shore. It fulfils the rescue-training prerequisite for certifications such as Skin Diving Instructor, Assistant Instructor, Divemaster and Instructor.",
+        "min_age": "Minimum age 15 by the in-water phase of the course.",
+        "min_hours": "4 hours of theory and 4 hours of practical training out of the water.",
+        "min_dives": "A minimum of two open-water dives is required.",
+        "max_depth": "18 metres (60 feet).",
+        "certification": "Open Water Scuba Diver certification is required. A current Diving First Aid certification is also required. If you do not have this certification, you can obtain it during Rescue Scuba Diver training as an additional specialty.",
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1775553318/rescue_scuba_wamvtb.jpg",
+        "popular": "yes",
+        "home_page": "yes"
     },
     {
         "slug": "basic-life-support-cpr-and-first-aid",
@@ -87,7 +87,7 @@
         "slug": "diving-first-aid",
         "title": "Diving First Aid",
         "category": "First Aid",
-        "description": "This NAUI course, supported by DAN (Divers Alert Network), includes all the components of the following courses: <br><br>- Basic Life Support (BLS), CPR & First Aid <br>- Emergency Oxygen for Scuba Diving Injuries (EO2) <br><br>It also teaches you how to properly assess and manage neurological injuries, provide first aid for injuries caused by hazardous marine life, and much more. It is the most comprehensive first-aid course in the diving industry. It is designed for all divers and meets the needs of commercial, professional and scientific divers by providing first-aid knowledge and skills specific to these environments. The course fulfils the rescue-training prerequisite for certifications such as Skin Diving Instructor, Assistant Instructor, Divemaster and Instructor. The skills you gain are useful not only in the diving world but also in everyday life with family, friends, neighbours and colleagues.",
+        "description": "This NAUI course, supported by DAN (Divers Alert Network), includes all the components of the following courses: \n- Basic Life Support (BLS), CPR & First Aid \n- Emergency Oxygen for Scuba Diving Injuries (EO2) \n\nIt also teaches you how to properly assess and manage neurological injuries, provide first aid for injuries caused by hazardous marine life, and much more. It is the most comprehensive first-aid course in the diving industry. It is designed for all divers and meets the needs of commercial, professional and scientific divers by providing first-aid knowledge and skills specific to these environments. The course fulfils the rescue-training prerequisite for certifications such as: \n-Rescue Diver \n-Assistant Instructor \n-Divemaster and Instructor. \n\nThe skills you gain are useful not only in the diving world but also in everyday life with family, friends, neighbours and colleagues.",
         "min_age": "There is no minimum age to participate in this course.",
         "min_hours": "Theory: approximately 6–8 hours. Practical training: approximately 6–8 hours.",
         "min_dives": "Not required",
