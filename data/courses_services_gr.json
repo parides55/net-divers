@@ -12,8 +12,8 @@
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/open_water_dover_n01gbt.jpg",
         "popular": "ναι",
         "home_page": "ναι",
-        "seo_title": "Μάθημα Open Water Scuba Diver στην Κύπρο | Net Divers",
-        "seo_description": "Μάθετε καταδύσεις στην Κύπρο με το μάθημα NAUI Open Water Scuba Diver, την πρώτη σας πιστοποίηση κατάδυσης. Στην Αγία Νάπα με τη Net Divers."
+        "seo_title": "Δίπλωμα Κατάδυσης Open Water στην Κύπρο | Net Divers",
+        "seo_description": "Μάθετε υποβρύχια κατάδυση και πάρτε το πρώτο σας δίπλωμα κατάδυσης με το μάθημα NAUI Open Water Scuba Diver, στη σχολή καταδύσεων Net Divers."
     },
     {
         "slug": "advanced-open-water-scuba-diver",
@@ -28,8 +28,8 @@
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/advanced_open_water_fiyaqf.jpg",
         "popular": "ναι",
         "home_page": "ναι",
-        "seo_title": "Μάθημα Advanced Open Water Diver Κύπρος | Net Divers",
-        "seo_description": "Μάθημα NAUI Advanced Open Water Scuba Diver στην Κύπρο: βαθύτερες καταδύσεις, πλοήγηση και νέες δεξιότητες στα καλύτερα σημεία της Κύπρου."
+        "seo_title": "Δίπλωμα Advanced Open Water Diver Κύπρος | Net Divers",
+        "seo_description": "Μάθημα NAUI Advanced Open Water: το επόμενο δίπλωμα κατάδυσης στην Κύπρο, με βαθύτερες καταδύσεις, πλοήγηση και νέες δεξιότητες."
     },
     {
         "slug": "nitrox-diver",
@@ -236,8 +236,8 @@
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1775597157/divemaster_ou4wkw.jpg",
         "popular": "όχι",
         "home_page": "όχι",
-        "seo_title": "Μάθημα Divemaster στην Κύπρο | NAUI | Net Divers",
-        "seo_description": "Γίνετε επαγγελματίας με το μάθημα NAUI Divemaster ή Divemaster Crossover στην Κύπρο. Οδηγήστε καταδύσεις και υποστηρίξτε εκπαιδευτές."
+        "seo_title": "Divemaster: Γίνετε Επαγγελματίας Δύτης | Net Divers",
+        "seo_description": "Γίνετε επαγγελματίας δύτης με το μάθημα NAUI Divemaster ή Divemaster Crossover στην Κύπρο. Οδηγήστε καταδύσεις και υποστηρίξτε εκπαιδευτές."
     },
     {
         "slug": "assistant-instructor",
@@ -252,8 +252,8 @@
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1775597157/assistance_instructor_edn0nu.jpg",
         "popular": "όχι",
         "home_page": "όχι",
-        "seo_title": "Μάθημα Assistant Instructor στην Κύπρο | NAUI | Net Divers",
-        "seo_description": "Μάθημα NAUI Assistant Instructor στην Κύπρο. Το πρώτο βήμα για να διδάξετε καταδύσεις, με επαγγελματική εκπαίδευση από τη Net Divers."
+        "seo_title": "Assistant Instructor: Εκπαιδευτής Καταδύσεων | Net Divers",
+        "seo_description": "Μάθημα NAUI Assistant Instructor στην Κύπρο: το πρώτο βήμα για να γίνετε εκπαιδευτής καταδύσεων, με επαγγελματική εκπαίδευση από τη Net Divers."
     },
     {
         "slug": "more-courses",
@@ -268,7 +268,7 @@
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1792513274/Underwater_Diving_Safety_Infographic_x6fb6e.png",
         "popular": "όχι",
         "home_page": "όχι",
-        "seo_title": "Περισσότερα Μαθήματα Κατάδυσης στην Κύπρο | Net Divers",
-        "seo_description": "Περισσότερα μαθήματα NAUI στην Κύπρο: Scuba Refresher, Introduction to Scuba, Dry Suit, Adaptive Scuba, υποβρύχια αρχαιολογία και snorkelling."
+        "seo_title": "Περισσότερα Μαθήματα Καταδύσεων στην Κύπρο | Net Divers",
+        "seo_description": "Περισσότερα μαθήματα καταδύσεων NAUI στην Κύπρο: Scuba Refresher, Introduction to Scuba, Dry Suit, Adaptive Scuba, υποβρύχια αρχαιολογία και skin diving."
     }
 ]
