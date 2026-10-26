@@ -61,6 +61,7 @@ if (currentPath.includes('course_info_gr.html')) {
 };
 
 function displayCourseEN(course) {
+    setPageMeta(course);
     const container = document.getElementById("course-details-div");
     
     container.innerHTML = `
@@ -88,6 +89,7 @@ function displayCourseEN(course) {
 };
 
 function displayCourseGR(course) {
+    setPageMeta(course);
     const container = document.getElementById("course-details-div");
     
     container.innerHTML = `
@@ -128,4 +130,19 @@ function setTranslationLinkGR(course) {
 // so it has no single age, hours, dives or depth to show.
 function hasFacts(course) {
     return !["More Courses", "Άλλα Μαθήματα"].includes(course.category);
+}
+
+// Set the page <title> and meta description for the item being shown,
+// so each course / dive site has its own title and description in search results.
+function setPageMeta(item) {
+    if (!item) return;
+    if (item.seo_title) {
+        document.title = item.seo_title;
+        const metaTitle = document.querySelector('meta[name="title"]');
+        if (metaTitle) metaTitle.setAttribute("content", item.seo_title);
+    }
+    if (item.seo_description) {
+        const metaDesc = document.querySelector('meta[name="description"]');
+        if (metaDesc) metaDesc.setAttribute("content", item.seo_description);
+    }
 }

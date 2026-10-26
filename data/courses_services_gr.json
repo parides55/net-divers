@@ -11,7 +11,9 @@
         "certification": "Δεν απαιτείται πιστοποίηση για να συμμετάσχετε σε αυτό το μάθημα",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/open_water_dover_n01gbt.jpg",
         "popular": "ναι",
-        "home_page": "ναι"
+        "home_page": "ναι",
+        "seo_title": "Μάθημα Open Water Scuba Diver στην Κύπρο | Net Divers",
+        "seo_description": "Μάθετε καταδύσεις στην Κύπρο με το μάθημα NAUI Open Water Scuba Diver, την πρώτη σας πιστοποίηση κατάδυσης. Στην Αγία Νάπα με τη Net Divers."
     },
     {
         "slug": "advanced-open-water-scuba-diver",
@@ -25,7 +27,9 @@
         "certification": "Απαιτείται πιστοποίηση ως NAUI Δύτης Αυτόνομης Κατάδυσης  Open Water Scuba Diver ή αντίστοιχο",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/advanced_open_water_fiyaqf.jpg",
         "popular": "ναι",
-        "home_page": "ναι"
+        "home_page": "ναι",
+        "seo_title": "Μάθημα Advanced Open Water Diver Κύπρος | Net Divers",
+        "seo_description": "Μάθημα NAUI Advanced Open Water Scuba Diver στην Κύπρο: βαθύτερες καταδύσεις, πλοήγηση και νέες δεξιότητες στα καλύτερα σημεία της Κύπρου."
     },
     {
         "slug": "nitrox-diver",
@@ -39,7 +43,9 @@
         "certification": "Απαιτείται πιστοποίηση ως NAUI Δύτης Αυτόνομης Κατάδυσης  Open Water Scuba Diver ή αντίστοιχο",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/nitrox_diver_y26jvg.jpg",
         "popular": "όχι",
-        "home_page": "όχι"
+        "home_page": "όχι",
+        "seo_title": "Μάθημα Nitrox Diver στην Κύπρο | NAUI | Net Divers",
+        "seo_description": "Μάθημα NAUI Enriched Air Nitrox Diver στην Κύπρο. Καταδύσεις μεγαλύτερης διάρκειας με ασφάλεια. Εκπαίδευση στην Αγία Νάπα με τη Net Divers."
     },
     {
         "slug": "master-scuba-diver",
@@ -53,7 +59,9 @@
         "certification": "Απαιτείται πιστοποίηση ως NAUI Ανώτερος Δύτης Αυτόνομης Κατάδυσης (Advanced Open Water Scuba Diver) και Δύτης Διάσωσης (Rescue Scuba Diver) ή αντίστοιχα",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/master_diver_dcv2vz.jpg",
         "popular": "όχι",
-        "home_page": "όχι"
+        "home_page": "όχι",
+        "seo_title": "Μάθημα Master Scuba Diver στην Κύπρο | NAUI | Net Divers",
+        "seo_description": "Πιστοποίηση NAUI Master Scuba Diver στην Κύπρο, το ανώτερο ερασιτεχνικό επίπεδο κατάδυσης. Προχωρημένη θεωρία και ειδικές καταδύσεις."
     },
     {
         "slug": "rescue-scuba-diver",
@@ -67,7 +75,9 @@
         "certification": "Απαιτείται Δίπλωμα Open Water Scuba Diver -  Δύτης Αυτόνομης Κατάδυσης. Σε ισχύ Δίπλωμα Diving First Aid – Πρώτες Βοήθειες με ειδίκευση Κατάδυσης Στην περίπτωση, εάν δεν έχετε αυτό το Δίπλωμα μπορείτε να το αποκτήσετε κατά τη διάρκεια της εκπαίδευσης για Δύτης Διάσωσης ως πρόσθετη ειδικότητα ",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1775553318/rescue_scuba_wamvtb.jpg",
         "popular": "ναι",
-        "home_page": "ναι"
+        "home_page": "ναι",
+        "seo_title": "Μάθημα Rescue Scuba Diver στην Κύπρο | NAUI | Net Divers",
+        "seo_description": "Μάθημα NAUI Rescue Scuba Diver στην Κύπρο. Μάθετε να προλαμβάνετε και να αντιμετωπίζετε καταδυτικά περιστατικά και να βοηθάτε άλλους δύτες."
     },
     {
         "slug": "basic-life-support-cpr-and-first-aid",
@@ -81,7 +91,9 @@
         "certification": "Δεν απαιτείται πιστοποίηση κατάδυσης για να συμμετάσχετε σε αυτά τα μαθήματα. Η ανανέωση της πιστοποίησης αυτής απαιτείται κάθε δύο χρόνια.",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774360024/CPR_mob16e.jpg",
         "popular": "όχι",
-        "home_page": "όχι"
+        "home_page": "όχι",
+        "seo_title": "Μάθημα ΚΑΡΠΑ και Πρώτων Βοηθειών στην Κύπρο | Net Divers",
+        "seo_description": "Μάθημα Βασικής Υποστήριξης Ζωής, ΚΑΡΠΑ και Πρώτων Βοηθειών στην Κύπρο. Αποκτήστε δεξιότητες για να βοηθήσετε σε κάθε έκτακτη ανάγκη."
     },
     {
         "slug": "emergency-oxygen-for-scuba-diving-injuries",
@@ -95,7 +107,9 @@
         "certification": "Δεν απαιτείται πιστοποίηση κατάδυσης για να συμμετάσχετε σε αυτά τα μαθήματα. Η ανανέωση της πιστοποίησης αυτής απαιτείται κάθε δύο χρόνια.",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1782101216/emergency-oxygen_qrifrt.jpg",
         "popular": "όχι",
-        "home_page": "όχι"
+        "home_page": "όχι",
+        "seo_title": "Οξυγόνο Έκτακτης Ανάγκης για Καταδύσεις | Net Divers",
+        "seo_description": "Μάθετε να χορηγείτε οξυγόνο έκτακτης ανάγκης σε καταδυτικά ατυχήματα. Πρακτικό μάθημα NAUI στην Κύπρο για δύτες και καταδυτικό προσωπικό."
     },
     {
         "slug": "diving-first-aid",
@@ -109,7 +123,9 @@
         "certification": "Δεν απαιτείται πιστοποίηση κατάδυσης για να συμμετάσχετε σε αυτά τα μαθήματα. Η ανανέωση της πιστοποίησης αυτής απαιτείται κάθε δύο χρόνια.",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774360025/diving_first_aid_kmzvbe.jpg",
         "popular": "ναι",
-        "home_page": "όχι"
+        "home_page": "όχι",
+        "seo_title": "Μάθημα Καταδυτικών Πρώτων Βοηθειών Κύπρος | Net Divers",
+        "seo_description": "Μάθημα NAUI Καταδυτικών Πρώτων Βοηθειών στην Κύπρο. Αναγνώριση και αντιμετώπιση καταδυτικών τραυματισμών, από νόσο αποσυμπίεσης έως τσιμπήματα."
     },
     {
         "slug": "deep-diver",
@@ -123,7 +139,9 @@
         "certification": "Απαιτείται πιστοποίηση ως NAUI Advanced Open Water Scuba Diver - Ανώτερος Δύτης Αυτόνομης Κατάδυσης ή αντίστοιχα",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/deep_diver_jpr5zc.jpg",
         "popular": "όχι",
-        "home_page": "όχι"
+        "home_page": "όχι",
+        "seo_title": "Μάθημα Deep Diver στην Κύπρο | NAUI | Net Divers",
+        "seo_description": "Μάθημα NAUI Deep Diver στην Κύπρο. Σχεδιάστε και πραγματοποιήστε βαθύτερες καταδύσεις με ασφάλεια σε ναυάγια και τοίχους όπως η Ζηνοβία."
     },
     {
         "slug": "night-limited-visibility-diver",
@@ -137,7 +155,9 @@
         "certification": "Απαιτείται πιστοποίηση ως NAUI Open Water Scuba Diver - Δύτης Αυτόνομης Κατάδυσης ή αντίστοιχα",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1775597157/night_time_limited_vis_hvzlbs.png",
         "popular": "όχι",
-        "home_page": "όχι"
+        "home_page": "όχι",
+        "seo_title": "Μάθημα Νυχτερινής Κατάδυσης στην Κύπρο | Net Divers",
+        "seo_description": "Μάθημα NAUI Night and Limited Visibility Diver στην Κύπρο. Ανακαλύψτε τη θάλασσα τη νύχτα και καταδυθείτε με σιγουριά σε χαμηλή ορατότητα."
     },
     {
         "slug": "wreck-diver-external-survey",
@@ -151,7 +171,9 @@
         "certification": "Απαιτείται πιστοποίηση ως NAUI Advanced Open Water Scuba Diver - Ανώτερος Δύτης Αυτόνομης Κατάδυσης ή αντίστοιχα",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367202/wreck_diver_hwxwhv.jpg",
         "popular": "όχι",
-        "home_page": "όχι"
+        "home_page": "όχι",
+        "seo_title": "Μάθημα Wreck Diver στην Κύπρο | NAUI | Net Divers",
+        "seo_description": "Μάθημα NAUI Wreck Diver (External Survey) στην Κύπρο, με ναυάγια όπως η Ζηνοβία, το Λίμπερτι και το Νέμεσις. Μάθετε ασφαλείς καταδύσεις σε ναυάγια."
     },
     {
         "slug": "underwater-digital-imaging-diver",
@@ -165,7 +187,9 @@
         "certification": "Απαιτείται πιστοποίηση ως NAUI Open Water Scuba Diver - Δύτης Αυτόνομης Κατάδυσης ή αντίστοιχα",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1791594983/%CE%94%CF%8D%CF%84%CE%B7%CF%82_%CE%A5%CF%80%CE%BF%CE%B2%CF%81%CF%8D%CF%87%CE%B9%CE%B1%CF%82_%CE%A6%CF%89%CF%84%CE%BF%CE%B3%CF%81%CE%AC%CF%86%CE%B9%CF%83%CE%B7%CF%82_Underwater_Digital_Imaging_Diver_hhcazr.jpg",
         "popular": "όχι",
-        "home_page": "όχι"
+        "home_page": "όχι",
+        "seo_title": "Μάθημα Υποβρύχιας Φωτογραφίας στην Κύπρο | Net Divers",
+        "seo_description": "Μάθημα NAUI Underwater Digital Imaging Diver στην Κύπρο. Μάθετε υποβρύχια φωτογραφία και βίντεο στα καταγάλανα νερά της Κύπρου."
     },
     {
         "slug": "search-recovery-diver",
@@ -179,7 +203,9 @@
         "certification": "Απαιτείται πιστοποίηση ως NAUI Open Water Scuba Diver - Δύτης Αυτόνομης Κατάδυσης ή αντίστοιχα",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1775507900/enhanced_image_ldhp0w.png",
         "popular": "όχι",
-        "home_page": "όχι"
+        "home_page": "όχι",
+        "seo_title": "Μάθημα Search and Recovery Diver Κύπρος | Net Divers",
+        "seo_description": "Μάθημα NAUI Search and Recovery Diver στην Κύπρο. Μάθετε τεχνικές έρευνας, χρήση αερόσακων ανύψωσης και ασφαλή ανάσυρση αντικειμένων."
     },
     {
         "slug": "underwater-naturalist-diver",
@@ -193,7 +219,9 @@
         "certification": "Απαιτείται πιστοποίηση ως NAUI Open Water Scuba Diver - Δύτης Αυτόνομης Κατάδυσης ή αντίστοιχα",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1791594983/%CE%94%CF%8D%CF%84%CE%B7%CF%82_%CE%A5%CF%80%CE%BF%CE%B2%CF%81%CF%8D%CF%87%CE%B9%CE%BF%CF%85_%CE%A0%CE%B5%CF%81%CE%B9%CE%B2%CE%AC%CE%BB%CE%BB%CE%BF%CE%BD%CF%84%CE%BF%CF%82_Underwater_Naturalist_Diver_ymmwu8.jpg",
         "popular": "όχι",
-        "home_page": "όχι"
+        "home_page": "όχι",
+        "seo_title": "Μάθημα Underwater Naturalist στην Κύπρο | Net Divers",
+        "seo_description": "Μάθημα NAUI Underwater Naturalist Diver στην Κύπρο. Γνωρίστε τη θαλάσσια ζωή της Μεσογείου και καταδυθείτε με σεβασμό στο περιβάλλον."
     },
     {
         "slug": "divemaster-divemaster-crossover-course",
@@ -207,7 +235,9 @@
         "certification": "Απαιτούνται 60 καταδύσεις με 30 ώρες κάτω από το νερό σε δίφορα βάθη και σε διαφορετικές συνθήκες (μέρα, νύχτα, από στεριά, από βάρκα) - Απαιτείται Πιστοποιητικό καταλληλόλητας υγείας υπογεγραμμένο από γιατρό εντός των τελευταίων 12 μηνών - Απαιτείται πιστοποίηση ως NAUI Βοηθός Εκπαιδευτή (Assistant Instructor) ή τις ακόλουθες πιστοποιήσεις ως NAUI ή αντίστοιχα: (α)Open Water Scuba Diver - Δύτης Αυτόνομης Κατάδυσης (β)Advanced Open Water Scuba Diver - Ανώτερος Δύτης Αυτόνομης Κατάδυσης (γ)Rescue Scuba Diver - Δύτης Διάσωσης (δ)Nitrox Diver – Δύτης Εμπλουτισμένου Αέρα Νίτροξ  (ε)Diving First Aid – Πρώτες Βοήθειες με ειδίκευση Κατάδυσης σε ισχύ",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1775597157/divemaster_ou4wkw.jpg",
         "popular": "όχι",
-        "home_page": "όχι"
+        "home_page": "όχι",
+        "seo_title": "Μάθημα Divemaster στην Κύπρο | NAUI | Net Divers",
+        "seo_description": "Γίνετε επαγγελματίας με το μάθημα NAUI Divemaster ή Divemaster Crossover στην Κύπρο. Οδηγήστε καταδύσεις και υποστηρίξτε εκπαιδευτές."
     },
     {
         "slug": "assistant-instructor",
@@ -221,7 +251,9 @@
         "certification": "Απαιτούνται 50 καταδύσεις με 25 ώρες κάτω από το νερό σε δίφορα βάθη και σε διαφορετικές συνθήκες (μέρα, νύχτα, από στεριά, από βάρκα) - Απαιτείται Πιστοποιητικό καταλληλόλητας υγείας υπογεγραμμένο από γιατρό εντός των τελευταίων 12 μηνών - Απαιτείται πιστοποίηση ως NAUI ή αντίστοιχα: (α)Open Water Scuba Diver - Δύτης Αυτόνομης Κατάδυσης (β)Advanced Open Water Scuba Diver - Ανώτερος Δύτης Αυτόνομης Κατάδυσης (γ)Rescue Scuba Diver - Δύτης Διάσωσης (δ)Nitrox Diver – Δύτης Εμπλουτισμένου Αέρα Νίτροξ  (ε)Diving First Aid – Πρώτες Βοήθειες με ειδίκευση Κατάδυσης σε ισχύ",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1775597157/assistance_instructor_edn0nu.jpg",
         "popular": "όχι",
-        "home_page": "όχι"
+        "home_page": "όχι",
+        "seo_title": "Μάθημα Assistant Instructor στην Κύπρο | NAUI | Net Divers",
+        "seo_description": "Μάθημα NAUI Assistant Instructor στην Κύπρο. Το πρώτο βήμα για να διδάξετε καταδύσεις, με επαγγελματική εκπαίδευση από τη Net Divers."
     },
     {
         "slug": "more-courses",
@@ -235,6 +267,8 @@
         "certification": "",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1792513274/Underwater_Diving_Safety_Infographic_x6fb6e.png",
         "popular": "όχι",
-        "home_page": "όχι"
+        "home_page": "όχι",
+        "seo_title": "Περισσότερα Μαθήματα Κατάδυσης στην Κύπρο | Net Divers",
+        "seo_description": "Περισσότερα μαθήματα NAUI στην Κύπρο: Scuba Refresher, Introduction to Scuba, Dry Suit, Adaptive Scuba, υποβρύχια αρχαιολογία και snorkelling."
     }
 ]

@@ -10,7 +10,9 @@
         "access": "Boat access only. Organised trips operate year-round from Larnaca Fishing Harbour.",
         "tips": "Water temperatures range from around 17°C in winter to 29°C in summer. A thermocline may occur during summer. Careful underwater route planning and air-consumption monitoring are required.",
         "popular": "true",
-        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1773501732/zinovia_vndia0.jpg"
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1773501732/zinovia_vndia0.jpg",
+        "seo_title": "Zenobia Wreck Dive, Larnaca Cyprus | Net Divers",
+        "seo_description": "Dive the Zenobia, one of the world's top wreck dives, 1.4 km off Larnaca. 17–42 m, trucks on deck and rich marine life. Scuba diving in Cyprus with Net Divers."
     },
     {
         "slug": "cricket-wreck",
@@ -23,7 +25,9 @@
         "access": "Boat access only.",
         "tips": "Water temperatures range from around 17°C in winter to 29°C in summer, and a thermocline may occur in summer. Check buoyancy and plan the underwater route carefully.",
         "popular": "false",
-        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1773501738/cricket_lwws6h.jpg"
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1773501738/cricket_lwws6h.jpg",
+        "seo_title": "Cricket Wreck Dive, Cape Pyla Cyprus | Net Divers",
+        "seo_description": "Dive the Cricket, a historic British gunboat turned artificial reef off Xylofagou at Cape Pyla. 27–33 m wreck diving in Cyprus with Net Divers."
     },
     {
         "slug": "nemesis-wreck",
@@ -36,7 +40,9 @@
         "access": "Boat access only.",
         "tips": "Water temperatures range from around 17°C in winter to 29°C in summer. Check buoyancy and plan the route. This dive is often combined with the Liberty Wreck.",
         "popular": "true",
-        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1773501772/nemesis_eiwx67.jpg"
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1773501772/nemesis_eiwx67.jpg",
+        "seo_title": "Nemesis Wreck Dive, Protaras Cyprus | Net Divers",
+        "seo_description": "Dive the Nemesis III wreck off Protaras, a popular artificial reef full of marine life at 15–25 m. Scuba diving near Ayia Napa with Net Divers."
     },
     {
         "slug": "liberty-wreck",
@@ -49,7 +55,9 @@
         "access": "Boat access only.",
         "tips": "Water temperatures range from around 17°C in winter to 29°C in summer. Check buoyancy and plan the route. This dive is often combined with the Nemesis Wreck.",
         "popular": "true",
-        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1773501772/liberty_kyqvxx.jpg"
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1773501772/liberty_kyqvxx.jpg",
+        "seo_title": "Liberty Wreck Dive, Protaras Cyprus | Net Divers",
+        "seo_description": "Dive the Liberty, a merchant ship sunk as an artificial reef 650 m off Protaras. 15–25 m wreck diving near Ayia Napa, Cyprus, with Net Divers."
     },
     {
         "slug": "green-bay-statues",
@@ -62,7 +70,9 @@
         "access": "Shore access.",
         "tips": "Water temperatures range from around 17°C in winter to 29°C in summer. Enjoy the dive with a buddy and camera equipment under the supervision of experienced instructors.",
         "popular": "true",
-        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1792268530/green_bay_statues_tocwk6.jpg"
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1792268530/green_bay_statues_tocwk6.jpg",
+        "seo_title": "Green Bay Statues Dive, Protaras Cyprus | Net Divers",
+        "seo_description": "Shallow, easy dive among Greek-style statues at Green Bay, near Cape Greco and Protaras. Up to 10 m, ideal for beginners. Scuba diving Cyprus."
     },
     {
         "slug": "green-bay-blue-holes",
@@ -75,7 +85,9 @@
         "access": "Shore access.",
         "tips": "Water temperatures range from around 17°C in winter to 29°C in summer. This dive is often combined with Green Bay Statues.",
         "popular": "false",
-        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1792507055/green_bay_blue_holes_iz1thm.png"
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1792507055/green_bay_blue_holes_iz1thm.png",
+        "seo_title": "Green Bay Blue Holes Dive, Protaras | Net Divers",
+        "seo_description": "Underwater arches and rock formations just past the Green Bay statues, near Cape Greco. Up to 18 m. Scuba diving in Cyprus with Net Divers."
     },
     {
         "slug": "cyclops-cave",
@@ -88,7 +100,9 @@
         "access": "Shore access.",
         "tips": "Water temperatures range from around 17°C in winter to 29°C in summer, and a thermocline may occur. Take care on the steep rocky access path, which has natural steps. Check buoyancy, plan the route and monitor air consumption.",
         "popular": "true",
-        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1773501743/cyclops_cave_oxkmpu.jpg"
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1773501743/cyclops_cave_oxkmpu.jpg",
+        "seo_title": "Cyclops Cave Dive, Protaras Cyprus | Net Divers",
+        "seo_description": "Dive Cyclops Cave between Protaras and Cape Greco: dramatic rocky seabed, Posidonia meadows and marine life from 1 m to 40+ m. Diving near Ayia Napa."
     },
     {
         "slug": "cape-greco-chapel",
@@ -101,7 +115,9 @@
         "access": "Shore access.",
         "tips": "Water temperatures range from around 17°C in winter to 29°C in summer, and a thermocline may occur. The stone steps are steep. Waves or strong winds can make exiting difficult, so check the weather before diving. Check buoyancy, plan the route and monitor air consumption.",
         "popular": "true",
-        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774355850/ekklisaki_mytq7m.jpg"
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774355850/ekklisaki_mytq7m.jpg",
+        "seo_title": "Cape Greco Chapel Dive, Ayia Napa | Net Divers",
+        "seo_description": "Enter through a sea cave beneath the Agioi Anargyroi chapel at Cape Greco, near Ayia Napa. 9–40+ m. One of the best dives in Cyprus."
     },
     {
         "slug": "cape-greco-blue-holes",
@@ -114,7 +130,9 @@
         "access": "Shore access.",
         "tips": "Water temperatures range from around 17°C in winter to 29°C in summer. Access involves uneven, steep rocky ground. A dive torch is useful. Check buoyancy, plan the route and monitor air consumption.",
         "popular": "false",
-        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1773501734/sea-caves_rzmeid.jpg"
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1773501734/sea-caves_rzmeid.jpg",
+        "seo_title": "Cape Greco Blue Holes Dive, Ayia Napa | Net Divers",
+        "seo_description": "Swim through a natural opening into a large underwater chamber with crystal-clear water at Cape Greco, near Ayia Napa. 6–16 m. Diving in Cyprus."
     },
     {
         "slug": "cape-greco-canyon",
@@ -127,7 +145,9 @@
         "access": "Shore access.",
         "tips": "Access involves uneven, steep rocky ground. Check buoyancy, plan the underwater route carefully and monitor air consumption. Check weather conditions, particularly for exiting the water.",
         "popular": "false",
-        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1773501762/cliffs_vslmk1.jpg"
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1773501762/cliffs_vslmk1.jpg",
+        "seo_title": "Cape Greco Canyon Dive, Ayia Napa | Net Divers",
+        "seo_description": "Dive a narrow underwater canyon below the cliffs of Cape Greco, near Ayia Napa, with a dramatic shore entry. 5–22 m. Scuba diving Cyprus."
     },
     {
         "slug": "pirate-cave",
@@ -140,7 +160,9 @@
         "access": "Boat access only.",
         "tips": "Water temperatures range from around 17°C in winter to 29°C in summer. A dive torch is useful. Check buoyancy, plan the route carefully and monitor air consumption.",
         "popular": "false",
-        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1792268530/pirates_cave_tvee7j.png"
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1792268530/pirates_cave_tvee7j.png",
+        "seo_title": "Pirate Cave Dive, Cape Pyla Cyprus | Net Divers",
+        "seo_description": "Dive into the Pirate Cave at Cape Pyla, between Larnaca and Ayia Napa: an air chamber with stalactites and blue-green light. 5–15 m. Diving Cyprus."
     },
     {
         "slug": "watchtower-xylophagou",
@@ -153,7 +175,9 @@
         "access": "Shore access.",
         "tips": "Water temperatures range from around 17°C in winter to 29°C in summer. Check buoyancy, plan the route and monitor air consumption. Watch for boat traffic: the site is next to a fishing shelter, so always use a dive buoy.",
         "popular": "false",
-        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1773501778/ormidia_ltxbmb.jpg"
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1773501778/ormidia_ltxbmb.jpg",
+        "seo_title": "Xylofagou Watchtower Shore Dive, Cyprus | Net Divers",
+        "seo_description": "Easy shore dive by Xylofagou harbour at Cape Pyla: sandy seabed, rocky reef and Posidonia meadows, up to 18 m. Between Larnaca and Ayia Napa."
     },
     {
         "slug": "jubilee-shoals",
@@ -166,7 +190,9 @@
         "access": "Boat access only.",
         "tips": "Water temperatures range from around 17°C in winter to 29°C in summer, and a thermocline may occur. Good buoyancy control, careful underwater route planning and air-consumption monitoring are required.",
         "popular": "false",
-        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1792268530/avdimou_reef_z67cw2.png"
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1792268530/avdimou_reef_z67cw2.png",
+        "seo_title": "Jubilee Shoals Dive, Limassol Cyprus | Net Divers",
+        "seo_description": "Dive Jubilee Shoals off Pissouri and Avdimou, Limassol: a dramatic deep reef wall with aircraft wreckage, 17–60+ m. Advanced scuba diving in Cyprus."
     },
     {
         "slug": "st-georges-island-akamas",
@@ -179,6 +205,8 @@
         "access": "Boat access only.",
         "tips": "Water temperatures range from around 17°C in winter to 29°C in summer, and a thermocline may occur. Good buoyancy control, careful underwater route planning and air-consumption monitoring are required.",
         "popular": "false",
-        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1792268530/akama_agios_georgios_iagz1l.png"
+        "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1792268530/akama_agios_georgios_iagz1l.png",
+        "seo_title": "St George's Island Dive, Latchi, Paphos | Net Divers",
+        "seo_description": "Scuba diving in Paphos: dive St George's Island off Akamas, between Latchi and Fontana Amorosa. A vertical reef and rich marine life, 2–40 m."
     }
 ]

@@ -11,7 +11,9 @@
         "certification": "No certification is required to enrol in this course.",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/open_water_dover_n01gbt.jpg",
         "popular": "yes",
-        "home_page": "yes"
+        "home_page": "yes",
+        "seo_title": "Open Water Scuba Diver Course Cyprus | Net Divers",
+        "seo_description": "Learn to scuba dive in Cyprus with the NAUI Open Water Scuba Diver course, your first diving certification. Taught in Ayia Napa by Net Divers."
     },
     {
         "slug": "advanced-open-water-scuba-diver",
@@ -25,7 +27,9 @@
         "certification": "NAUI Open Water Scuba Diver certification or equivalent is required.",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/advanced_open_water_fiyaqf.jpg",
         "popular": "yes",
-        "home_page": "yes"
+        "home_page": "yes",
+        "seo_title": "Advanced Open Water Diver Course Cyprus | Net Divers",
+        "seo_description": "Take the NAUI Advanced Open Water Scuba Diver course in Cyprus: deeper dives, navigation and new skills on Cyprus' best dive sites with Net Divers."
     },
     {
         "slug": "nitrox-diver",
@@ -39,7 +43,9 @@
         "certification": "NAUI Open Water Scuba Diver certification or equivalent is required.",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/nitrox_diver_y26jvg.jpg",
         "popular": "no",
-        "home_page": "no"
+        "home_page": "no",
+        "seo_title": "Nitrox Diver Course Cyprus | NAUI | Net Divers",
+        "seo_description": "NAUI Enriched Air Nitrox Diver course in Cyprus. Dive longer with less nitrogen and plan nitrox dives safely. Training in Ayia Napa with Net Divers."
     },
     {
         "slug": "master-scuba-diver",
@@ -53,7 +59,9 @@
         "certification": "NAUI Advanced Open Water Scuba Diver and Rescue Scuba Diver certifications, or equivalents, are required.",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/master_diver_dcv2vz.jpg",
         "popular": "no",
-        "home_page": "no"
+        "home_page": "no",
+        "seo_title": "Master Scuba Diver Course Cyprus | NAUI | Net Divers",
+        "seo_description": "Reach NAUI Master Scuba Diver in Cyprus, the highest recreational diving rating. Advanced theory and specialty dives with Net Divers, Ayia Napa."
     },
     {
         "slug": "rescue-scuba-diver",
@@ -67,7 +75,9 @@
         "certification": "Open Water Scuba Diver certification is required. A current Diving First Aid certification is also required. If you do not have this certification, you can obtain it during Rescue Scuba Diver training as an additional specialty.",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1775553318/rescue_scuba_wamvtb.jpg",
         "popular": "yes",
-        "home_page": "yes"
+        "home_page": "yes",
+        "seo_title": "Rescue Scuba Diver Course Cyprus | NAUI | Net Divers",
+        "seo_description": "NAUI Rescue Scuba Diver course in Cyprus. Learn to prevent and handle diving emergencies and assist other divers. Training with Net Divers."
     },
     {
         "slug": "basic-life-support-cpr-and-first-aid",
@@ -81,7 +91,9 @@
         "certification": "Scuba certification is not required to take this course. This certification must be renewed every two years.",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774360024/CPR_mob16e.jpg",
         "popular": "no",
-        "home_page": "no"
+        "home_page": "no",
+        "seo_title": "CPR & First Aid Course Cyprus | Net Divers",
+        "seo_description": "Basic Life Support, CPR and First Aid course in Cyprus. Gain the skills to act in an emergency, in and out of the water. Training with Net Divers."
     },
     {
         "slug": "emergency-oxygen-for-scuba-diving-injuries",
@@ -95,7 +107,9 @@
         "certification": "Scuba certification is not required to take this course. This certification must be renewed every two years.",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1782101216/emergency-oxygen_qrifrt.jpg",
         "popular": "no",
-        "home_page": "no"
+        "home_page": "no",
+        "seo_title": "Emergency Oxygen for Diving Injuries Cyprus | Net Divers",
+        "seo_description": "Learn to give emergency oxygen for scuba diving injuries. A practical NAUI course in Cyprus for divers and dive staff, with Net Divers."
     },
     {
         "slug": "diving-first-aid",
@@ -109,7 +123,9 @@
         "certification": "Scuba certification is not required to take this course. This certification must be renewed every two years.",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774360025/diving_first_aid_kmzvbe.jpg",
         "popular": "yes",
-        "home_page": "no"
+        "home_page": "no",
+        "seo_title": "Diving First Aid Course Cyprus | NAUI | Net Divers",
+        "seo_description": "NAUI Diving First Aid course in Cyprus. Recognise and manage diving injuries, from decompression illness to marine life injuries. With Net Divers."
     },
     {
         "slug": "deep-diver",
@@ -123,7 +139,9 @@
         "certification": "NAUI Advanced Open Water Scuba Diver certification or equivalent is required.",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367201/deep_diver_jpr5zc.jpg",
         "popular": "no",
-        "home_page": "no"
+        "home_page": "no",
+        "seo_title": "Deep Diver Course Cyprus | NAUI | Net Divers",
+        "seo_description": "NAUI Deep Diver course in Cyprus. Plan and make deeper dives safely on wrecks and walls like the Zenobia. Scuba diving training with Net Divers."
     },
     {
         "slug": "night-limited-visibility-diver",
@@ -137,7 +155,9 @@
         "certification": "NAUI Open Water Scuba Diver certification or equivalent is required.",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1775597157/night_time_limited_vis_hvzlbs.png",
         "popular": "no",
-        "home_page": "no"
+        "home_page": "no",
+        "seo_title": "Night Diving Course Cyprus | NAUI | Net Divers",
+        "seo_description": "NAUI Night and Limited Visibility Diver course in Cyprus. Discover the sea after dark and dive confidently in low visibility with Net Divers."
     },
     {
         "slug": "wreck-diver-external-survey",
@@ -151,7 +171,9 @@
         "certification": "NAUI Advanced Open Water Scuba Diver certification or equivalent is required.",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1774367202/wreck_diver_hwxwhv.jpg",
         "popular": "no",
-        "home_page": "no"
+        "home_page": "no",
+        "seo_title": "Wreck Diver Course Cyprus | NAUI | Net Divers",
+        "seo_description": "NAUI Wreck Diver (External Survey) course in Cyprus, home of the Zenobia, Liberty and Nemesis wrecks. Learn safe wreck diving with Net Divers."
     },
     {
         "slug": "underwater-digital-imaging-diver",
@@ -165,7 +187,9 @@
         "certification": "NAUI Open Water Scuba Diver certification or equivalent is required.",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1791594983/%CE%94%CF%8D%CF%84%CE%B7%CF%82_%CE%A5%CF%80%CE%BF%CE%B2%CF%81%CF%8D%CF%87%CE%B9%CE%B1%CF%82_%CE%A6%CF%89%CF%84%CE%BF%CE%B3%CF%81%CE%AC%CF%86%CE%B9%CF%83%CE%B7%CF%82_Underwater_Digital_Imaging_Diver_hhcazr.jpg",
         "popular": "no",
-        "home_page": "no"
+        "home_page": "no",
+        "seo_title": "Underwater Photography Course Cyprus | Net Divers",
+        "seo_description": "NAUI Underwater Digital Imaging Diver course in Cyprus. Learn underwater photography and video in Cyprus' clear waters with Net Divers."
     },
     {
         "slug": "search-recovery-diver",
@@ -179,7 +203,9 @@
         "certification": "NAUI Open Water Scuba Diver certification or equivalent is required.",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1775507900/enhanced_image_ldhp0w.png",
         "popular": "no",
-        "home_page": "no"
+        "home_page": "no",
+        "seo_title": "Search and Recovery Diver Course Cyprus | Net Divers",
+        "seo_description": "NAUI Search and Recovery Diver course in Cyprus. Learn search patterns, lift bags and safe object recovery underwater with Net Divers."
     },
     {
         "slug": "underwater-naturalist-diver",
@@ -193,7 +219,9 @@
         "certification": "NAUI Open Water Scuba Diver certification or equivalent is required.",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1791594983/%CE%94%CF%8D%CF%84%CE%B7%CF%82_%CE%A5%CF%80%CE%BF%CE%B2%CF%81%CF%8D%CF%87%CE%B9%CE%BF%CF%85_%CE%A0%CE%B5%CF%81%CE%B9%CE%B2%CE%AC%CE%BB%CE%BB%CE%BF%CE%BD%CF%84%CE%BF%CF%82_Underwater_Naturalist_Diver_ymmwu8.jpg",
         "popular": "no",
-        "home_page": "no"
+        "home_page": "no",
+        "seo_title": "Underwater Naturalist Course Cyprus | Net Divers",
+        "seo_description": "NAUI Underwater Naturalist Diver course in Cyprus. Identify Mediterranean marine life and learn to dive with respect for the environment."
     },
     {
         "slug": "divemaster-divemaster-crossover-course",
@@ -207,7 +235,9 @@
         "certification": "Requires 60 dives and 30 hours underwater at various depths and in different conditions (day, night, shore and boat dives). A medical fitness certificate signed by a doctor within the last 12 months is required. NAUI Assistant Instructor certification is required, or the following NAUI certifications or equivalents: (a) Open Water Scuba Diver, (b) Advanced Open Water Scuba Diver, (c) Rescue Scuba Diver, (d) Nitrox Diver, and (e) current Diving First Aid certification.",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1775597157/divemaster_ou4wkw.jpg",
         "popular": "no",
-        "home_page": "no"
+        "home_page": "no",
+        "seo_title": "Divemaster Course Cyprus | NAUI | Net Divers",
+        "seo_description": "Go pro with the NAUI Divemaster or Divemaster Crossover course in Cyprus. Lead dives and assist instructors. Professional training with Net Divers."
     },
     {
         "slug": "assistant-instructor",
@@ -221,7 +251,9 @@
         "certification": "Requires 50 dives and 25 hours underwater at various depths and in different conditions (day, night, shore and boat dives). A medical fitness certificate signed by a doctor within the last 12 months is required. The following NAUI certifications or equivalents are required: (a) Open Water Scuba Diver, (b) Advanced Open Water Scuba Diver, (c) Rescue Scuba Diver, (d) Nitrox Diver, and (e) current Diving First Aid certification.",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1775597157/assistance_instructor_edn0nu.jpg",
         "popular": "no",
-        "home_page": "no"
+        "home_page": "no",
+        "seo_title": "Assistant Instructor Course Cyprus | NAUI | Net Divers",
+        "seo_description": "NAUI Assistant Instructor course in Cyprus. Take the first step to teaching scuba diving with professional training from Net Divers, Ayia Napa."
     },
     {
         "slug": "more-courses",
@@ -235,6 +267,8 @@
         "certification": "",
         "image": "https://res.cloudinary.com/doy01c41z/image/upload/v1792513274/Underwater_Diving_Safety_Infographic_x6fb6e.png",
         "popular": "no",
-        "home_page": "no"
+        "home_page": "no",
+        "seo_title": "More Diving Courses Cyprus | Snorkelling & Refresher | Net Divers",
+        "seo_description": "More NAUI courses in Cyprus: Scuba Refresher, Introduction to Scuba, Dry Suit, Adaptive Scuba, Underwater Archaeology and snorkelling with Net Divers."
     }
 ]

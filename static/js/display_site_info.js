@@ -58,6 +58,7 @@ if (currentPath.includes('diving_site_info_gr.html')) {
 
 
 function displaySiteInfoEN(site) {
+    setPageMeta(site);
     const container = document.querySelector(".diving-site-col");
     container.innerHTML = `
         <h1 class="detail-title">${site.name}</h1>
@@ -81,6 +82,7 @@ function displaySiteInfoEN(site) {
 };
 
 function displaySiteInfoGR(site) {
+    setPageMeta(site);
     const container = document.querySelector(".diving-site-col");
     container.innerHTML = `
         <h1 class="detail-title">${site.name}</h1>
@@ -112,4 +114,19 @@ function setTranslationLinkEN() {
 function setTranslationLinkGR() {
     const siteTitle = document.getElementById("translation-link");
     siteTitle.href = `diving_site_info_gr.html?id=${siteId}`;
+}
+
+// Set the page <title> and meta description for the item being shown,
+// so each course / dive site has its own title and description in search results.
+function setPageMeta(item) {
+    if (!item) return;
+    if (item.seo_title) {
+        document.title = item.seo_title;
+        const metaTitle = document.querySelector('meta[name="title"]');
+        if (metaTitle) metaTitle.setAttribute("content", item.seo_title);
+    }
+    if (item.seo_description) {
+        const metaDesc = document.querySelector('meta[name="description"]');
+        if (metaDesc) metaDesc.setAttribute("content", item.seo_description);
+    }
 }
