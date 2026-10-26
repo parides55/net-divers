@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://net-divers.com.cy/</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/index_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/index_en.html</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/index_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/courses_and_services_gr.html</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/courses_and_services_gr.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/courses_and_services_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/courses_and_services_gr.html"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/courses_and_services_en.html</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/courses_and_services_gr.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/courses_and_services_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/courses_and_services_gr.html"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/explore_cy_gr.html</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/explore_cy_gr.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/explore_cy_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/explore_cy_gr.html"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/explore_cy_en.html</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/explore_cy_gr.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/explore_cy_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/explore_cy_gr.html"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/secondary_gr.html</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/secondary_gr.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/secondary_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/secondary_gr.html"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/secondary_en.html</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/secondary_gr.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/secondary_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/secondary_gr.html"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/about_us_gr.html</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/about_us_gr.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/about_us_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/about_us_gr.html"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/about_us_en.html</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/about_us_gr.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/about_us_en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/about_us_gr.html"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_gr.html?id=open-water-scuba-diver</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=open-water-scuba-diver"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=open-water-scuba-diver"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=open-water-scuba-diver"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_en.html?id=open-water-scuba-diver</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=open-water-scuba-diver"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=open-water-scuba-diver"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=open-water-scuba-diver"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_gr.html?id=advanced-open-water-scuba-diver</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=advanced-open-water-scuba-diver"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=advanced-open-water-scuba-diver"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=advanced-open-water-scuba-diver"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_en.html?id=advanced-open-water-scuba-diver</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=advanced-open-water-scuba-diver"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=advanced-open-water-scuba-diver"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=advanced-open-water-scuba-diver"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_gr.html?id=nitrox-diver</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=nitrox-diver"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=nitrox-diver"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=nitrox-diver"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_en.html?id=nitrox-diver</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=nitrox-diver"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=nitrox-diver"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=nitrox-diver"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_gr.html?id=master-scuba-diver</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=master-scuba-diver"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=master-scuba-diver"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=master-scuba-diver"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_en.html?id=master-scuba-diver</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=master-scuba-diver"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=master-scuba-diver"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=master-scuba-diver"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_gr.html?id=rescue-scuba-diver</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=rescue-scuba-diver"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=rescue-scuba-diver"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=rescue-scuba-diver"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_en.html?id=rescue-scuba-diver</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=rescue-scuba-diver"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=rescue-scuba-diver"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=rescue-scuba-diver"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_gr.html?id=basic-life-support-cpr-and-first-aid</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=basic-life-support-cpr-and-first-aid"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=basic-life-support-cpr-and-first-aid"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=basic-life-support-cpr-and-first-aid"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_en.html?id=basic-life-support-cpr-and-first-aid</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=basic-life-support-cpr-and-first-aid"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=basic-life-support-cpr-and-first-aid"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=basic-life-support-cpr-and-first-aid"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_gr.html?id=emergency-oxygen-for-scuba-diving-injuries</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=emergency-oxygen-for-scuba-diving-injuries"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=emergency-oxygen-for-scuba-diving-injuries"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=emergency-oxygen-for-scuba-diving-injuries"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_en.html?id=emergency-oxygen-for-scuba-diving-injuries</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=emergency-oxygen-for-scuba-diving-injuries"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=emergency-oxygen-for-scuba-diving-injuries"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=emergency-oxygen-for-scuba-diving-injuries"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_gr.html?id=diving-first-aid</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=diving-first-aid"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=diving-first-aid"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=diving-first-aid"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_en.html?id=diving-first-aid</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=diving-first-aid"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=diving-first-aid"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=diving-first-aid"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_gr.html?id=deep-diver</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=deep-diver"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=deep-diver"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=deep-diver"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_en.html?id=deep-diver</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=deep-diver"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=deep-diver"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=deep-diver"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_gr.html?id=night-limited-visibility-diver</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=night-limited-visibility-diver"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=night-limited-visibility-diver"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=night-limited-visibility-diver"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_en.html?id=night-limited-visibility-diver</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=night-limited-visibility-diver"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=night-limited-visibility-diver"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=night-limited-visibility-diver"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_gr.html?id=wreck-diver-external-survey</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=wreck-diver-external-survey"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=wreck-diver-external-survey"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=wreck-diver-external-survey"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_en.html?id=wreck-diver-external-survey</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=wreck-diver-external-survey"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=wreck-diver-external-survey"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=wreck-diver-external-survey"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_gr.html?id=underwater-digital-imaging-diver</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=underwater-digital-imaging-diver"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=underwater-digital-imaging-diver"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=underwater-digital-imaging-diver"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_en.html?id=underwater-digital-imaging-diver</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=underwater-digital-imaging-diver"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=underwater-digital-imaging-diver"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=underwater-digital-imaging-diver"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_gr.html?id=search-recovery-diver</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=search-recovery-diver"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=search-recovery-diver"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=search-recovery-diver"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_en.html?id=search-recovery-diver</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=search-recovery-diver"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=search-recovery-diver"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=search-recovery-diver"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_gr.html?id=underwater-naturalist-diver</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=underwater-naturalist-diver"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=underwater-naturalist-diver"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=underwater-naturalist-diver"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_en.html?id=underwater-naturalist-diver</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=underwater-naturalist-diver"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=underwater-naturalist-diver"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=underwater-naturalist-diver"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_gr.html?id=divemaster-divemaster-crossover-course</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=divemaster-divemaster-crossover-course"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=divemaster-divemaster-crossover-course"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=divemaster-divemaster-crossover-course"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_en.html?id=divemaster-divemaster-crossover-course</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=divemaster-divemaster-crossover-course"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=divemaster-divemaster-crossover-course"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=divemaster-divemaster-crossover-course"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_gr.html?id=assistant-instructor</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=assistant-instructor"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=assistant-instructor"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=assistant-instructor"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_en.html?id=assistant-instructor</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=assistant-instructor"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=assistant-instructor"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=assistant-instructor"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_gr.html?id=more-courses</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=more-courses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=more-courses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=more-courses"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/course_info_en.html?id=more-courses</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/course_info_gr.html?id=more-courses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/course_info_en.html?id=more-courses"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/course_info_gr.html?id=more-courses"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_gr.html?id=zenobia-wreck</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=zenobia-wreck"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=zenobia-wreck"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=zenobia-wreck"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_en.html?id=zenobia-wreck</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=zenobia-wreck"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=zenobia-wreck"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=zenobia-wreck"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_gr.html?id=cricket-wreck</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=cricket-wreck"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=cricket-wreck"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=cricket-wreck"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_en.html?id=cricket-wreck</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=cricket-wreck"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=cricket-wreck"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=cricket-wreck"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_gr.html?id=nemesis-wreck</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=nemesis-wreck"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=nemesis-wreck"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=nemesis-wreck"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_en.html?id=nemesis-wreck</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=nemesis-wreck"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=nemesis-wreck"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=nemesis-wreck"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_gr.html?id=liberty-wreck</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=liberty-wreck"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=liberty-wreck"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=liberty-wreck"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_en.html?id=liberty-wreck</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=liberty-wreck"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=liberty-wreck"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=liberty-wreck"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_gr.html?id=green-bay-statues</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=green-bay-statues"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=green-bay-statues"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=green-bay-statues"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_en.html?id=green-bay-statues</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=green-bay-statues"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=green-bay-statues"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=green-bay-statues"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_gr.html?id=green-bay-blue-holes</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=green-bay-blue-holes"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=green-bay-blue-holes"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=green-bay-blue-holes"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_en.html?id=green-bay-blue-holes</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=green-bay-blue-holes"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=green-bay-blue-holes"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=green-bay-blue-holes"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_gr.html?id=cyclops-cave</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=cyclops-cave"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=cyclops-cave"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=cyclops-cave"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_en.html?id=cyclops-cave</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=cyclops-cave"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=cyclops-cave"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=cyclops-cave"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_gr.html?id=cape-greco-chapel</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=cape-greco-chapel"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=cape-greco-chapel"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=cape-greco-chapel"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_en.html?id=cape-greco-chapel</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=cape-greco-chapel"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=cape-greco-chapel"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=cape-greco-chapel"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_gr.html?id=cape-greco-blue-holes</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=cape-greco-blue-holes"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=cape-greco-blue-holes"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=cape-greco-blue-holes"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_en.html?id=cape-greco-blue-holes</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=cape-greco-blue-holes"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=cape-greco-blue-holes"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=cape-greco-blue-holes"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_gr.html?id=cape-greco-canyon</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=cape-greco-canyon"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=cape-greco-canyon"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=cape-greco-canyon"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_en.html?id=cape-greco-canyon</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=cape-greco-canyon"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=cape-greco-canyon"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=cape-greco-canyon"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_gr.html?id=pirate-cave</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=pirate-cave"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=pirate-cave"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=pirate-cave"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_en.html?id=pirate-cave</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=pirate-cave"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=pirate-cave"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=pirate-cave"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_gr.html?id=watchtower-xylophagou</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=watchtower-xylophagou"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=watchtower-xylophagou"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=watchtower-xylophagou"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_en.html?id=watchtower-xylophagou</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=watchtower-xylophagou"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=watchtower-xylophagou"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=watchtower-xylophagou"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_gr.html?id=jubilee-shoals</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=jubilee-shoals"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=jubilee-shoals"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=jubilee-shoals"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_en.html?id=jubilee-shoals</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=jubilee-shoals"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=jubilee-shoals"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=jubilee-shoals"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_gr.html?id=st-georges-island-akamas</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=st-georges-island-akamas"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=st-georges-island-akamas"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=st-georges-island-akamas"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://net-divers.com.cy/diving_site_info_en.html?id=st-georges-island-akamas</loc>
+    <xhtml:link rel="alternate" hreflang="el" href="https://net-divers.com.cy/diving_site_info_gr.html?id=st-georges-island-akamas"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://net-divers.com.cy/diving_site_info_en.html?id=st-georges-island-akamas"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://net-divers.com.cy/diving_site_info_gr.html?id=st-georges-island-akamas"/>
+    <lastmod>2026-10-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>
